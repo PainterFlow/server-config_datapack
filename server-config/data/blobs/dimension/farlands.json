@@ -6,6 +6,6 @@
             "type": "fixed",
             "biome": "blobs:blobs"
         },
-        "settings": "minecraft:overworld"
+        "settings": "blobs:settings"
     }
 }
