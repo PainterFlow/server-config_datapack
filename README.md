@@ -1,4 +1,4 @@
-# server-config_datapack
+# server-config_datapack V1.2
 Custom Server Configurations for my Private Server!
 
 > [!IMPORTANT]
