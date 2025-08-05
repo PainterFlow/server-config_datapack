@@ -4,7 +4,7 @@
         "type": "minecraft:noise",
         "biome_source": {
             "type": "fixed",
-            "biome": "minecraft:swamp"
+            "biome": "blobs:blobs"
         },
         "settings": "minecraft:overworld"
     }
