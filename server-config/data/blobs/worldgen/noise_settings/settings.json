@@ -73,7 +73,7 @@
             },
             "argument2": {
                 "type": "noise",
-                "noise": "",
+                "noise": "blobs:blobs.json",
                 "xz_scale": 1,
                 "y_scale": 0
             }
