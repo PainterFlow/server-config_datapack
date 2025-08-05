@@ -2,5 +2,5 @@
 Custom Server Configurations for my Private Server!
 
 > [!IMPORTANT]
-> - **Requirements:**
+> **Requirements:**
 > - [Villagerconfig](https://modrinth.com/mod/villagerconfig)
