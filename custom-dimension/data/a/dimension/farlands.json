@@ -4,8 +4,8 @@
         "type": "minecraft:noise",
         "biome_source": {
             "type": "fixed",
-            "biome": "blobs:blobs"
+            "biome": "a:blobs"
         },
-        "settings": "blobs:settings"
+        "settings": "a:settings"
     }
 }
