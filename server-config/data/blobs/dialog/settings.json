@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Server Settings",
+    "external_title": {
+        "text:":"Blob?",
+        "color":"light_purple"
+    }
+}
