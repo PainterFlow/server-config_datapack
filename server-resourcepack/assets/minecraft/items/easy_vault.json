@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "model",
-        "model": "minecraft:item/easy_vault"
+        "model": "minecraft:block/easy_vault"
     }
 }
