@@ -11,4 +11,6 @@ scoreboard players set #limit arrowCountLimit 700
 scoreboard players set #limit explosiveCountLimit 500
 scoreboard players set #limit itemCountLimit 1000
 
+data modify storage settings {} merge value {settings:{gamerules:[{keepinv:true}]}}
+
 function blobs:lag/loop

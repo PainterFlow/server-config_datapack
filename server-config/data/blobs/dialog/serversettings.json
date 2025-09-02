@@ -1,11 +1,11 @@
 {
-    "type": "minecraft:notice",
+    "type": "minecraft:multi_action",
     "title": "Server Settings",
     "external_title": "blob?",
     "body": [
         {
             "type": "plain_message",
-            "contents": "Running Server Config V1.3 | Server Running on V2.0"
+            "contents": "Running Server Config V1.3"
         },
         {
             "type": "item",
@@ -17,6 +17,49 @@
             "width": 24,
             "show_tooltip": false,
             "show_decorations": false
+        },
+        {
+            "type": "item",
+            "item": {
+                "id": "minecraft:poppy",
+                "count": 1
+            },
+            "description": "Server Running on V2.1",
+            "width": 24,
+            "show_tooltip": false,
+            "show_decorations": false
         }
-    ]
+    ],
+    "actions": [
+        {
+            "label": "Gamerules",
+            "width": 100,
+            "action": {
+                "type": "run_command",
+                "command": "function blobs:settings/display/display_gamerules with storage settings settings.gamerules[]"
+            }
+        },
+        {
+            "label": "Quick Actions",
+            "width": 100,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:quick_actions"
+            },
+            "tooltip": "Create, Delete and tp to your Waypoints!"
+        },
+        {
+            "label": "Back",
+            "width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "dialog clear @s"
+            }
+        }
+    ],
+    "columns": 2,
+    "pause": false,
+    "can_close_with_escape": true,
+    "after_action": "none"
+
 }
