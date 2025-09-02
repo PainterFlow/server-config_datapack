@@ -1,6 +1,6 @@
 {
-    "parent": "item/handheld",
+    "parent": "item/generated",
     "textures": {
-        "layer0": "minecraft:items/easy_key"
+        "layer0": "minecraft:item/easy_key"
     }
 }
