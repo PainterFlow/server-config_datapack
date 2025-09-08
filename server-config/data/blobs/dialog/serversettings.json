@@ -5,7 +5,7 @@
     "body": [
         {
             "type": "plain_message",
-            "contents": "Running Server Config V1.3"
+            "contents": "Running Server Config V1.5"
         },
         {
             "type": "item",
@@ -24,7 +24,7 @@
                 "id": "minecraft:poppy",
                 "count": 1
             },
-            "description": "Server Running on V2.1",
+            "description": "Server Running on V2.2",
             "width": 24,
             "show_tooltip": false,
             "show_decorations": false
@@ -46,7 +46,15 @@
                 "type": "show_dialog",
                 "dialog": "blobs:quick_actions"
             },
-            "tooltip": "Create, Delete and tp to your Waypoints!"
+            "tooltip": "Execute Quick Commands"
+        },
+        {
+            "label": "Reload Server",
+            "width": 100,
+            "action": {
+                "type": "run_command",
+                "command": "function blobs:reload"
+            }
         },
         {
             "label": "Back",
@@ -54,6 +62,14 @@
             "action": {
                 "type": "run_command",
                 "command": "dialog clear @s"
+            }
+        },
+        {
+            "label": "AFK",
+            "width": 100,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:beta"
             }
         }
     ],

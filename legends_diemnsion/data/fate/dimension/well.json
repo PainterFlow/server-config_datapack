@@ -1,0 +1,9 @@
+{
+  "type": "fate:well_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1337420,
+    "settings": "fate:well",
+    "biome_source": { "type": "minecraft:fixed", "biome": "fate:well" }
+  }
+}
