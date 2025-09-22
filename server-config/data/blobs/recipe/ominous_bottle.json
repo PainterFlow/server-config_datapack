@@ -1,20 +1,12 @@
 {
     "type": "smelting",
     "category": "misc",
-    "group": "ominous",
+    "group": "soul",
     "ingredient": "#blobs:soul",
     "result": {
         "id": "ominous_bottle",
         "components": {
-            "potion_contents": {
-                "custom_effects": [
-                    {
-                        "id": "bad_omen",
-                        "amplifier": 4,
-                        "duration": 72000
-                    }
-                ]
-            }
+            "ominous_bottle_amplifier": 4
         }
     },
     "cookingtime": 200,

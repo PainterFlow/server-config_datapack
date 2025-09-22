@@ -57,19 +57,19 @@
             }
         },
         {
-            "label": "Back",
-            "width": 150,
-            "action": {
-                "type": "run_command",
-                "command": "dialog clear @s"
-            }
-        },
-        {
             "label": "AFK",
             "width": 100,
             "action": {
                 "type": "show_dialog",
                 "dialog": "blobs:beta"
+            }
+        },
+        {
+            "label": "Back",
+            "width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "dialog clear @s"
             }
         }
     ],

@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "group": "soul",
+    "show_notification": true,
+    "key": {
+        "A": "gold_block",
+        "B": "#blobs:soul",
+        "C": "emerald_block"
+    },
+    "pattern": [
+        " C ",
+        "ABA",
+        " A "
+    ],
+    "result": {
+        "id": "totem_of_undying"
+    }
+}

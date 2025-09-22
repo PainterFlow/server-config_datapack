@@ -1,0 +1,9 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_boots",
+    "template": "#stone_tool_materials",
+    "addition": "iron_nugget",
+    "result": {
+        "id": "chainmail_boots"
+    }
+}
