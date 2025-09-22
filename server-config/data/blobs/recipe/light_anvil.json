@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "group": "light_weight_items",
+    "show_notification": true,
+    "key": {
+        "A": "iron_ingot",
+        "B": "iron_block"
+    },
+    "pattern": [
+        "AAA",
+        " B ",
+        "AAA"
+    ],
+    "result": {
+        "id": "anvil"
+    }
+}
