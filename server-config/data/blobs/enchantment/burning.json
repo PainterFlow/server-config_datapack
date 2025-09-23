@@ -1,9 +1,6 @@
 {
   "anvil_cost": 8,
-  "description": {
-    "text": "Burning",
-    "color": "dark_purple"
-  },
+  "description": "Burning",
   "exclusive_set": "silk_touch",
   "max_cost": {
     "base": 65,
