@@ -4,16 +4,6 @@
     "text": "Burning",
     "color": "dark_purple"
   },
-  "effects": {
-    "minecraft:block_experience": [
-      {
-        "effect": {
-          "type": "minecraft:set",
-          "value": 0
-        }
-      }
-    ]
-  },
   "exclusive_set": "silk_touch",
   "max_cost": {
     "base": 65,
@@ -27,6 +17,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/mining_loot",
+  "supported_items": "#blobs:enchantable/shov_pick",
   "weight": 1
 }
