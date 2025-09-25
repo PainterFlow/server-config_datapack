@@ -1,0 +1,1 @@
+function blobs:item_modifiers/trident/trident
