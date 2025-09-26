@@ -14,7 +14,10 @@
     {
       "data": {
         "entity": {
-          "id": "minecraft:breeze"
+          "id": "minecraft:breeze",
+          "Tags": [
+            "spawned_by_trial_chamber"
+          ]
         }
       },
       "weight": 1

@@ -5,7 +5,10 @@
     {
       "data": {
         "entity": {
-          "id": "minecraft:bogged"
+          "id": "minecraft:bogged",
+          "Tags": [
+            "spawned_by_trial_chamber"
+          ]
         }
       },
       "weight": 1

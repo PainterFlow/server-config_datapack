@@ -6,7 +6,10 @@
       "data": {
         "entity": {
           "Size": 1,
-          "id": "minecraft:slime"
+          "id": "minecraft:slime",
+          "Tags": [
+            "spawned_by_trial_chamber"
+          ]
         }
       },
       "weight": 3
@@ -15,7 +18,10 @@
       "data": {
         "entity": {
           "Size": 2,
-          "id": "minecraft:slime"
+          "id": "minecraft:slime",
+          "Tags": [
+            "spawned_by_trial_chamber"
+          ]
         }
       },
       "weight": 1

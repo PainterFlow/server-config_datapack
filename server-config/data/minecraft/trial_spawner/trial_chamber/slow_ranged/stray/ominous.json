@@ -15,7 +15,10 @@
     {
       "data": {
         "entity": {
-          "id": "minecraft:stray"
+          "id": "minecraft:stray",
+          "Tags": [
+            "spawned_by_trial_chamber"
+          ]
         },
         "equipment": {
           "loot_table": "minecraft:equipment/trial_chamber_ranged",

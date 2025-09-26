@@ -15,7 +15,10 @@
     {
       "data": {
         "entity": {
-          "id": "minecraft:cave_spider"
+          "id": "minecraft:cave_spider",
+          "Tags": [
+            "spawned_by_trial_chamber"
+          ]
         }
       },
       "weight": 1

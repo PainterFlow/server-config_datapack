@@ -15,7 +15,10 @@
     {
       "data": {
         "entity": {
-          "id": "minecraft:silverfish"
+          "id": "minecraft:silverfish",
+          "Tags": [
+            "spawned_by_trial_chamber"
+          ]
         }
       },
       "weight": 1

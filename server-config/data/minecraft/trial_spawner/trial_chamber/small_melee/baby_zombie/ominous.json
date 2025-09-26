@@ -15,7 +15,10 @@
       "data": {
         "entity": {
           "IsBaby": 1,
-          "id": "minecraft:zombie"
+          "id": "minecraft:zombie",
+          "Tags": [
+            "spawned_by_trial_chamber"
+          ]
         },
         "equipment": {
           "loot_table": "minecraft:equipment/trial_chamber_melee",
