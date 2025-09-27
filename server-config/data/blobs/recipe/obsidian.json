@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "lava_bucket",
+        "water_bucket"
+    ],
+    "result": {
+        "id": "obsidian",
+        "count": 1
+    }
+}
