@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:birch_log",
+  "ingredient": "minecraft:dark_oak_log",
   "result": {
     "count": 1,
-    "id": "minecraft:birch_wood"
+    "id": "minecraft:dark_oak_wood"
   }
 }
