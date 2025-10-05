@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:birch_planks",
+  "ingredient": "minecraft:mangrove_planks",
   "result": {
     "count": 1,
-    "id": "minecraft:birch_stairs"
+    "id": "minecraft:mangrove_stairs"
   }
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:birch_log",
+  "ingredient": "minecraft:mangrove_log",
   "result": {
     "count": 1,
-    "id": "minecraft:stripped_birch_log"
+    "id": "minecraft:stripped_mangrove_log"
   }
 }
