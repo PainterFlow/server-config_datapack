@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "#spruce_logs",
+  "ingredient": "#warped_stems",
   "result": {
     "count": 4,
-    "id": "minecraft:spruce_planks"
+    "id": "minecraft:warped_planks"
   }
 }

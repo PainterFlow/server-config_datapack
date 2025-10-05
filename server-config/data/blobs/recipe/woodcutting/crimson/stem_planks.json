@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:oak_wood",
+  "ingredient": "#crimson_stems",
   "result": {
     "count": 4,
-    "id": "minecraft:oak_planks"
+    "id": "minecraft:crimson_planks"
   }
 }
