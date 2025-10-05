@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:birch_planks",
+  "ingredient": "minecraft:crimson_planks",
   "result": {
     "count": 16,
-    "id": "minecraft:birch_fence"
+    "id": "minecraft:crimson_fence"
   }
 }
