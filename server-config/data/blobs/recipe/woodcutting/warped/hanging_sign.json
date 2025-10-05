@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:birch_planks",
+  "ingredient": "minecraft:warped_planks",
   "result": {
     "count": 3,
-    "id": "minecraft:birch_hanging_sign"
+    "id": "minecraft:warped_hanging_sign"
   }
 }

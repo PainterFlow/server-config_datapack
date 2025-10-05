@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:stripped_birch_log",
+  "ingredient": "minecraft:stripped_warped_stem",
   "result": {
     "count": 1,
-    "id": "minecraft:stripped_birch_wood"
+    "id": "minecraft:stripped_warped_hyphae"
   }
 }
