@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "conditions": [
+                                {
+                                    "condition": "match_tool",
+                                    "predicate": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "blobs:burning",
+                                                    "levels": {
+                                                        "min": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "name": "glass"
+                        },
+                        {
+                            "type": "item",
+                            "name": "sand"
+                        }
+                    ]
+                }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/sand"
+}

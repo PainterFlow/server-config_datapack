@@ -1,0 +1,15 @@
+{
+	"pack": {
+		"pack_format": 81,
+		"supported_formats": [48, 88],
+		"description": "Server Config"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "npc",
+				"formats": 88
+			}
+		]
+	}
+}

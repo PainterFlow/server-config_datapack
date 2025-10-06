@@ -1,0 +1,40 @@
+{
+  "type": "multi_action",
+  "title": "Quick Actions",
+  "actions": [
+    {
+      "label": "Reload Server",
+      "width": 100,
+      "action": {
+        "type": "run_command",
+        "command": "function blobs:reload"
+      }
+    },
+    {
+      "label": "Restart Server",
+      "width": 100,
+      "action": {
+        "type": "run_command",
+        "command": "stop"
+      }
+    },
+    {
+      "label": "AFK",
+      "width": 100,
+      "action": {
+        "type": "show_dialog",
+        "dialog": "blobs:beta"
+      }
+    },
+    {
+      "label": "Open Console",
+      "width": 100,
+      "action": {
+        "type": "open_url",
+        "url": "http://amp.cherry-banana.com:8080"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true
+}

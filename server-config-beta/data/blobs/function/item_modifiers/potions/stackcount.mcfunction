@@ -1,0 +1,9 @@
+execute as @e if items entity @s player.cursor potion run item modify entity @s player.cursor {function:"set_components",components:{max_stack_size:16}}
+execute as @e if items entity @s weapon.mainhand potion run item modify entity @s weapon.mainhand {function:"set_components",components:{max_stack_size:16}}
+execute as @e if items entity @s weapon.offhand potion run item modify entity @s weapon.offhand {function:"set_components",components:{max_stack_size:16}}
+execute as @e if items entity @s player.cursor splash_potion run item modify entity @s player.cursor {function:"set_components",components:{max_stack_size:16}}
+execute as @e if items entity @s weapon.mainhand splash_potion run item modify entity @s weapon.mainhand {function:"set_components",components:{max_stack_size:16}}
+execute as @e if items entity @s weapon.offhand splash_potion run item modify entity @s weapon.offhand {function:"set_components",components:{max_stack_size:16}}
+execute as @e if items entity @s player.cursor lingering_potion run item modify entity @s player.cursor {function:"set_components",components:{max_stack_size:8}}
+execute as @e if items entity @s weapon.mainhand lingering_potion run item modify entity @s weapon.mainhand {function:"set_components",components:{max_stack_size:8}}
+execute as @e if items entity @s weapon.offhand lingering_potion run item modify entity @s weapon.offhand {function:"set_components",components:{max_stack_size:8}}

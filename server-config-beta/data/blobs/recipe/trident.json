@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "A": "prismarine_shard",
+        "B": "nautilus_shell"
+    },
+    "pattern": [
+        "BBB",
+        " A ",
+        "   "
+    ],
+    "result": {
+        "id": "trident"
+    },
+    "show_notification": true
+}

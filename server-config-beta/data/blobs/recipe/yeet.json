@@ -1,0 +1,14 @@
+{
+    "type": "smithing_transform",
+    "base": "stick",
+    "template": "ender_eye",
+    "addition": "slime_ball",
+    "result": {
+        "id": "stick",
+        "components": {
+            "enchantments": {
+                "knockback": 255
+            } 
+        }
+    }
+}

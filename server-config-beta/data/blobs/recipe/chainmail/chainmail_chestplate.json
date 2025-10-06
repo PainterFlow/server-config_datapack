@@ -1,0 +1,9 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_chestplate",
+    "template": "#stone_tool_materials",
+    "addition": "iron_nugget",
+    "result": {
+        "id": "chainmail_chestplate"
+    }
+}

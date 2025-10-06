@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#blobs:enchantable/main_weapons",
+        "#blobs:enchantable/secondary_weapons"
+    ]
+}
