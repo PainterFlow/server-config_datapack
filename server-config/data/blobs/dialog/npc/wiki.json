@@ -1,0 +1,26 @@
+{
+    "type": "notice",
+    "title": {
+        "extra": [
+            {
+                "type": "object",
+                "sprite": "block/bookshelf"
+            },
+            {
+                "text": " Wiki",
+                "color": "blue"
+            }
+        ],
+        "text": ""
+    },
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": {
+                "text": "Coming soonTM"
+            }
+        }
+    ],
+    "can_close_with_escape": true,
+    "pause": true
+}
