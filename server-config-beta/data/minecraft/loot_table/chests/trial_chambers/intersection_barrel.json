@@ -180,7 +180,7 @@
               "enchantments": {
                 "blobs:triality": {
                   "type": "uniform",
-                  "max": 2,
+                  "max": 3,
                   "min": 1
                 }
               },

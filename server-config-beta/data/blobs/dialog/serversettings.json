@@ -35,14 +35,6 @@
                 "type": "show_dialog",
                 "dialog": "blobs:beta"
             }
-        },
-        {
-            "label": "Back",
-            "width": 150,
-            "action": {
-                "type": "run_command",
-                "command": "dialog clear @s"
-            }
         }
     ],
     "columns": 2,
