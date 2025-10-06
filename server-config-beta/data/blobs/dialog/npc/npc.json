@@ -1,0 +1,102 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Server Settings",
+    "external_title": "blob?",
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": "Running Server Config V1.2.5"
+        },
+        {
+            "type": "item",
+            "item": {
+                "id": "minecraft:allium",
+                "count": 1
+            },
+            "description": "PainterFlow11",
+            "width": 24,
+            "show_tooltip": false,
+            "show_decorations": false
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "Rules",
+                "color": "red",
+                "bold": true
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/rules"
+            },
+            "width": 100,
+            "tooltip": {
+                "text": "Read this before playing!",
+                "color": "gray",
+                "italic": true
+            }
+        },
+        {
+            "label": {
+                "text": "News",
+                "color": "blue"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/news"
+            },
+            "width": 100,
+            "tooltip": {
+                "text": "Changelogs and News",
+                "color": "gray",
+                "italic": true
+            }
+        },
+        {
+            "label": {
+                "text": "Wiki",
+                "color": "blue"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/wiki"
+            },
+            "width": 100,
+            "tooltip": {
+                "text": "Wiki",
+                "color": "gray",
+                "italic": true
+            }
+        },
+        {
+            "label": {
+                "text": "Support",
+                "color": "green"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/support"
+            },
+            "width": 100,
+            "tooltip": {
+                "text": "Help & FAQ",
+                "color": "gray",
+                "italic": true
+            }
+        },
+        {
+            "label": "Back",
+            "width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "dialog clear @s"
+            }
+        }
+    ],
+    "columns": 2,
+    "pause": false,
+    "can_close_with_escape": true,
+    "after_action": "none"
+
+}

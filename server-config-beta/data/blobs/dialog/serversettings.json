@@ -2,34 +2,6 @@
     "type": "minecraft:multi_action",
     "title": "Server Settings",
     "external_title": "blob?",
-    "body": [
-        {
-            "type": "plain_message",
-            "contents": "Running Server Config V2.4"
-        },
-        {
-            "type": "item",
-            "item": {
-                "id": "minecraft:allium",
-                "count": 1
-            },
-            "description": "PainterFlow11",
-            "width": 24,
-            "show_tooltip": false,
-            "show_decorations": false
-        },
-        {
-            "type": "item",
-            "item": {
-                "id": "minecraft:poppy",
-                "count": 1
-            },
-            "description": "Server Running on V2.4",
-            "width": 24,
-            "show_tooltip": false,
-            "show_decorations": false
-        }
-    ],
     "actions": [
         {
             "label": "Gamerules",
