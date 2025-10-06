@@ -1,6 +1,18 @@
 {
     "type": "notice",
-    "title": "This Feature is in Development",
+    "title": {
+        "extra": [
+            {
+                "type": "object",
+                "sprite": "item/allay_spawn_egg"
+            },
+            {
+                "text": " Wiki",
+                "color": "green"
+            }
+        ],
+        "text": ""
+    },
     "body": [
         {
             "type": "plain_message",

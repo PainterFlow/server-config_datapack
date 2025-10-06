@@ -22,9 +22,18 @@
     "actions": [
         {
             "label": {
-                "text": "Rules",
-                "color": "red",
-                "bold": true
+                "extra": [
+                    {
+                        "type": "object",
+                        "sprite": "item/writable_book"
+                    },
+                    {
+                        "text": " Rules",
+                        "color": "red",
+                        "bold": true
+                    }
+                ],
+                "text": ""
             },
             "action": {
                 "type": "show_dialog",
@@ -39,8 +48,17 @@
         },
         {
             "label": {
-                "text": "News",
-                "color": "blue"
+                "extra": [
+                    {
+                        "type": "object",
+                        "sprite": "item/map"
+                    },
+                    {
+                        "text": " News",
+                        "color": "blue"
+                    }
+                ],
+                "text": ""
             },
             "action": {
                 "type": "show_dialog",
@@ -55,8 +73,17 @@
         },
         {
             "label": {
-                "text": "Wiki",
-                "color": "blue"
+                "extra": [
+                    {
+                        "type": "object",
+                        "sprite": "block/bookshelf"
+                    },
+                    {
+                        "text": " Wiki",
+                        "color": "blue"
+                    }
+                ],
+                "text": ""
             },
             "action": {
                 "type": "show_dialog",
@@ -71,8 +98,17 @@
         },
         {
             "label": {
-                "text": "Support",
-                "color": "green"
+                "extra": [
+                    {
+                        "type": "object",
+                        "sprite": "item/allay_spawn_egg"
+                    },
+                    {
+                        "text": " Wiki",
+                        "color": "green"
+                    }
+                ],
+                "text": ""
             },
             "action": {
                 "type": "show_dialog",
@@ -83,14 +119,6 @@
                 "text": "Help & FAQ",
                 "color": "gray",
                 "italic": true
-            }
-        },
-        {
-            "label": "Back",
-            "width": 150,
-            "action": {
-                "type": "run_command",
-                "command": "dialog clear @s"
             }
         }
     ],

@@ -1,6 +1,19 @@
 {
     "type": "notice",
-    "title": "This Feature is in Development",
+    "title": {
+        "extra": [
+            {
+                "type": "object",
+                "sprite": "item/writable_book"
+            },
+            {
+                "text": " Rules",
+                "color": "red",
+                "bold": true
+            }
+        ],
+        "text": ""
+    },
     "body": [
         {
             "type": "plain_message",

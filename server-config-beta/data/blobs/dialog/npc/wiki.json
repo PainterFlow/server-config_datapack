@@ -1,6 +1,18 @@
 {
     "type": "notice",
-    "title": "This Feature is in Development",
+    "title": {
+        "extra": [
+            {
+                "type": "object",
+                "sprite": "block/bookshelf"
+            },
+            {
+                "text": " Wiki",
+                "color": "blue"
+            }
+        ],
+        "text": ""
+    },
     "body": [
         {
             "type": "plain_message",
