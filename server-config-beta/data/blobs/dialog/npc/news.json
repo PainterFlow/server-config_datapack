@@ -1,5 +1,5 @@
 {
-    "type": "notice",
+    "type": "multi_action",
     "title": {
         "extra": [
             {
@@ -13,14 +13,12 @@
         ],
         "text": ""
     },
-    "body": [
+    "actions": [
         {
-            "type": "plain_message",
-            "contents": {
-                "text": "Coming soonTM"
-            }
+            "label": "No News"
         }
     ],
+    "columns": 1,
     "can_close_with_escape": true,
     "pause": true
 }

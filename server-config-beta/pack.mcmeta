@@ -1,7 +1,9 @@
 {
 	"pack": {
 		"pack_format": 88,
-		"supported_formats": [48.0, 88.0],
+		"supported_formats": [81,88],
+		"min_format": [81,0],
+		"max_format": [88,0],
 		"description": "Server Config"
 	}
 }

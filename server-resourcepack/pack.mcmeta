@@ -1,6 +1,9 @@
 {
     "pack": {
         "description": "Running on version /./",
-        "pack_format": 88
+        "pack_format": 69,
+        "supported_formats": [69,69],
+        "min_format": [69,0],
+		"max_format": [69,0]
     }
 }
