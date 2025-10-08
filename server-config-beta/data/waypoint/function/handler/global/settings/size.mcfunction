@@ -1,2 +1,0 @@
-execute if data storage waypoints:global settings{size:"small"} run return run data modify storage waypoints:global settings.size set value "normal"
-execute if data storage waypoints:global settings{size:"normal"} run return run data modify storage waypoints:global settings.size set value "small"

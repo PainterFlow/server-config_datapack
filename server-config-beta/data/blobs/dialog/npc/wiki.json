@@ -1,5 +1,5 @@
 {
-    "type": "notice",
+    "type": "multi_action",
     "title": {
         "extra": [
             {
@@ -13,14 +13,28 @@
         ],
         "text": ""
     },
-    "body": [
+    "actions": [
         {
-            "type": "plain_message",
-            "contents": {
-                "text": "Coming soonTM"
+            "label": {
+                "extra": [
+                    {
+                        "type": "object",
+                        "sprite": "block/command_block_front"
+                    },
+                    {
+                        "text": " Custom Commands",
+                        "color": "gold"
+                    }
+                ],
+                "text": ""
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/wiki/custom_commands"
             }
         }
     ],
+    "columns": 2,
     "can_close_with_escape": true,
     "pause": true
 }
