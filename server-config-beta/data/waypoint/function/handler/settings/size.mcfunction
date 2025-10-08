@@ -1,0 +1,2 @@
+execute if data storage waypoints settings{size:"normal"} run return run data modify storage waypoints settings.size set value "small"
+execute if data storage waypoints settings{size:"small"} run return run data modify storage waypoints settings.size set value "normal"

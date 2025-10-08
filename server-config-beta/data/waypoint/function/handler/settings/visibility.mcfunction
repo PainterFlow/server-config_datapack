@@ -1,0 +1,2 @@
+execute if data entity @s equipment.saddle.components."minecraft:custom_data".settings{visibility:"invisible"} run return run data modify storage waypoints settings.visibility set value "visible"
+execute if data entity @s equipment.saddle.components."minecraft:custom_data".settings{visibility:"visible"} run return run data modify storage waypoints settings.visibility set value "invisible"

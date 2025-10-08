@@ -1,0 +1,56 @@
+[
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "settings": {
+                "visibility": "visible"
+            }
+        },
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "slots": {
+                        "saddle": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "settings": {
+                                        "visibility": "invisible"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "settings": {
+                "visibility": "invisible"
+            }
+        },
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "slots": {
+                        "saddle": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "settings": {
+                                        "visibility": "visible"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

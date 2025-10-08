@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "waypoint:handler/new_player/set_id"
+    }
+}

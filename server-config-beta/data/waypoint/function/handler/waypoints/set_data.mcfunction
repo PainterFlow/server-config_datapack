@@ -1,0 +1,1 @@
+$data modify entity @s data.command set value "trigger waypoint set $(waypoint)"

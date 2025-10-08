@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "waypoint": {
+                                "min": 1100001,
+                                "max": 1100002
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "waypoint:handler/global/settings/apply_settings"
+    }
+}

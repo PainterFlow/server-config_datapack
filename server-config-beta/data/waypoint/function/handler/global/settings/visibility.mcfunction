@@ -1,0 +1,2 @@
+execute if data storage waypoints:global settings{visibility:"visible"} run return run data modify storage waypoints:global settings.visibility set value "invisible"
+execute if data storage waypoints:global settings{visibility:"invisible"} run return run data modify storage waypoints:global settings.visibility set value "visible"

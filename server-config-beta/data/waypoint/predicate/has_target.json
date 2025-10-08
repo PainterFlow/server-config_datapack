@@ -1,0 +1,24 @@
+{
+    "condition": "entity_scores",
+    "entity": "this",
+    "scores": {
+        "waypoint.animation.target": {
+            "min": {
+                "type": "score",
+                "target": {
+                    "type": "fixed",
+                    "name": "#Search"
+                },
+                "score": "waypoint.animation.target"
+            },
+            "max": {
+                "type": "score",
+                "target": {
+                    "type": "fixed",
+                    "name": "#Search"
+                },
+                "score": "waypoint.animation.target"
+            }
+        }
+    }
+}
