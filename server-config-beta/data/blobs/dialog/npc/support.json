@@ -20,16 +20,16 @@
                 "text": "",
                 "extra": [
                     {
-                        "text": "Required Version: 1.21.9",
+                        "text": "Required Version: 1.21.9\n",
                         "bold": true,
                         "color": "green"
                     },
                     {
-                        "text": "Voice Chat Version: 2.6+",
+                        "text": "Voice Chat Version: 2.6+\n",
                         "color": "gray"
                     },
                     {
-                        "text": "May require Carpet Org Additions & Carpet for custom Riptide functionality",
+                        "text": "May require Carpet Org Additions & Carpet for custom Riptide functionality\n",
                         "color": "gray"
                     }
                 ]
