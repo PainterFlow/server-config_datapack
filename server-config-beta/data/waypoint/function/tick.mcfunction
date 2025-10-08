@@ -1,1 +1,0 @@
-execute as @a[tag=Waypoint.Animation] at @s if score @s waypoint.animation.duration matches 1.. run function waypoint:handler/animation/track
