@@ -1,7 +1,6 @@
 {
 	"pack": {
-		"pack_format": 63,
-        "supported_formats": [63,64],
+		"pack_format": 64,
 		"min_format": [64,0],
 		"max_format": [69,0],
 		"description": "Server Config"
