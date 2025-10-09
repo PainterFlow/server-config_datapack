@@ -17,7 +17,6 @@ $dialog show @s {\
   },\
   "columns": 2,\
   "can_close_with_escape": true,\
-  "pause": true,\
   "actions": [\
     {\
       "label": {\
