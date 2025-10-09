@@ -1,2 +1,0 @@
-
-$dialog show @s {"type":"confirmation","title":"Gamerules","pause":false,"inputs":[{"key":"keepinv","type":"boolean","label":"Toggle Keepinv","initial":$(keepinv)}],"no":{"label":"Back","action":{"type":"show_dialog","dialog":"blobs:serversettings"},"tooltip":"This will not save your Settings","width":125},"yes":{"label":"Save","action":{"type":"dynamic/run_command","template":"function blobs:settings/gamerules/storage {keepinv:\u0024(keepinv)}"},"tooltip":"Save your Settings","width":125}}

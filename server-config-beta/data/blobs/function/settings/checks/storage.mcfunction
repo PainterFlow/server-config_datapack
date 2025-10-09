@@ -1,0 +1,1 @@
+execute as @a if predicate blobs:settings run function blobs:settings/give_storage

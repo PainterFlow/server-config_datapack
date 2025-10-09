@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "type_specific": {
+      "type": "minecraft:player"
+    },
+    "slots": {
+      "saddle": {
+        "items": "minecraft:written_book",
+        "predicates": {
+          "minecraft:custom_data": {
+            "blobs": true
+          }
+        }
+      }
+    }
+  }
+}
