@@ -1,4 +1,4 @@
-tellraw @a[team=debug] {text:"Running Server-Config",italic:false,bold:true,color:green}
+tellraw @a[tag=Debug] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Loaded Pack"}]}
 
 scoreboard objectives add blob trigger
 scoreboard players enable @a blob

@@ -3,7 +3,6 @@ $dialog show @s {\
   "title": {\
     "text": "",\
     "extra": [\
-      ,\
       {\
         "sprite": "minecraft:block/test_block_start",\
         "type": "object"\

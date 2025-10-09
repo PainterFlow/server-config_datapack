@@ -7,3 +7,5 @@ execute as @e if items entity @s weapon.offhand splash_potion run item modify en
 execute as @e if items entity @s player.cursor lingering_potion run item modify entity @s player.cursor blobs:lingering_potions
 execute as @e if items entity @s weapon.mainhand lingering_potion run item modify entity @s weapon.mainhand blobs:lingering_potions
 execute as @e if items entity @s weapon.offhand lingering_potion run item modify entity @s weapon.offhand blobs:lingering_potions
+
+tellraw @a[tag=Debug] {text:"[BLOBS-ITEMS] ",color:"dark_purple",bold:1b,extra:[{text:"Detectet non-converted Potions | converting..."}]}

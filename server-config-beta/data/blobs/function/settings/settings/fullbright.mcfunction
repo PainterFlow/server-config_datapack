@@ -1,2 +1,0 @@
-execute if data entity @s equipment.saddle.components."minecraft:custom_data".settings{fullbright:"On"} as @s run effect give @s night_vision infinite 255 true
-execute if data entity @s equipment.saddle.components."minecraft:custom_data".settings{fullbright:"Off"} as @s run effect clear @s night_vision

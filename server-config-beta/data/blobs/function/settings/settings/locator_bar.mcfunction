@@ -1,2 +1,0 @@
-execute if data entity @s equipment.saddle.components."minecraft:custom_data".settings{locator_bar:"Visible"} as @s run attribute @s waypoint_transmit_range base set 0
-execute if data entity @s equipment.saddle.components."minecraft:custom_data".settings{fullbright:"Hidden"} as @s run attribute @s waypoint_transmit_range base reset

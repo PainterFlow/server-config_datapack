@@ -1,13 +1,10 @@
 advancement revoke @s only blobs:apply_settings
 
-execute if score @s blob matches 10001 run item modify entity @s saddle blobs:settings/fullbright
-execute if score @s blob matches 10002 run item modify entity @s saddle blobs:settings/locator_bar
-execute if score @s blob matches 10003 run item modify entity @s saddle blobs:settings/hell
-execute if score @s blob matches 10004 run item modify entity @s saddle blobs:settings/debug
+execute as @s if score @s blob matches 10001 run function blobs:settings/modules/fullbright with entity @s equipment.saddle.components."minecraft:custom_data".settings
+execute as @s if score @s blob matches 10002 run function blobs:settings/modules/locator_bar with entity @s equipment.saddle.components."minecraft:custom_data".settings
+execute as @s if score @s blob matches 10003 run function blobs:settings/modules/hell with entity @s equipment.saddle.components."minecraft:custom_data".settings
+execute as @s if score @s blob matches 10004 run function blobs:settings/modules/debug with entity @s equipment.saddle.components."minecraft:custom_data".settings
 
-execute if score @s blob matches 10001 run function blobs:settings/settings/fullbright
-execute if score @s blob matches 10002 run function blobs:settings/settings/locator_bar
-execute if score @s blob matches 10003 run function blobs:settings/settings/hell
-execute if score @s blob matches 10004 run function blobs:settings/settings/debug
+function blobs:settings/render/get_settings
 
-function blobs:settings/render/get_settings with entity @s equipment.saddle.components."minecraft:custom_data".settings
+tellraw @a[tag=Debug] {text:"[BLOBS-SETTINGS] ",color:"dark_purple",bold:1b,extra:[{text:"Setting Changed"}]}

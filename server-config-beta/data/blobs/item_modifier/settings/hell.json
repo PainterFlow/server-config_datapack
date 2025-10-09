@@ -11,7 +11,7 @@
                 "condition": "entity_properties",
                 "entity": "this",
                 "predicate": {
-                    "equipment": {
+                    "slots": {
                         "saddle": {
                             "predicates": {
                                 "minecraft:custom_data": {
@@ -38,7 +38,7 @@
                 "condition": "entity_properties",
                 "entity": "this",
                 "predicate": {
-                    "equipment": {
+                    "slots": {
                         "saddle": {
                             "predicates": {
                                 "minecraft:custom_data": {
