@@ -31,6 +31,62 @@
             "action": {
                 "type": "show_dialog",
                 "dialog": "blobs:npc/wiki/custom_commands"
+            },
+            "width": 100,
+            "tooltip": {
+                "text": "Custom-Slash commands",
+                "color": "gray",
+                "italic": true
+            }
+        },
+        {
+            "label": {
+                "extra": [
+                    {
+                        "type": "object",
+                        "sprite": "item/diamond_sword"
+                    },
+                    {
+                        "text": " Combat Changes",
+                        "color": "red"
+                    }
+                ],
+                "text": ""
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/wiki/combat"
+            },
+            "width": 100,
+            "tooltip": {
+                "text": "Just Some Combat Changes",
+                "color": "gray",
+                "italic": true
+            }
+        },
+        {
+            "label": {
+                "extra": [
+                    {
+                        "type": "object",
+                        "sprite": "item/enchanted_book"
+                    },
+                    {
+                        "text": "  Enchantment Changes/Additions",
+                        "color": "dark_purple"
+                    }
+                ],
+                "text": ""
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/wiki/custom_enchantments"
+            },
+            "width": 100,
+            "tooltip": {
+                "text": "New Enchments and Changes to\n the Old Enchanting System",
+                "color": "gray",
+                "italic": true
             }
         }
     ],
