@@ -1,5 +1,5 @@
 {
-    "type": "notice",
+    "type": "multi_action",
     "title": {
         "extra": [
             {
@@ -14,14 +14,33 @@
         ],
         "text": ""
     },
-    "body": [
+    "actions": [
         {
-            "type": "plain_message",
-            "contents": {
-                "text": "Coming soonTM"
-            }
+            "label": "Deutsch",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/rules/de"
+            },
+            "width": 150
+        },
+        {
+            "label": "English",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/rules/en"
+            },
+            "width": 150
+        },
+        {
+            "label": "Latina",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/rules/latin"
+            },
+            "width": 150
         }
     ],
+    "columns": 1,
     "can_close_with_escape": true,
     "pause": true
 }
