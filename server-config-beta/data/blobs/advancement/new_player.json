@@ -10,6 +10,6 @@
     ]
   ],
   "rewards": {
-    "function": "blobs:settings/give_storage"
+    "function": "blobs:join_detection"
   }
 }

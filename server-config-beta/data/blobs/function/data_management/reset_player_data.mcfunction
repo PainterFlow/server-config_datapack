@@ -1,0 +1,1 @@
+advancement revoke @s only blobs:new_player

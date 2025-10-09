@@ -11,6 +11,16 @@ scoreboard objectives add explosiveCountLimit dummy
 scoreboard players set #limit arrowCountLimit 700
 scoreboard players set #limit explosiveCountLimit 500
 
+scoreboard objectives add fullbright dummy
+scoreboard objectives add locator_bar dummy
+scoreboard objectives add hell dummy
+scoreboard objectives add debug dummy
+scoreboard players set #def fullbright 1001
+scoreboard players set #def locator_bar 1002
+scoreboard players set #def hell 1003
+scoreboard players set #def debug 1004
+
+
 data modify storage settings {} merge value {settings:{gamerules:[{keepinv:true}]}}
 
 function blobs:lag/loop
