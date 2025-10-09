@@ -1,5 +1,6 @@
-tellraw @a[tag=Debug] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Loaded Pack"}]}
+tellraw @a[tag=Debug] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Loaded Data Pack",color:"gray",italic:1b,bold:0b}]}
 
+tag add add Debug
 scoreboard objectives add blob trigger
 scoreboard players enable @a blob
 scoreboard objectives add arrowCount dummy

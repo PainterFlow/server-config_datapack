@@ -1,3 +1,4 @@
+
 $dialog show @s {\
   "type": "minecraft:multi_action",\
   "title": {\

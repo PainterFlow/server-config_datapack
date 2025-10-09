@@ -7,4 +7,4 @@ execute as @s if score @s blob matches 10004 run function blobs:settings/modules
 
 function blobs:settings/render/get_settings
 
-tellraw @a[tag=Debug] {text:"[BLOBS-SETTINGS] ",color:"dark_purple",bold:1b,extra:[{text:"Setting Changed"}]}
+tellraw @a[tag=Debug] {text:"[BLOBS-SETTINGS] ",color:"dark_purple",bold:1b,extra:[{text:"Setting Changed",color:"gray",italic:1b,bold:0b}]}

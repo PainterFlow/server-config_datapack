@@ -4,4 +4,4 @@ execute if data entity @s equipment.saddle.components."minecraft:custom_data".se
 execute if data entity @s equipment.saddle.components."minecraft:custom_data".settings{hell:"No"} as @s run effect clear @s nausea
 item modify entity @s saddle blobs:settings/hell
 
-$tellraw @a[tag=Debug] {text:"[BLOBS-SETTINGS] ",color:"dark_purple",bold:1b,extra:[{text:"Player toggled Hell $(hell)"}]}
+$tellraw @a[tag=Debug] {text:"[BLOBS-SETTINGS] ",color:"dark_purple",bold:1b,extra:[{text:"Player toggled Hell $(hell)",color:"gray",italic:1b,bold:0b}]}
