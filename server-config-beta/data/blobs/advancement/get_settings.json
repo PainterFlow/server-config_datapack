@@ -21,7 +21,6 @@
     ]
   ],
   "rewards": {
-    "function": "blobs:settings/render/get_settings",
-    "recipes": []
+    "function": "blobs:settings/render/get_settings"
   }
 }

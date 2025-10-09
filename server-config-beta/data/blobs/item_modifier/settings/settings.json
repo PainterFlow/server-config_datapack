@@ -2,10 +2,12 @@
   "function": "minecraft:set_components",
   "components": {
     "minecraft:custom_data": {
-      "fullbright": "Off",
-      "locator_bar": "Visible",
-      "hell": "No",
-      "debug": "Off"
+      "settings": {
+        "fullbright": "Off",
+        "locator_bar": "Visible",
+        "hell": "No",
+        "debug": "Off"
+      }
     }
   }
 }

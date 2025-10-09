@@ -3,18 +3,21 @@ $dialog show @s {\
   "title": {\
     "text": "",\
     "extra": [\
+      ,\
+      {\
+        "sprite": "minecraft:block/test_block_start",\
+        "type": "object"\
+      },\
       {\
         "text": " Settings",\
         "color": "gray",\
         "underlined": false\
-      },\
-      {\
-        "sprite": "minecraft:block/test_block_start",\
-        "type": "object"\
       }\
     ]\
   },\
   "columns": 2,\
+  "can_close_with_escape": true,\
+  "pause": true,\
   "actions": [\
     {\
       "label": {\
@@ -43,7 +46,7 @@ $dialog show @s {\
       "width": 125,\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "trigger blobs set 1002"\
+        "command": "trigger blob set 1002"\
       }\
     },\
     {\
@@ -61,7 +64,7 @@ $dialog show @s {\
       "width": 125,\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "trigger blob 1003"\
+        "command": "trigger blob set 1003"\
       }\
     },\
     {\

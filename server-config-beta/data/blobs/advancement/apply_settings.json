@@ -24,7 +24,6 @@
     ]
   ],
   "rewards": {
-    "function": "blobs:settings/apply_settings",
-    "recipes": []
+    "function": "blobs:settings/apply_settings"
   }
 }
