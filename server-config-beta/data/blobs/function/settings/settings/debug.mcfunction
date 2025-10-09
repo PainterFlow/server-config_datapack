@@ -1,0 +1,2 @@
+execute if data entity @s equipment.saddle.components."minecraft:custom_data".settings{debug:"On"} as @s run tag @s add Debug
+execute if data entity @s equipment.saddle.components."minecraft:custom_data".settings{debug:"Off"} as @s run tag @s remove Debug

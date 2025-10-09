@@ -1,5 +1,7 @@
 tellraw @a[team=debug] {text:"Running Server-Config",italic:false,bold:true,color:green}
 
+scoreboard objectives add blob trigger
+scoreboard players enable @a blob
 scoreboard objectives add arrowCount dummy
 scoreboard objectives add explosiveCount dummy
 

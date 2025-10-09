@@ -26,10 +26,10 @@
         },
         "equipment": {
           "saddle": {
-            "items": "minecraft:written_book",
-            "predicates": {
+            "items": "minecraft:saddle",
+            "components": {
               "minecraft:custom_data": {
-                "version": 1
+                "version": "0"
               }
             }
           }

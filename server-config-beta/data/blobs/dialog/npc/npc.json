@@ -120,11 +120,35 @@
                 "color": "gray",
                 "italic": true
             }
+        },
+        {
+            "label": {
+                "extra": [
+                    {
+                        "sprite": "minecraft:block/test_block_start",
+                        "type": "object"
+                    },
+                    {
+                        "text": " Setting",
+                        "color": "gray"
+                    }
+                ],
+                "text": ""
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger blob set 50"
+            },
+            "width": 120,
+            "tooltip": {
+                "text": "User Settings",
+                "color": "gray",
+                "italic": true
+            }
         }
     ],
     "columns": 2,
     "pause": false,
     "can_close_with_escape": true,
     "after_action": "none"
-
 }
