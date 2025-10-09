@@ -1,0 +1,12 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": {
+      "version": 1,
+      "fullbright": false,
+      "locator_bar": false,
+      "spawn_on_loc_bar": false,
+      "debug": false
+    }
+  }
+}
