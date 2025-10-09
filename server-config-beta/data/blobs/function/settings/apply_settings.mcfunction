@@ -10,4 +10,4 @@ execute if score @s blob matches 10002 run function blobs:settings/settings/loca
 execute if score @s blob matches 10003 run function blobs:settings/settings/hell
 execute if score @s blob matches 10004 run function blobs:settings/settings/debug
 
-function blobs:settings/render/display with entity @s equipment.saddle.components."minecraft:custom_data".settings
+function blobs:settings/render/get_settings with entity @s equipment.saddle.components."minecraft:custom_data".settings
