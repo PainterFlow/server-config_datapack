@@ -1,0 +1,23 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:blocks_attacks": {
+      "block_delay_seconds": 1,
+      "disable_cooldown_scale": 1,
+      "damage_reductions": [
+        {
+          "type": "minecraft:player_attack",
+          "base": 0,
+          "factor": 0
+        }
+      ],
+      "item_damage": {
+        "threshold": 0,
+        "base": 1,
+        "factor": 0
+      },
+      "block_sound": "minecraft:block.heavy_core.place",
+      "bypassed_by": "#minecraft:mace_smash"
+    }
+  }
+}

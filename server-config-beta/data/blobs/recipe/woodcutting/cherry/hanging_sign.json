@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:cherry_planks",
+  "ingredient": "minecraft:stripped_cherry_log",
   "result": {
     "count": 3,
     "id": "minecraft:cherry_hanging_sign"
