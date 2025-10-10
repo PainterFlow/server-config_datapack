@@ -1,5 +1,5 @@
 {
-    "type": "notice",
+    "type": "multi_action",
     "title": {
         "extra": [
             {
@@ -36,6 +36,40 @@
             }
         }
     ],
+    "actions": [
+        {
+            "label": {
+                "text": "Github"
+            },
+            "tooltip": {
+                "text": "The Github of the Datapack & Resourcepack",
+                "italic": true,
+                "color": "gray"
+            },
+            "width": 150,
+            "action": {
+                "type": "open_url",
+                "url": "https://github.com/PainterFlow/server-config_datapack/tree/host"
+            }
+        },
+        {
+            "label": {
+                "text": "Discord",
+                "color": "blue"
+            },
+            "tooltip": {
+                "text": "The Official Discord Server",
+                "italic": true,
+                "color": "gray"
+            },
+            "width": 150,
+            "action": {
+                "type": "open_url",
+                "url": "https://discord.gg/w272U9ESEG"
+            }
+        }
+    ],
+    "columns": 1,
     "can_close_with_escape": true,
-    "pause": true
+    "pause": false
 }

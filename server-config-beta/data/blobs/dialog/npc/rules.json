@@ -38,6 +38,14 @@
                 "dialog": "blobs:npc/rules/latin"
             },
             "width": 150
+        },
+        {
+            "label": "Back",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "blobs:npc/npc"
+            },
+            "width": 150
         }
     ],
     "columns": 1,
