@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:warped_planks",
+  "ingredient": "minecraft:stripped_warped_hyphae",
   "result": {
     "count": 3,
     "id": "minecraft:warped_hanging_sign"

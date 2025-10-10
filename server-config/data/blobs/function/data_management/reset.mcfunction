@@ -1,2 +1,0 @@
-tellraw @a[tag=Debug] {text:"[BLOBS-DATA] ",color:"dark_purple",bold:1b,extra:[{text:"Datapack Data was Reset",color:"gray",italic:1b,bold:0b}]}
-tellraw @a[tag=Debug] {text:"[BLOBS-DEV] ",color:"dark_purple",bold:1b,extra:[{text:"This function is in Development",color:"red",italic:1b,bold:0b}]}

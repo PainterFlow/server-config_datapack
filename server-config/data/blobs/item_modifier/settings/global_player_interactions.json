@@ -1,0 +1,56 @@
+[
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "global": {
+                "disable_player_interactions": "Enabled"
+            }
+        },
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "slots": {
+                        "saddle": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "global": {
+                                        "disable_player_interactions": "Disabled"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "global": {
+                "disable_player_interactions": "Disabled"
+            }
+        },
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "slots": {
+                        "saddle": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "global": {
+                                        "disable_player_interactions": "Enabled"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

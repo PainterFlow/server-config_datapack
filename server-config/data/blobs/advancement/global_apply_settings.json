@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "apply": {
+    "global_apply_settings": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -9,8 +9,8 @@
             "entity": "this",
             "scores": {
               "blob": {
-                "min": 1000,
-                "max": 1500
+                "min": 10000,
+                "max": 11000
               }
             }
           }
@@ -20,10 +20,10 @@
   },
   "requirements": [
     [
-      "apply"
+      "global_apply_settings"
     ]
   ],
   "rewards": {
-    "function": "blobs:settings/apply_settings"
+    "function": "blobs:settings/apply_global_settings"
   }
 }
