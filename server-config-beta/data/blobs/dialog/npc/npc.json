@@ -139,9 +139,34 @@
                 "type": "run_command",
                 "command": "trigger blob set 50"
             },
-            "width": 120,
+            "width": 100,
             "tooltip": {
                 "text": "User Settings",
+                "color": "gray",
+                "italic": true
+            }
+        },
+        {
+            "label": {
+                "extra": [
+                    {
+                        "sprite": "minecraft:item/command_block_minecart",
+                        "type": "object"
+                    },
+                    {
+                        "text": " Global Settings",
+                        "color": "aqua"
+                    }
+                ],
+                "text": ""
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function blobs:settings/render/get_global_settings"
+            },
+            "width": 100,
+            "tooltip": {
+                "text": "Server Settings, requires Staff",
                 "color": "gray",
                 "italic": true
             }

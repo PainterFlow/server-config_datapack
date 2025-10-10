@@ -1,8 +1,8 @@
 tellraw @a[tag=Debug] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Loaded Data Pack",color:"gray",italic:1b,bold:0b}]}
-execute if entity @e[type=armor_stand,tag=!Global_Storage] run function blobs:global_storage
+execute unless entity @e[tag=Global_Storage] run function blobs:global_storage
 
 tag add add Debug
-scoreboard objectives add spawn dummy
+scoreboard objectives add spawn trigger
 scoreboard players enable @a spawn
 scoreboard objectives add blob trigger
 scoreboard players enable @a blob

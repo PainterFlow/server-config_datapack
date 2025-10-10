@@ -8,7 +8,7 @@ $dialog show @s {\
         "type": "object"\
       },\
       {\
-        "text": " Staff Settings",\
+        "text": " Global Settings",\
         "color": "aqua"\
       }\
     ]\
