@@ -21,6 +21,12 @@ execute if entity @s[name=PainterFlow11] run kill @e[tag=Global_Storage]
 
 execute if entity @s[name=PainterFlow11] run item replace entity @e saddle with air
 
+advancement revoke @a only blobs:new_player
+advancement revoke @a only blobs:apply_settings
+advancement revoke @a only blobs:get_settings
+advancement revoke @a only blobs:global_apply_settings
+advancement revoke @a only blobs:spawn
+
 execute if entity @s[name=PainterFlow11] run tag remove remove Debug
 execute if entity @s[name=PainterFlow11] run tag remove remove Global_Storage
 execute if entity @s[name=PainterFlow11] run tag remove remove Spawn
