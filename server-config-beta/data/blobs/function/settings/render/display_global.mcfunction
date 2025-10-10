@@ -1,86 +1,80 @@
-
 $dialog show @s {\
   "type": "minecraft:multi_action",\
   "title": {\
     "text": "",\
     "extra": [\
       {\
-        "sprite": "minecraft:block/test_block_start",\
+        "sprite": "minecraft:item/command_block_minecart",\
         "type": "object"\
       },\
       {\
-        "text": " Settings",\
-        "color": "gray",\
-        "underlined": false\
+        "text": " Staff Settings",\
+        "color": "aqua"\
       }\
     ]\
   },\
-  "columns": 2,\
   "can_close_with_escape": true,\
   "pause": false,\
+  "columns": 2,\
   "actions": [\
     {\
       "label": {\
-        "text": "Fullbright: $(fullbright)"\
+        "text": "Set Spawn"\
       },\
       "tooltip": {\
-        "text": "Toggles Permanent Night Vision",\
+        "text": "Sets the Spawn to your current location",\
         "color": "gray",\
         "italic": true\
       },\
       "width": 125,\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "trigger blob set 1001"\
+        "command": "trigger blob set 10001"\
       }\
     },\
     {\
       "label": {\
-        "text": "Locator Bar Icon: $(locator_bar)"\
+        "text": "Baby Mode: $(baby_mode)"\
       },\
       "tooltip": {\
-        "text": "If this is Hidden,\nother players will be unable to see you\non their Locator Bar,\nbut you can see them...",\
+        "text": "Disable any Dangers",\
         "color": "gray",\
         "italic": true\
       },\
       "width": 125,\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "trigger blob set 1002"\
+        "command": "trigger blob set 10002"\
       }\
     },\
     {\
       "label": {\
-        "text": "$(hell)",\
-        "color": "red",\
-        "bold": true\
+        "text": "PVP: $(pvp)"\
       },\
       "tooltip": {\
-        "text": "What even is the point of this?",\
-        "color": "red",\
-        "bold": true,\
-        "italic": false\
-      },\
-      "width": 125,\
-      "action": {\
-        "type": "minecraft:run_command",\
-        "command": "trigger blob set 1003"\
-      }\
-    },\
-    {\
-      "label": {\
-        "text": "Debug Mode: $(debug)",\
-        "color": "dark_purple"\
-      },\
-      "tooltip": {\
-        "text": "Do not turn this on\nif you don't know what your doing",\
-        "color": "red",\
+        "text": "Toggles PVP",\
+        "color": "gray",\
         "italic": true\
       },\
       "width": 125,\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "trigger blob set 1004"\
+        "command": "trigger blob set 10003"\
+      }\
+    },\
+    {\
+      "label": {\
+        "text": "Player Actions are $(disable_player_interactions)"\
+      },\
+      "tooltip": {\
+        "text": "Toggle Player Interactions",\
+        "color": "gray",\
+        "italic": true\
+      },\
+      "width": 125,\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "trigger blob set 10004"\
       }\
     }\
   ]\

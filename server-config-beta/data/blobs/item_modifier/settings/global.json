@@ -1,0 +1,12 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": {
+      "global": {
+        "baby_mode": "Disabled",
+        "disable_player_interactions": "Enabled",
+        "pvp": "Enabled"
+      }
+    }
+  }
+}
