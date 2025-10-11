@@ -3,11 +3,24 @@
   "components": {
     "minecraft:custom_data": {
       "settings": {
+        "blob": true,
         "fullbright": "Off",
         "locator_bar": "Visible",
         "hell": "No",
         "debug": "Off"
       }
-    }
+    },
+    "minecraft:custom_name": {
+      "text": "Player Data Storage",
+      "color": "aqua"
+    },
+    "minecraft:lore": [
+      {
+        "text": "This item holds player specific data",
+        "color": "gray",
+        "italic": true
+      }
+    ],
+    "minecraft:enchantment_glint_override": true
   }
 }

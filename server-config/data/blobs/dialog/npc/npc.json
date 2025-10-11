@@ -170,6 +170,32 @@
                 "color": "gray",
                 "italic": true
             }
+        },
+        {
+            "label": {
+                "extra": [
+                    {
+                        "sprite": "minecraft:item/fire_charge",
+                        "type": "object"
+                    },
+                    {
+                        "text": " Data Management",
+                        "color": "red",
+                        "bold": true
+                    }
+                ],
+                "text": ""
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger blob set 25"
+            },
+            "width": 200,
+            "tooltip": {
+                "text": "Only open smthing when you know what your doing",
+                "color": "gray",
+                "italic": true
+            }
         }
     ],
     "columns": 2,

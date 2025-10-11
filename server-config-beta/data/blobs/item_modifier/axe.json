@@ -24,6 +24,5 @@
       "block_sound": "minecraft:block.heavy_core.place",
       "bypassed_by": "#minecraft:mace_smash"
     }
-  },
-  "conditions": []
+  }
 }
