@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "get": {
+    "reset": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -17,10 +17,10 @@
   },
   "requirements": [
     [
-      "get"
+      "reset"
     ]
   ],
   "rewards": {
-    "function": "blobs:settings/render/get_settings"
+    "function": "blobs:settings/data_management_settings"
   }
 }

@@ -179,7 +179,7 @@
                         "type": "object"
                     },
                     {
-                        "text": " Data Management",
+                        "text": " Reset Custom Player Data",
                         "color": "red",
                         "bold": true
                     }
@@ -192,7 +192,7 @@
             },
             "width": 200,
             "tooltip": {
-                "text": "Only open smthing when you know what your doing",
+                "text": "Resets ALL your settings",
                 "color": "gray",
                 "italic": true
             }
