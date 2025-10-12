@@ -1,0 +1,1 @@
+$execute as @s run data modify storage blob Players[$(unique_id)] append value {blob:$(blob)}

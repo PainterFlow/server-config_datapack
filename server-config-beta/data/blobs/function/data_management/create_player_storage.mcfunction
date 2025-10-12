@@ -1,1 +1,0 @@
-$execute as @s run data modify storage minecraft:blob Players append value {unique_id:$(unique_id),version:$(version),secondary_version:$(secondary_version),permssions:$(permissions),setting_modules:$(setting_modules)}

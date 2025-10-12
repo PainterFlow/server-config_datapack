@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:item",
+    "predicates": {
+      "minecraft:custom_data": {
+        "global": {
+          "blob": true
+        }
+      }
+    }
+  }
+}

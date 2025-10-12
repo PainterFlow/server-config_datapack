@@ -1,0 +1,2 @@
+execute as @a if items entity @s saddle saddle run function blobs:data_management/syncing_players/saddle_to_storage
+execute as @n[tag=Global_Storage] if items entity @s saddle saddle run function blobs:data_management/syncing_global/saddle_to_storage

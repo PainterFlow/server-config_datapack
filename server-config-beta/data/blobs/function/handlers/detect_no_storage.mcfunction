@@ -1,0 +1,2 @@
+execute as @a unless items entity @s saddle saddle run execute as @s run function blobs:data_management/no_storage_failsave with entity @s Score
+execute as @n[tag=Global_Storage] unless items entity @s saddle saddle run execute as @s run function blobs:data_management/no_storage_failsave {Score:-1}
