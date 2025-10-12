@@ -1,4 +1,3 @@
-
 $dialog show @s {\
   "type": "minecraft:multi_action",\
   "title": {\
@@ -11,7 +10,7 @@ $dialog show @s {\
       {\
         "text": " Settings",\
         "color": "gray",\
-        "underlined": false\
+       "underlined": false\
       }\
     ]\
   },\
@@ -30,7 +29,7 @@ $dialog show @s {\
       },\
       "width": 125,\
       "action": {\
-        "type": "minecraft:run_command",\
+       "type": "minecraft:run_command",\
         "command": "trigger blob set 1001"\
       }\
     },\
@@ -45,8 +44,74 @@ $dialog show @s {\
       },\
       "width": 125,\
       "action": {\
-        "type": "minecraft:run_command",\
+       "type": "minecraft:run_command",\
         "command": "trigger blob set 1002"\
+      }\
+    },\
+    {\
+      "label": {\
+        "text": "Home Menu",\
+        "color": "dark_gray",\
+        "italic": true,\
+        "strikethrough": true\
+      },\
+      "tooltip": {\
+        "text": "In development",\
+        "color": "dark_purple",\
+        "italic": true\
+      },\
+      "width": 125,\
+      "action": {\
+       "type": "minecraft:run_command",\
+        "command": "trigger blob set 1006"\
+      }\
+    },\
+    {\
+      "label": {\
+        "text": "$(afk)",\
+        "color": "aqua"\
+      },\
+      "tooltip": {\
+        "text": "Toggle AFK",\
+        "color": "gray",\
+        "italic": true\
+      },\
+      "width": 125,\
+      "action": {\
+       "type": "minecraft:run_command",\
+        "command": "trigger blob set 1005"\
+      }\
+    },\
+    {\
+      "label": {\
+        "text": "------------------------------",\
+        "color": "dark_gray"\
+      },\
+      "tooltip": {\
+        "text": "",\
+        "color": "gray",\
+        "italic": true\
+      },\
+      "width": 125,\
+      "action": {\
+       "type": "minecraft:show_dialog",\
+        "dialog": "blobs:npc/npc"\
+      }\
+    },\
+    {\
+      "label": {\
+        "text": "------------------------------",\
+        "color": "dark_gray"\
+      },\
+      "tooltip": {\
+        "text": "",\
+        "color": "gray",\
+        "italic": true\
+      },\
+      "width": 125,\
+      "action": {\
+       "type": "minecraft:show_dialog",\
+        "dialog": "blobs:npc/npc"\
       }\
     },\
     {\
@@ -63,7 +128,7 @@ $dialog show @s {\
       },\
       "width": 125,\
       "action": {\
-        "type": "minecraft:run_command",\
+       "type": "minecraft:run_command",\
         "command": "trigger blob set 1003"\
       }\
     },\

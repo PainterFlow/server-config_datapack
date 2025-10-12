@@ -1,4 +1,4 @@
-function blobs:lag/loop
+execute if entity @n[tag=Global_Storage] if predicate blobs:lag_loop_check run function blobs:lag/loop
 function blobs:item_modifiers/trident
 function blobs:item_modifiers/npc_spawnegg
 function blobs:item_modifiers/potions

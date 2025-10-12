@@ -16,7 +16,7 @@
   },
   "columns": 2,
   "can_close_with_escape": true,
-  "pause": true,
+  "pause": false,
   "actions": [
     {
       "label": {
@@ -45,7 +45,73 @@
       "width": 125,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger blobs set 1002"
+        "command": "trigger blob set 1002"
+      }
+    },
+    {
+      "label": {
+        "text": "Home Menu",
+        "color": "dark_gray",
+        "italic": true,
+        "strikethrough": true
+      },
+      "tooltip": {
+        "text": "In development",
+        "color": "dark_purple",
+        "italic": true
+      },
+      "width": 125,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger blob set 1006"
+      }
+    },
+    {
+      "label": {
+        "text": "$(afk)",
+        "color": "aqua"
+      },
+      "tooltip": {
+        "text": "Toggle AFK",
+        "color": "gray",
+        "italic": true
+      },
+      "width": 125,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger blob set 1005"
+      }
+    },
+    {
+      "label": {
+        "text": "------------------------------",
+        "color": "dark_gray"
+      },
+      "tooltip": {
+        "text": "",
+        "color": "gray",
+        "italic": true
+      },
+      "width": 125,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "blobs:npc/npc"
+      }
+    },
+    {
+      "label": {
+        "text": "------------------------------",
+        "color": "dark_gray"
+      },
+      "tooltip": {
+        "text": "",
+        "color": "gray",
+        "italic": true
+      },
+      "width": 125,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "blobs:npc/npc"
       }
     },
     {
@@ -63,7 +129,7 @@
       "width": 125,
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger blob 1003"
+        "command": "trigger blob set 1003"
       }
     },
     {

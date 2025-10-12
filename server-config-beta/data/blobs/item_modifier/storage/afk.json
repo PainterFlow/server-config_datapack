@@ -1,0 +1,64 @@
+[
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "blob": {
+                "setting_modules": {
+                    "afk": "Not AFK"
+                }
+            }
+        },
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "slots": {
+                        "saddle": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "blob": {
+                                        "setting_modules": {
+                                            "afk": "AFK"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "blob": {
+                "setting_modules": {
+                    "afk": "AFK"
+                }
+            }
+        },
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "slots": {
+                        "saddle": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "blob": {
+                                        "setting_modules": {
+                                            "afk": "Not AFK"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

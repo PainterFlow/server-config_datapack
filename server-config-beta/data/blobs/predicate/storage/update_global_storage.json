@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": [
+      "minecraft:mannequin"
+    ],
+    "slots": {
+      "saddle": {
+        "items": "minecraft:saddle",
+        "predicates": {
+          "minecraft:custom_data": {
+            "global": {
+              "version": 3
+            }
+          }
+        }
+      }
+    }
+  }
+}

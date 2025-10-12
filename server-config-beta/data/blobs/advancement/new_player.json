@@ -10,6 +10,6 @@
     ]
   ],
   "rewards": {
-    "function": "blobs:join_detection"
+    "function": "blobs:handlers/join_detection"
   }
 }

@@ -1,0 +1,1 @@
+function blobs:settings/render/get_settings

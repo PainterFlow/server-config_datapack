@@ -162,7 +162,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "function blobs:settings/render/get_global_settings"
+                "command": "function blobs:handlers/get_functions/get_global_settings"
             },
             "width": 100,
             "tooltip": {
@@ -179,8 +179,8 @@
                         "type": "object"
                     },
                     {
-                        "text": " Reset Custom Player Data",
-                        "color": "red",
+                        "text": " Update/Fix Custom Player Data",
+                        "color": "green",
                         "bold": true
                     }
                 ],
@@ -190,10 +190,10 @@
                 "type": "run_command",
                 "command": "trigger blob set 25"
             },
-            "width": 200,
+            "width": 201,
             "tooltip": {
                 "text": "Resets ALL your settings",
-                "color": "gray",
+                "color": "red",
                 "italic": true
             }
         }

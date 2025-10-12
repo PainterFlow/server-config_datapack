@@ -3,6 +3,7 @@ advancement revoke @s only blobs:apply_settings
 advancement revoke @s only blobs:get_settings
 advancement revoke @s only blobs:spawn
 advancement revoke @s only blobs:global_apply_settings
+advancement revoke @s only blobs:data_management
 
 scoreboard players reset @s spawn
 scoreboard players reset @s blob
@@ -10,6 +11,8 @@ scoreboard players enable @s spawn
 scoreboard players enable @s blob
 
 tag @s remove Debug
+tag @s remove AFK
+team leave @s
 effect clear @s night_vision
 attribute @s waypoint_transmit_range base reset
 effect clear @s blindness

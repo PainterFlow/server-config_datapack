@@ -1,13 +1,21 @@
 tellraw @a[tag=Debug] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Loaded Data Pack",color:"gray",italic:1b,bold:0b}]}
-execute unless entity @e[tag=Global_Storage] run function blobs:global_storage
+execute unless entity @e[tag=Global_Storage] run function blobs:handlers/global_storage
 
 tag add add Debug
+tag add add AFK
+team add afk
+team modify afk collisionRule never
+team modify afk deathMessageVisibility always
+team modify afk color aqua
+team modify afk nametagVisibility never
+team modify afk prefix {text:"AFK ",color:"aqua",extra:[{text:"| ",color:"dark_gray"}]}
 scoreboard objectives add spawn trigger
 scoreboard players enable @a spawn
 scoreboard objectives add blob trigger
 scoreboard players enable @a blob
 scoreboard objectives add arrowCount dummy
 scoreboard objectives add explosiveCount dummy
+scoreboard objectives add unique_id dummy
 
 scoreboard objectives add arrowCountLimit dummy
 scoreboard objectives add explosiveCountLimit dummy
@@ -32,4 +40,7 @@ scoreboard players set #def baby_mode 10002
 scoreboard players set #def pvp 10003
 scoreboard players set #def disablePlayerInteractions 10004
 
+execute unless data storage blob exists:1b run data merge storage blob {Global_Storage:{},Players:[],exists:1b}
+
+execute as @a run function blobs:handlers/update
 function blobs:lag/loop

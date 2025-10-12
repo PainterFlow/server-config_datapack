@@ -21,6 +21,6 @@
     ]
   ],
   "rewards": {
-    "function": "blobs:settings/render/get_settings"
+    "function": "blobs:handlers/get_functions/get_settings"
   }
 }
