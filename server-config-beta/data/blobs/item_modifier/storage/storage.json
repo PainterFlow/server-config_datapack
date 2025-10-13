@@ -2,12 +2,16 @@
   "function": "minecraft:set_components",
   "components": {
     "minecraft:custom_data": {
-      "unique_id": -1,
+      "unique_id": {
+          "id": -1
+        },
       "blob": {
         "blob": true,
         "version": 3,
         "secondary_version": 1,
-        "unique_id": -1,
+        "unique_id": {
+          "id": -1
+        },
         "permissions": [
           {
             "id": "None",

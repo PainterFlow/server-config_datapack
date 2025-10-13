@@ -3,4 +3,4 @@ scoreboard players enable @s blob
 
 advancement revoke @s only blobs:data_management
 
-function blobs:data_management/reset_player_data
+execute as @s run function blobs:data_management/reseting_storages/reset_player_data

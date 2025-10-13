@@ -1,0 +1,2 @@
+execute as @n[tag=Global_Storage,type=mannequin] unless items entity @s saddle saddle[custom_data={global:-1}] run item replace entity @s saddle with saddle 1
+execute as @n[tag=Global_Storage,type=mannequin] run function blobs:data_management/syncing_global/storage_to_saddle with storage blob Global_Storage

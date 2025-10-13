@@ -16,6 +16,7 @@ scoreboard players enable @a blob
 scoreboard objectives add arrowCount dummy
 scoreboard objectives add explosiveCount dummy
 scoreboard objectives add unique_id dummy
+scoreboard objectives add unique_id_already_exists dummy
 
 scoreboard objectives add arrowCountLimit dummy
 scoreboard objectives add explosiveCountLimit dummy
@@ -41,6 +42,7 @@ scoreboard players set #def pvp 10003
 scoreboard players set #def disablePlayerInteractions 10004
 
 execute unless data storage blob exists:1b run data merge storage blob {Global_Storage:{},Players:[],exists:1b}
+data merge storage minecraft:blob_temp {unique_id:{id:-1}}
 
 execute as @a run function blobs:handlers/update
 function blobs:lag/loop

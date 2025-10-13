@@ -1,4 +1,3 @@
-execute as @s run item replace entity @s saddle with saddle 1
 $execute as @s run data modify entity @s equipment.saddle.components."minecraft:custom_data".unique_id set value $(unique_id)
 $execute as @s run data modify entity @s equipment.saddle.components."minecraft:custom_data".blob set value $(blob)
 
