@@ -1,4 +1,3 @@
-item modify entity @s saddle blobs:storage/global_baby_mode
 execute if data entity @s equipment.saddle.components."minecraft:custom_data".global.setting_modules{baby_mode:"Enabled"} as @s run gamerule drowningDamage false
 execute if data entity @s equipment.saddle.components."minecraft:custom_data".global.setting_modules{baby_mode:"Enabled"} as @s run gamerule fireDamage false
 execute if data entity @s equipment.saddle.components."minecraft:custom_data".global.setting_modules{baby_mode:"Enabled"} as @s run gamerule fallDamage false

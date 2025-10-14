@@ -42,6 +42,8 @@ scoreboard players set #def baby_mode 10002
 scoreboard players set #def pvp 10003
 scoreboard players set #def disablePlayerInteractions 10004
 
+scoreboard objectives add toggleCheck dummy
+
 execute unless data storage blob exists:1b run data merge storage blob {Global_Storage:{},Players:[],exists:1b}
 data merge storage minecraft:blob_temp {unique_id:{id:-1}}
 
