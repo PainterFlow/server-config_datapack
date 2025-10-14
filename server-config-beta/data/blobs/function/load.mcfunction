@@ -1,5 +1,6 @@
 tellraw @a[tag=Debug] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Loaded Data Pack",color:"gray",italic:1b,bold:0b}]}
-execute unless entity @e[tag=Global_Storage] run function blobs:handlers/global_storage
+execute unless entity @e[tag=Global_Storage] run function blobs:data_management/global_storage
+forceload add 0 0 0 0
 
 tag add add Debug
 tag add add AFK

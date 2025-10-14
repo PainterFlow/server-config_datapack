@@ -1,1 +1,0 @@
-$execute as @s run data modify storage minecraft:blob Global_Storage set value {global:$(global)}
