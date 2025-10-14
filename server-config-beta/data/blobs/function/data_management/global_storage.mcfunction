@@ -8,67 +8,15 @@ data modify entity @n[tag=Global_Storage,type=mannequin] data merge value {\
     secondary_version: 2,\
     permissions: [],\
     setting_modules: {\
-        path: {\
-            path: "setting_modules"\
-        },\
-        baby_mode: {\
-            data: {\
-                path: "setting_modules",\
-                val: 1b,\
-                name: "baby_mode",\
-                true: 1b,\
-                false: 0b\
-            }\
-        },\
-        disable_player_interactions: {\
-            data: {\
-                path: "setting_modules",\
-                val: 1b,\
-                name: "disable_player_interactions"\
-            }\
-        },\
-        pvp: {\
-            data: {\
-                path: "setting_modules",\
-                val: 1b,\
-                name: "pvp",\
-                true: 1b,\
-                false: 0b\
-            }\
-        },\
+        baby_mode: 0b,\
+        disable_player_interactions: 0b,\
+        pvp: 1b\
     },\
     render_data: {\
         setting_modules: {\
-            path: {\
-                path: "render_data.setting_modules"\
-            },\
-            baby_mode: {\
-                data: {\
-                    path: "setting_modules",\
-                    val: 1b,\
-                    name: "baby_mode",\
-                    true: "Enabled",\
-                    false: "Disabled"\
-                }\
-            },\
-            disable_player_interactions: {\
-                data: {\
-                    path: "setting_modules",\
-                    val: "Enable",\
-                    name: "disable_player_interactions",\
-                    true: "Disable",\
-                    false: "Enable"\
-                }\
-            },\
-            pvp: {\
-                data: {\
-                    path: "setting_modules",\
-                    val: "Enabled",\
-                    name: "pvp",\
-                    true: "Enabled",\
-                    false: "Disabled"\
-                }\
-            }\
+            baby_mode: "Disabled",\
+            disable_player_interactions: "Enabled",\
+            pvp: "Enabled"\
         }\
     }\
 }

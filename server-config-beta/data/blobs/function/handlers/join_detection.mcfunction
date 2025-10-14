@@ -11,3 +11,5 @@ execute store result entity @s equipment.saddle.components."minecraft:custom_dat
 
 tellraw @a[tag=Debug] {text:"[BLOBS-HANDLERS] ",color:"dark_purple",bold:1b,extra:[{text:"New Player obtained storage",color:"gray",italic:1b,bold:0b}]}
 execute as @s run function blobs:data_management/creating_storages/create_player_storage with entity @s equipment.saddle.components."minecraft:custom_data"
+
+execute if entity @n[tag=Spawn] run tp @s @n[tag=Spawn]

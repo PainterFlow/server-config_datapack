@@ -5,55 +5,9 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:player",
-        "slots": {
-          "player.cursor": {
-            "items": "minecraft:saddle",
-            "predicates": {
-              "minecraft:custom_data": {
-                "global": {
-                  "blob": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type": "minecraft:player",
-        "slots": {
-          "weapon.mainhand": {
-            "items": "minecraft:saddle",
-            "predicates": {
-              "minecraft:custom_data": {
-                "global": {
-                  "blob": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type": "minecraft:player",
-        "slots": {
-          "weapon.offhand": {
-            "items": "minecraft:saddle",
-            "predicates": {
-              "minecraft:custom_data": {
-                "global": {
-                  "blob": true
-                }
-              }
-            }
+        "predicates": {
+          "minecraft:custom_data": {
+            "blob": true
           }
         }
       }
