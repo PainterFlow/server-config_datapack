@@ -1,1 +1,0 @@
-execute as @a if items entity @s saddle saddle run function blobs:data_management/syncing_players/saddle_to_storage

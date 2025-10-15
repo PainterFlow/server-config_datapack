@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "debug": 1
+              "home": 1
             }
           }
         ]
@@ -21,6 +21,6 @@
     ]
   ],
   "rewards": {
-    "function": "blobs:handlers/get_functions/get_debug_renderers"
+    "function": "blobs:settings/_beta"
   }
 }

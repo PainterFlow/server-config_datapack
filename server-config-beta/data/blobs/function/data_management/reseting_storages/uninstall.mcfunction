@@ -37,3 +37,5 @@ execute if entity @s[name=PainterFlow11] run tag remove remove AFK
 
 execute if entity @s[name=PainterFlow11] run datapack disable 'server-config'
 execute if entity @s[name=PainterFlow11] run datapack disable 'server-config-beta'
+
+# IMPORTANT: Update this

@@ -1,1 +1,0 @@
-$execute as @s run data modify storage blob Players[$(unique_id)].blob set value {blob:$(blob)}

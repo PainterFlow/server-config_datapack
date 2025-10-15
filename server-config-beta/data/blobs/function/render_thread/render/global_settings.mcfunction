@@ -15,6 +15,16 @@ $dialog show @s {\
   },\
   "can_close_with_escape": true,\
   "pause": false,\
+  "exit_action": {\
+    "label": {\
+      "text": "Back"\
+    },\
+    "width": 100,\
+    "action": {\
+      "type": "minecraft:run_command",\
+      "dialog": "blobs:npc/npc"\
+    }\
+  },\
   "columns": 2,\
   "actions": [\
     {\

@@ -19,7 +19,7 @@ execute if score @s pvp matches 1 as @n[tag=Global_Storage] run data modify enti
 execute if score @s pvp matches 2 as @n[tag=Global_Storage] run data modify entity @n[tag=Global_Storage] data.setting_modules.pvp set value 0b
 scoreboard players reset @s pvp
 
-tellraw @a[tag=Debug] {text:"[BLOBS-PARSING] ",color:"dark_purple",bold:1b,extra:[{text:"Updated Global Settings",color:"gray",italic:1b,bold:0b}]}
+tellraw @a[tag=debugParsingThread] {text:"[BLOBS-PARSING] ",color:"dark_purple",bold:1b,extra:[{text:"Updated Global Settings",color:"gray",italic:1b,bold:0b}]}
 
 execute if score @s blob matches 10001 as @s run function blobs:settings/global_modules/set_spawn
 execute if score @s blob matches 10002 as @s run function blobs:settings/global_modules/baby_mode

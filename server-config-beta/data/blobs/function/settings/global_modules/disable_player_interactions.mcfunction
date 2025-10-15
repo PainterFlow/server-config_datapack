@@ -10,6 +10,6 @@ execute if data entity @n[tag=Global_Storage] data.setting_modules{disable_playe
 execute if data entity @n[tag=Global_Storage] data.setting_modules{disable_player_interactions:0b} as @s run gamerule spectatorsGenerateChunks true
 execute if data entity @n[tag=Global_Storage] data.setting_modules{disable_player_interactions:0b} as @s run effect clear @a fire_resistance
 
-tellraw @a[tag=Debug] {text:"[BLOBS-SETTINGS-GLOBAL] ",color:"dark_purple",bold:1b,extra:[{text:"Toggled Player Interactions",color:"gray",italic:1b,bold:0b}]}
+tellraw @a[tag=debugSettingsThread] {text:"[BLOBS-SETTINGS-GLOBAL] ",color:"dark_purple",bold:1b,extra:[{text:"Toggled Player Interactions",color:"gray",italic:1b,bold:0b}]}
 
 function blobs:data_management/parsing_functions/global_setting_render

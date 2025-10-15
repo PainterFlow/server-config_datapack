@@ -4,7 +4,6 @@ forceload add 0 0 0 0
 
 ## <== Tags & Teams ==>
 
-tag add add Debug
 tag add add AFK
 team add afk
 team modify afk collisionRule never
@@ -31,7 +30,7 @@ scoreboard players enable @a spawn
 scoreboard objectives add home trigger
 scoreboard players enable @a home
 
-# <-- Lag Scoreboards -->
+# <-- Performance Fixes Scoreboards -->
 
 scoreboard objectives add arrowCount dummy
 scoreboard objectives add explosiveCount dummy
@@ -45,7 +44,8 @@ scoreboard players set #limit explosiveCountLimit 500
 
 scoreboard objectives add fullbright dummy
 scoreboard objectives add locator_bar dummy
-scoreboard objectives add debug_options dummy
+scoreboard objectives add afk dummy
+scoreboard objectives add showHomesOnLocatorBar dummy
 
 # <-- Global Settings Scoreboard -->
 
@@ -53,6 +53,19 @@ scoreboard objectives add set_spawn dummy
 scoreboard objectives add baby_mode dummy
 scoreboard objectives add pvp dummy
 scoreboard objectives add disablePlayerInteractions dummy
+
+# <-- Debug Tags -->
+
+tag add add debugMainThread
+tag add add debugWarnThread
+tag add add debugDataThread
+tag add add debugRenderThread
+tag add add debugHandlerThread
+tag add add debugSettingsThread
+tag add add debugPermissionsThread
+tag add add debugAPI_Thread
+tag add add debugParsingThread
+tag add add debugCustomFeaturesThread
 
 ## <== Update & Other ==>
 
@@ -62,4 +75,4 @@ execute as @a run function blobs:handlers/update
 function blobs:lag/loop
 
 
-tellraw @a[tag=Debug] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Loaded Data Pack",color:"gray",italic:1b,bold:0b}]}
+tellraw @a[tag=debugMainThread] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Loaded Data Pack",color:"gray",italic:1b,bold:0b}]}

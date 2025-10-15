@@ -3,7 +3,7 @@ scoreboard players enable @s spawn
 scoreboard players enable @s debug
 scoreboard players enable @s home
 
-tellraw @a[tag=Debug] {text:"[BLOBS-HANDLERS] ",color:"dark_purple",bold:1b,extra:[{text:"New Player Joined the Game",color:"gray",italic:1b,bold:0b}]}
+tellraw @a[tag=debugHandlerThread] {text:"[BLOBS-HANDLERS] ",color:"dark_purple",bold:1b,extra:[{text:"New Player Joined the Game",color:"gray",italic:1b,bold:0b}]}
 
 execute if entity @n[tag=Spawn] run tp @s @n[tag=Spawn]
 
@@ -14,7 +14,9 @@ data modify entity @s data merge value {\
     permissions: [],\
     setting_modules: {\
         fullbright: 0b,\
-        locator_bar: 0b\
+        locator_bar: 1b,\
+        afk: 0b,\
+        show_homes_on_locator_bar: 0b\
     },\
     debug: {\
         debug_main_thread: 0b,\
@@ -31,7 +33,9 @@ data modify entity @s data merge value {\
     render_data: {\
         setting_modules: {\
             fullbright: "Off",\
-            locator_bar: "Visible"\
+            locator_bar: "visible",\
+            afk: "Not AFK",\
+            show_homes_on_locator_bar: "hidden"\
         },\
         debug: {\
             debug_main_thread: "False",\
@@ -42,7 +46,7 @@ data modify entity @s data merge value {\
             debug_settings_thread: "False",\
             debug_permissions_thread: "False",\
             debug_api_thread: "False",\
-            debug_items_thread: "False",\
+            debug_parsing_thread: "False",\
             debug_custom_features_thread: "False"\
         }\
     }\
