@@ -11,7 +11,7 @@ data modify entity @n[tag=Global_Storage,type=mannequin] data merge value {\
     permissions: [],\
     features: {
         custom_combat: 1b,
-        unique_server_features: 1b
+        unique_server_features: 0b
     },\
     setting_modules: {\
         baby_mode: 0b,\
@@ -20,7 +20,8 @@ data modify entity @n[tag=Global_Storage,type=mannequin] data merge value {\
     },\
     render_data: {\
         features: {\
-            custom_combat: true\
+            custom_combat: true,\
+            rules: {}\
         },\
         setting_modules: {\
             baby_mode: "Disabled",\
