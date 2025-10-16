@@ -21,6 +21,7 @@ $dialog show @s {\
           {\
             "sprite": "minecraft:block/test_block_log",\
             "type": "object",\
+            "color": "white",\
             "bold": false\
           },\
           {\
@@ -28,9 +29,7 @@ $dialog show @s {\
             "color": "gray",\
             "bold": false\
           }\
-        ],\
-        "color": "red",\
-        "bold": true\
+        ]\
       }\
     }\
   ],\

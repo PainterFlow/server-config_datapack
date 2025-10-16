@@ -9,8 +9,8 @@
             "entity": "this",
             "scores": {
               "debug": {
-                "min": 25,
-                "max": 75
+                "min": 10,
+                "max": 1000
               }
             }
           }
@@ -24,6 +24,6 @@
     ]
   ],
   "rewards": {
-    "function": "blobs:handlers/get_functions/get_debug_renderers"
+    "function": "blobs:settings/apply_debug_settings"
   }
 }

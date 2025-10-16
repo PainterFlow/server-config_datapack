@@ -1,0 +1,480 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:glass_bottle",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ],
+                "conditions": []
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 5,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:rotten_flesh",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 32
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 15,
+              "conditions": [],
+              "reward_experience": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "conditions": []
+                  }
+                ],
+                "conditions": []
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:redstone",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 10,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "conditions": []
+                  }
+                ],
+                "conditions": []
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:glowstone_dust",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 10,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "conditions": []
+                  }
+                ],
+                "conditions": []
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:gunpowder",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 10,
+              "reward_experience": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 10,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 10,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 10,
+              "reward_experience": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 32
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:blaze_rod"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 20,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 27
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "nether_wart",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 15,
+              "reward_experience": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:red_mushroom",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 9,
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:villager",
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:brown_mushroom",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 5,
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:villager",
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:bowl",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 3,
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:villager",
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "reward_experience": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 70,
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ],
+                "conditions": []
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:sugar",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 5,
+              "conditions": [],
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:spider_eye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 6
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 16,
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "type": "minecraft:villager",
+                        "components": {
+                          "minecraft:villager/variant": "minecraft:plains"
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "type": "minecraft:villager",
+                        "components": {
+                          "minecraft:villager/variant": "minecraft:swamp"
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "type": "minecraft:villager",
+                        "components": {
+                          "minecraft:villager/variant": "minecraft:desert"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 10
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:fermented_spider_eye",
+                "functions": []
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 15,
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:villager",
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "reward_experience": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 150,
+      "groups": []
+    },
+    {
+      "total_exp_required": 250,
+      "groups": []
+    }
+  ]
+}

@@ -1,7 +1,15 @@
 {
   "type": "minecraft:multi_action",
   "title": "Server Settings",
-  "external_title": "blob?",
+  "external_title": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Settings & Info",
+        "color": "light_purple"
+      }
+    ]
+  },
   "body": [
     {
       "type": "plain_message",
@@ -171,8 +179,8 @@
       },
       "width": 100,
       "action": {
-        "type": "minecraft:run_command",
-        "command": "trigger blob set 55"
+        "type": "show_dialog",
+        "dialog": "blobs:blob/main"
       }
     },
     {
