@@ -9,12 +9,19 @@ data modify entity @n[tag=Global_Storage,type=mannequin] data merge value {\
     version: 3,\
     secondary_version: 2,\
     permissions: [],\
+    features: {
+        custom_combat: 1b,
+        unique_server_features: 1b
+    },\
     setting_modules: {\
         baby_mode: 0b,\
         disable_player_interactions: 0b,\
         pvp: 1b\
     },\
     render_data: {\
+        features: {
+            custom_combat: true
+        }
         setting_modules: {\
             baby_mode: "Disabled",\
             disable_player_interactions: "Enabled",\
