@@ -58,7 +58,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug Main Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_main_thread)"\
           }\
         ]\
       },\
@@ -78,7 +78,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug Warn Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_warn_thread)"\
           }\
         ]\
       },\
@@ -98,7 +98,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug Data Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_data_thread)"\
           }\
         ]\
       },\
@@ -118,7 +118,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug Render Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_render_thread)"\
           }\
         ]\
       },\
@@ -138,7 +138,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug Handler Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_handler_thread)"\
           }\
         ]\
       },\
@@ -158,7 +158,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug Settings Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_settings_thread)"\
           }\
         ]\
       },\
@@ -178,7 +178,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug Permissions Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_permissions_thread)"\
           }\
         ]\
       },\
@@ -198,7 +198,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug API Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_api_thread)"\
           }\
         ]\
       },\
@@ -218,7 +218,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug Parsing Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_parsing_thread)"\
           }\
         ]\
       },\
@@ -238,7 +238,7 @@ $dialog show @s {\
           },\
           {\
             "text": " Debug Custom Features Thread",\
-            "color": "$(color)"\
+            "color": "$(debug_custom_features_thread)"\
           }\
         ]\
       },\
