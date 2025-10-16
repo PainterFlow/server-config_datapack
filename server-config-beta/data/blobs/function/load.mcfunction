@@ -30,6 +30,9 @@ scoreboard players enable @a spawn
 scoreboard objectives add home trigger
 scoreboard players enable @a home
 
+scoreboard objectives add exit trigger
+scoreboard players enable @a exit
+
 # <-- Performance Fixes Scoreboards -->
 
 scoreboard objectives add arrowCount dummy
