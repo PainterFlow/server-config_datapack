@@ -1,0 +1,209 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Server Settings",
+  "external_title": "blob?",
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": "Running Server Config V1.2.5"
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "minecraft:allium",
+        "count": 1
+      },
+      "description": "PainterFlow11",
+      "width": 24,
+      "show_tooltip": false,
+      "show_decorations": false
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "extra": [
+          {
+            "type": "object",
+            "sprite": "item/map"
+          },
+          {
+            "text": " News",
+            "color": "blue"
+          }
+        ],
+        "text": ""
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "blobs:blob/news"
+      },
+      "width": 100,
+      "tooltip": {
+        "text": "Changelogs and News",
+        "color": "gray",
+        "italic": true
+      }
+    },
+    {
+      "label": {
+        "extra": [
+          {
+            "type": "object",
+            "sprite": "block/bookshelf"
+          },
+          {
+            "text": " Wiki",
+            "color": "dark_green"
+          }
+        ],
+        "text": ""
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "blobs:blob/wiki"
+      },
+      "width": 100,
+      "tooltip": {
+        "text": "Wiki",
+        "color": "gray",
+        "italic": true
+      }
+    },
+    {
+      "label": {
+        "extra": [
+          {
+            "sprite": "minecraft:block/test_block_start",
+            "type": "object"
+          },
+          {
+            "text": " Setting",
+            "color": "dark_aqua"
+          }
+        ],
+        "text": ""
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger blob set 50"
+      },
+      "width": 100,
+      "tooltip": {
+        "text": "User Settings",
+        "color": "gray",
+        "italic": true
+      }
+    },
+    {
+      "label": {
+        "extra": [
+          {
+            "sprite": "minecraft:item/command_block_minecart",
+            "type": "object"
+          },
+          {
+            "text": " Global Settings",
+            "color": "aqua"
+          }
+        ],
+        "text": ""
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function blobs:handlers/get_functions/get_global_settings"
+      },
+      "width": 100,
+      "tooltip": {
+        "text": "Server Settings, requires Staff",
+        "color": "gray",
+        "italic": true
+      }
+    },
+    {
+      "label": {
+        "extra": [
+          {
+            "type": "object",
+            "sprite": "item/allay_spawn_egg"
+          },
+          {
+            "text": " Support",
+            "color": "green"
+          }
+        ],
+        "text": ""
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "blobs:blob/support"
+      },
+      "width": 100,
+      "tooltip": {
+        "text": "Help & FAQ",
+        "color": "gray",
+        "italic": true
+      }
+    },
+    {
+      "label": {
+        "text": "",
+        "extra": [
+          {
+            "sprite": "minecraft:block/chiseled_bookshelf_occupied",
+            "type": "object"
+          },
+          {
+            "text": " Extensions",
+            "color": "gold"
+          }
+        ]
+      },
+      "tooltip": {
+        "text": "",
+        "extra": [
+          {
+            "text": "Manage Datapack Extensions",
+            "color": "gray",
+            "italic": true
+          }
+        ]
+      },
+      "width": 100,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger blob set 55"
+      }
+    },
+    {
+      "label": {
+        "extra": [
+          {
+            "sprite": "minecraft:item/fire_charge",
+            "type": "object"
+          },
+          {
+            "text": " Update/Fix Custom Player Data",
+            "color": "light_purple",
+            "bold": true
+          }
+        ],
+        "text": ""
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger blob set 25"
+      },
+      "width": 201,
+      "tooltip": {
+        "text": "Resets ALL your settings",
+        "color": "red",
+        "italic": true
+      }
+    }
+  ],
+  "columns": 2,
+  "pause": false,
+  "can_close_with_escape": true,
+  "after_action": "none"
+}

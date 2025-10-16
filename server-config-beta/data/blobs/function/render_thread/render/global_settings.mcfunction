@@ -21,8 +21,8 @@ $dialog show @s {\
     },\
     "width": 100,\
     "action": {\
-      "type": "minecraft:show_dialog",\
-      "dialog": "blobs:npc/npc"\
+      "type": "minecraft:run_command",\
+      "command": "trigger blob set 30"\
     }\
   },\
   "columns": 2,\

@@ -1,3 +1,10 @@
+scoreboard players reset @s disablePlayerInteractions
+execute if data entity @n[tag=Global_Storage] data.setting_modules{disable_player_interactions:0b} run scoreboard players set @s disablePlayerInteractions 1
+execute if data entity @n[tag=Global_Storage] data.setting_modules{disable_player_interactions:1b} run scoreboard players set @s disablePlayerInteractions 2
+execute if score @s disablePlayerInteractions matches 1 as @n[tag=Global_Storage] run data modify entity @n[tag=Global_Storage] data.setting_modules.disable_player_interactions set value 1b
+execute if score @s disablePlayerInteractions matches 2 as @n[tag=Global_Storage] run data modify entity @n[tag=Global_Storage] data.setting_modules.disable_player_interactions set value 0b
+scoreboard players reset @s disablePlayerInteractions
+
 execute if data entity @n[tag=Global_Storage] data.setting_modules{disable_player_interactions:1b} as @s run gamemode adventure @a
 execute if data entity @n[tag=Global_Storage] data.setting_modules{disable_player_interactions:1b} as @s run effect give @a resistance infinite 4 true
 execute if data entity @n[tag=Global_Storage] data.setting_modules{disable_player_interactions:1b} as @s run gamerule allowEnteringNetherUsingPortals false

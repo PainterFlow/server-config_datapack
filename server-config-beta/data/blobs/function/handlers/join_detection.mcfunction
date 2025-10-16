@@ -2,7 +2,7 @@ scoreboard players enable @s blob
 scoreboard players enable @s spawn
 scoreboard players enable @s debug
 scoreboard players enable @s home
-scoreboard players enable @s exit
+scoreboard players enable @s render_thread
 
 tellraw @a[tag=debugHandlerThread] {text:"[BLOBS-HANDLERS] ",color:"dark_purple",bold:1b,extra:[{text:"New Player Joined the Game",color:"gray",italic:1b,bold:0b}]}
 
@@ -12,7 +12,6 @@ data modify entity @s data merge value {\
     blob: 1b,\
     version: 3,\
     secondary_version: 2,\
-    permissions: [],\
     setting_modules: {\
         fullbright: 0b,\
         locator_bar: 1b,\
@@ -26,9 +25,8 @@ data modify entity @s data merge value {\
         debug_render_thread: 0b,\
         debug_handler_thread: 0b,\
         debug_settings_thread: 0b,\
-        debug_permissions_thread: 0b,\
         debug_api_thread: 0b,\
-        debug_items_thread: 0b,\
+        debug_parsing_thread: 0b,\
         debug_custom_features_thread: 0b\
     },\
     render_data: {\
@@ -45,7 +43,6 @@ data modify entity @s data merge value {\
             debug_render_thread: "red",\
             debug_handler_thread: "red",\
             debug_settings_thread: "red",\
-            debug_permissions_thread: "red",\
             debug_api_thread: "red",\
             debug_parsing_thread: "red",\
             debug_custom_features_thread: "red"\

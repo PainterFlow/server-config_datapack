@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "get": {
+    "debug": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -17,7 +17,7 @@
   },
   "requirements": [
     [
-      "get"
+      "debug"
     ]
   ],
   "rewards": {

@@ -30,8 +30,8 @@ scoreboard players enable @a spawn
 scoreboard objectives add home trigger
 scoreboard players enable @a home
 
-scoreboard objectives add exit trigger
-scoreboard players enable @a exit
+scoreboard objectives add render_thread trigger
+scoreboard players enable @a render_thread
 
 # <-- Performance Fixes Scoreboards -->
 
@@ -57,7 +57,7 @@ scoreboard objectives add baby_mode dummy
 scoreboard objectives add pvp dummy
 scoreboard objectives add disablePlayerInteractions dummy
 
-# <-- Debug Tags -->
+# <-- Debug Tags & Scoreboard -->
 
 tag add add debugMainThread
 tag add add debugWarnThread
@@ -65,10 +65,20 @@ tag add add debugDataThread
 tag add add debugRenderThread
 tag add add debugHandlerThread
 tag add add debugSettingsThread
-tag add add debugPermissionsThread
 tag add add debugAPI_Thread
 tag add add debugParsingThread
 tag add add debugCustomFeaturesThread
+
+scoreboard objectives add debugMainThread dummy
+scoreboard objectives add debugWarnThread dummy
+scoreboard objectives add debugDataThread dummy
+scoreboard objectives add debugRenderThread dummy
+scoreboard objectives add debugHandlerThread dummy
+scoreboard objectives add debugSettingsThread dummy
+scoreboard objectives add debugAPI_Thread dummy
+scoreboard objectives add debugParsingThread dummy
+scoreboard objectives add debugCustomFeaturesThread dummy
+
 
 ## <== Update & Other ==>
 

@@ -30,7 +30,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "blobs:npc/wiki/custom_commands"
+                "dialog": "blobs:blob/wiki/custom_commands"
             },
             "width": 100,
             "tooltip": {
@@ -55,7 +55,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "blobs:npc/wiki/combat"
+                "dialog": "blobs:blob/wiki/combat"
             },
             "width": 100,
             "tooltip": {
@@ -80,7 +80,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "blobs:npc/wiki/custom_enchantments"
+                "dialog": "blobs:blob/wiki/custom_enchantments"
             },
             "width": 100,
             "tooltip": {

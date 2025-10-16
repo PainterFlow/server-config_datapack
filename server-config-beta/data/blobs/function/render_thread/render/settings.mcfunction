@@ -15,7 +15,7 @@ $dialog show @s {\
     ]\
   },\
   "columns": 2,\
-  "can_close_with_escape": false,\
+  "can_close_with_escape": true,\
   "pause": false,\
   "exit_action": {\
     "label": {\
@@ -24,7 +24,7 @@ $dialog show @s {\
     "width": 100,\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function blobs:settings/exit_settings"\
+      "command": "trigger blob set 30"\
     }\
   },\
   "actions": [\
@@ -132,7 +132,7 @@ $dialog show @s {\
     },\
     {\
       "label": {\
-        "text": "------------Back------------",\
+        "text": "----------Back----------",\
         "color": "dark_gray"\
       },\
       "tooltip": {\
@@ -142,13 +142,13 @@ $dialog show @s {\
       },\
       "width": 125,\
       "action": {\
-        "type": "minecraft:show_dialog",\
-        "dialog": "blobs:npc/npc"\
+        "type": "minecraft:run_command",\
+        "command": "trigger blob set 30"\
       }\
     },\
     {\
       "label": {\
-        "text": "------------Back------------",\
+        "text": "----------Back----------",\
         "color": "dark_gray"\
       },\
       "tooltip": {\
@@ -158,12 +158,12 @@ $dialog show @s {\
       },\
       "width": 125,\
       "action": {\
-        "type": "minecraft:show_dialog",\
-        "dialog": "blobs:npc/npc"\
+        "type": "minecraft:run_command",\
+        "command": "trigger blob set 30"\
       }\
     },\
     {\
-      "label": {\ 
+      "label": {\
         "text": "",\
         "extra": [\
           {\

@@ -1,3 +1,10 @@
+scoreboard players reset @s pvp
+execute if data entity @n[tag=Global_Storage] data.setting_modules{pvp:0b} run scoreboard players set @s pvp 1
+execute if data entity @n[tag=Global_Storage] data.setting_modules{pvp:1b} run scoreboard players set @s pvp 2
+execute if score @s pvp matches 1 as @n[tag=Global_Storage] run data modify entity @n[tag=Global_Storage] data.setting_modules.pvp set value 1b
+execute if score @s pvp matches 2 as @n[tag=Global_Storage] run data modify entity @n[tag=Global_Storage] data.setting_modules.pvp set value 0b
+scoreboard players reset @s pvp
+
 execute if data entity @n[tag=Global_Storage] data.setting_modules{pvp:1b} as @s run gamerule pvp true
 execute if data entity @n[tag=Global_Storage] data.setting_modules{pvp:1b} as @s run effect clear @a resistance
 

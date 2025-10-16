@@ -43,11 +43,31 @@ $dialog show @s {\
     "width": 100,\
     "action": {\
       "type": "minecraft:run_command",\
-      "command": "function blobs:settings/exit_settings"\
+      "command": "trigger blob set 30"\
     }\
   },\
   "columns": 2,\
   "actions": [\
+    {\
+      "label": {\
+        "text": "",\
+        "extra": [\
+          {\
+            "sprite": "minecraft:block/test_block_log",\
+            "type": "object"\
+          },\
+          {\
+            "text": " Enable all Threads",\
+            "color": "blue"\
+          }\
+        ]\
+      },\
+      "width": 125,\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "trigger debug set 10"\
+      }\
+    },\
     {\
       "label": {\
         "text": "",\
@@ -177,26 +197,6 @@ $dialog show @s {\
             "type": "object"\
           },\
           {\
-            "text": " Debug Permissions Thread",\
-            "color": "$(debug_permissions_thread)"\
-          }\
-        ]\
-      },\
-      "width": 125,\
-      "action": {\
-        "type": "minecraft:run_command",\
-        "command": "trigger debug set 17"\
-      }\
-    },\
-    {\
-      "label": {\
-        "text": "",\
-        "extra": [\
-          {\
-            "sprite": "minecraft:block/test_block_log",\
-            "type": "object"\
-          },\
-          {\
             "text": " Debug API Thread",\
             "color": "$(debug_api_thread)"\
           }\
@@ -205,7 +205,7 @@ $dialog show @s {\
       "width": 125,\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "trigger debug set 18"\
+        "command": "trigger debug set 17"\
       }\
     },\
     {\
@@ -225,7 +225,7 @@ $dialog show @s {\
       "width": 125,\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "trigger debug set 19"\
+        "command": "trigger debug set 18"\
       }\
     },\
     {\
@@ -245,7 +245,7 @@ $dialog show @s {\
       "width": 125,\
       "action": {\
         "type": "minecraft:run_command",\
-        "command": "trigger debug set 20"\
+        "command": "trigger debug set 19"\
       }\
     }\
   ]\
