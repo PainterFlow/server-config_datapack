@@ -38,16 +38,16 @@ data modify entity @s data merge value {\
             show_homes_on_locator_bar: "hidden"\
         },\
         debug: {\
-            debug_main_thread: "False",\
-            debug_warn_thread: "False",\
-            debug_data_thread: "False",\
-            debug_render_thread: "False",\
-            debug_handler_thread: "False",\
-            debug_settings_thread: "False",\
-            debug_permissions_thread: "False",\
-            debug_api_thread: "False",\
-            debug_parsing_thread: "False",\
-            debug_custom_features_thread: "False"\
+            debug_main_thread: "red",\
+            debug_warn_thread: "red",\
+            debug_data_thread: "red",\
+            debug_render_thread: "red",\
+            debug_handler_thread: "red",\
+            debug_settings_thread: "red",\
+            debug_permissions_thread: "red",\
+            debug_api_thread: "red",\
+            debug_parsing_thread: "red",\
+            debug_custom_features_thread: "red"\
         }\
     }\
 }
