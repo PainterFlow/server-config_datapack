@@ -21,7 +21,7 @@ $dialog show @s {\
     },\
     "width": 100,\
     "action": {\
-      "type": "minecraft:run_command",\
+      "type": "minecraft:show_dialog",\
       "dialog": "blobs:npc/npc"\
     }\
   },\
