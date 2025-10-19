@@ -1,20 +1,22 @@
-advancement revoke @s only blobs:apply_settings
-advancement revoke @s only blobs:get_settings
+advancement revoke @s only blobs:settings/apply_settings
+advancement revoke @s only blobs:settings/blob
 advancement revoke @s only blobs:spawn
-advancement revoke @s only blobs:global_apply_settings
-advancement revoke @s only blobs:data_management
+advancement revoke @s only blobs:settings/global_apply_settings
+advancement revoke @s only blobs:settings/data_management
 advancement revoke @s only blobs:new_player
 
 scoreboard players reset @s spawn
 scoreboard players reset @s blob
 scoreboard players reset @s debug
 scoreboard players reset @s home
-scoreboard players reset @s exit
+scoreboard players reset @s ui
+scoreboard players reset @s music
 scoreboard players enable @s spawn
 scoreboard players enable @s blob
 scoreboard players enable @s debug
 scoreboard players enable @s home
-scoreboard players enable @s exit
+scoreboard players enable @s ui
+scoreboard players enable @s music
 
 tag @s remove Debug
 tag @s remove AFK

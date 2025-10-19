@@ -3,7 +3,7 @@ scoreboard players reset @s home
 scoreboard players enable @s blob
 scoreboard players enable @s home
 
-advancement revoke @s only blobs:home
+advancement revoke @s only blobs:settings/home
 
 tellraw @a[tag=debugSettingsThread] {text:"[BLOBS-SETTINGS] ",color:"dark_purple",bold:1b,extra:[{text:"A player just got beta'd",color:"gray",italic:1b,bold:0b}]}
 

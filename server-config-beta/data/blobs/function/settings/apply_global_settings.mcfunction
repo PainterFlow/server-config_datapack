@@ -1,4 +1,4 @@
-advancement revoke @s only blobs:global_apply_settings
+advancement revoke @s only blobs:settings/global_apply_settings
 
 execute if score @s blob matches 10001 as @s run function blobs:settings/global_modules/set_spawn
 execute if score @s blob matches 10002 as @s run function blobs:settings/global_modules/baby_mode

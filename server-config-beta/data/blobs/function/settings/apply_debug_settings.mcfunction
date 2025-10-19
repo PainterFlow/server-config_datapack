@@ -1,5 +1,5 @@
-advancement revoke @s only blobs:debug_apply
-advancement revoke @s only blobs:debug
+advancement revoke @s only blobs:settings/debug_apply
+advancement revoke @s only blobs:settings/debug
 
 execute as @s if score @s debug matches 10 run function blobs:settings/debug_modules/debug_all_threads
 execute as @s if score @s debug matches 11 run function blobs:settings/debug_modules/debug_main_thread

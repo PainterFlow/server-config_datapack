@@ -22,7 +22,7 @@ tellraw @a[tag=debugParsingThread] {text:"[BLOBS-PARSING] ",color:"dark_purple",
 scoreboard players reset @s debug
 scoreboard players enable @s debug
 
-advancement revoke @s only blobs:debug
-advancement revoke @s only blobs:debug_apply
+advancement revoke @s only blobs:settings/debug
+advancement revoke @s only blobs:settings/debug_apply
 
 function blobs:handlers/get_functions/get_debug_renderers
