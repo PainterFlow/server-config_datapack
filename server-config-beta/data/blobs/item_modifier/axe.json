@@ -17,9 +17,9 @@
         }
       ],
       "item_damage": {
-        "threshold": 3,
-        "base": 0,
-        "factor": 0.25
+        "threshold": 1,
+        "base": 1,
+        "factor": 100
       },
       "block_sound": "minecraft:block.heavy_core.place",
       "bypassed_by": "#minecraft:mace_smash"
