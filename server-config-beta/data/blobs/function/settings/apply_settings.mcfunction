@@ -1,5 +1,4 @@
-advancement revoke @s only blobs:get_settings
-advancement revoke @s only blobs:blob
+advancement revoke @s only blobs:settings/blob
 
 execute as @s if score @s blob matches 1001 run function blobs:settings/modules/fullbright
 execute as @s if score @s blob matches 1002 run function blobs:settings/modules/locator_bar

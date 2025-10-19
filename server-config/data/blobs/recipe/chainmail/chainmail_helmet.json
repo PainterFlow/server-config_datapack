@@ -1,9 +1,0 @@
-{
-    "type": "smithing_transform",
-    "base": "leather_helmet",
-    "template": "#stone_tool_materials",
-    "addition": "iron_nugget",
-    "result": {
-        "id": "chainmail_helmet"
-    }
-}

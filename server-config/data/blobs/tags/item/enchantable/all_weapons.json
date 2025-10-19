@@ -1,7 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "#blobs:enchantable/weapons",
-        "#blobs:enchantable/ranged"
-    ]
-}

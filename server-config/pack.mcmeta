@@ -1,8 +1,0 @@
-{
-	"pack": {
-		"pack_format": 82,
-		"min_format": [82,0],
-		"max_format": [88,0],
-		"description": "Server Config"
-	}
-}

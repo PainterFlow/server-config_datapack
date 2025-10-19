@@ -94,7 +94,7 @@
       },
       "action": {
         "type": "run_command",
-        "command": "trigger blob set 50"
+        "command": "trigger blob set 1"
       },
       "width": 100,
       "tooltip": {

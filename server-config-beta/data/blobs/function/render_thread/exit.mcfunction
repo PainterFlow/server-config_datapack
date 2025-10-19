@@ -1,5 +1,4 @@
 advancement revoke @s only blobs:blob
-advancement revoke @s only blobs:get_settings
 advancement revoke @s only blobs:debug
 advancement revoke @s only blobs:home
 advancement revoke @s only blobs:exit

@@ -10,6 +10,6 @@
     ]
   ],
   "rewards": {
-    "function": "blobs:handlers/first_join"
+    "function": "blobs:handlers/join"
   }
 }

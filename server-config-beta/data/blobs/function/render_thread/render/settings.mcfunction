@@ -112,16 +112,14 @@ $dialog show @s {\
             "type": "object"\
           },\
           {\
-            "text": " Homes on Locator Bar",\
-            "color": "red",\
-            "strikethrough": true\
+            "text": " Homes are $(show_homes_on_locator_bar) on your locator bar",\
+            "color": "yellow"\
           }\
-        ],\
-        "color": "dark_gray"\
+        ]\
       },\
       "tooltip": {\
-        "text": "In Development",\
-        "color": "dark_purple",\
+        "text": "Show your Home on your locator bar!",\
+        "color": "gray",\
         "italic": true\
       },\
       "width": 125,\
@@ -135,11 +133,6 @@ $dialog show @s {\
         "text": "----------Back----------",\
         "color": "dark_gray"\
       },\
-      "tooltip": {\
-        "text": "",\
-        "color": "gray",\
-        "italic": true\
-      },\
       "width": 125,\
       "action": {\
         "type": "minecraft:run_command",\
@@ -150,11 +143,6 @@ $dialog show @s {\
       "label": {\
         "text": "----------Back----------",\
         "color": "dark_gray"\
-      },\
-      "tooltip": {\
-        "text": "",\
-        "color": "gray",\
-        "italic": true\
       },\
       "width": 125,\
       "action": {\
@@ -167,13 +155,60 @@ $dialog show @s {\
         "text": "",\
         "extra": [\
           {\
+            "sprite": "minecraft:item/paper"\
+          },\
+          {\
+            "text": " UI",\
+            "color": "white"\
+          }\
+        ]\
+      },\
+      "tooltip": {\
+        "text": "Configure custom\nHUD & UI elements",\
+        "color": "gray",\
+        "italic": true\
+      },\
+      "width": 125,\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "trigger ui set 1"\
+      }\
+    },\
+    {\
+      "label": {\
+        "text": "",\
+        "extra": [\
+          {\
+            "sprite": "minecraft:item/music_disc_otherside"\
+          },\
+          {\
+            "text": " Music",\
+            "color": "gold"\
+          }\
+        ]\
+      },\
+      "tooltip": {\
+        "text": "Background Music etc.",\
+        "color": "gray",\
+        "italic": true\
+      },\
+      "width": 125,\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "trigger music set 1"\
+      }\
+    },\
+    {\
+      "label": {\
+        "text": "",\
+        "extra": [\
+          {\
             "sprite": "minecraft:block/lodestone_side",\
             "type": "object"\
           },\
           {\
-            "text": " Home Menu",\
-            "color": "red",\
-            "strikethrough": true\
+            "text": " Homes",\
+            "color": "dark_green"\
           }\
         ]\
       },\

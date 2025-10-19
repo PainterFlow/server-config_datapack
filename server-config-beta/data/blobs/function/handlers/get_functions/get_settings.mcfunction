@@ -2,7 +2,6 @@ scoreboard players reset @s blob
 scoreboard players enable @s blob
 
 advancement revoke @s only blobs:blob
-advancement revoke @s only blobs:get_settings
 
 function blobs:render_thread/render/settings with entity @s data.render_data.setting_modules
 
