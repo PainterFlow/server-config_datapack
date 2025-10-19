@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "spawn": {
+    "apply": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -8,7 +8,10 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "spawn": 1
+              "ui": {
+                "min": 1000,
+                "max": 9999
+              }
             }
           }
         ]
@@ -17,10 +20,10 @@
   },
   "requirements": [
     [
-      "spawn"
+      "apply"
     ]
   ],
   "rewards": {
-    "function": "blobs:custom_cmd/spawn/spawn"
+    "function": "blobs:settings/apply_ui_settings"
   }
 }

@@ -1,5 +1,6 @@
-execute if entity @e[type=marker,tag=Spawn] as @n[tag=Spawn,type=marker] run tp @s ~ ~ ~
-execute unless entity @e[type=marker,tag=Spawn] as @s run summon marker ~ ~ ~ {Tags:[Spawn]}
+execute store result entity @n[tag=Global_Storage] data.warps.spawn.x double 1 run data get entity @s Pos[0]
+execute store result entity @n[tag=Global_Storage] data.warps.spawn.y double 1 run data get entity @s Pos[1]
+execute store result entity @n[tag=Global_Storage] data.warps.spawn.z double 1 run data get entity @s Pos[2]
 
 tellraw @a[tag=debugSettingsThread] {text:"[BLOBS-SETTINGS-GLOBAL] ",color:"dark_purple",bold:1b,extra:[{text:"Moved Spawn",color:"gray",italic:1b,bold:0b}]}
 

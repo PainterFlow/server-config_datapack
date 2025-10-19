@@ -3,8 +3,8 @@ scoreboard players enable @s debug
 scoreboard players reset @s blob
 scoreboard players enable @s blob
 
-advancement revoke @s only blobs:blob
-advancement revoke @s only blobs:debug
+advancement revoke @s only blobs:settings/blob
+advancement revoke @s only blobs:settings/debug
 
 execute as @s run function blobs:render_thread/render/debug with entity @s data.render_data.debug
 

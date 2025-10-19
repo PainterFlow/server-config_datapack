@@ -8,7 +8,12 @@ data modify entity @n[tag=Global_Storage,type=mannequin] data merge value {\
     blob: 1b,\
     version: 3,\
     secondary_version: 2,\
-    features: {\
+    warps: {\
+        spawn: {\
+            x: 0,\
+            y: 0,\
+            z: 0\
+        }\
     },\
     setting_modules: {\
         baby_mode: 0b,\

@@ -3,4 +3,4 @@ scoreboard players enable @s spawn
 
 advancement revoke @s only blobs:spawn
 
-tp @s @n[tag=Spawn]
+function blobs:custom_cmd/spawn/tp with entity @n[tag=Global_Storage] data.warps.spawn
