@@ -1,7 +1,7 @@
 advancement revoke @s only blobs:settings/blob
 advancement revoke @s only blobs:settings/debug
 advancement revoke @s only blobs:settings/home
-advancement revoke @s only blobs:settings/exit
+advancement revoke @s only blobs:exit
 advancement revoke @s only blobs:settings/data_management
 
 dialog show @s blobs:blob/main

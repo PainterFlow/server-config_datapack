@@ -73,4 +73,15 @@ scoreboard objectives add debugCustomFeaturesThread dummy
 
 
 
+## <== Other ==>
+
+tellraw @a[tag=debugMainThread] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Installed Datapack",color:"gray",italic:1b,bold:0b}]}
+
+# <-- Load Chunks -->
+
 forceload add 0 0 0 0
+
+## <== Run Functions ==>
+
+function blobs:__main/global_storage
+function blobs:__main/__register_default

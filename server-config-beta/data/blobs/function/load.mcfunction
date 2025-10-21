@@ -1,6 +1,5 @@
-execute unless entity @e[tag=Global_Storage] run function blobs:data_management/global_storage
-function blobs:install
-
+execute if entity @e[tag=Global_Storage] run function blobs:__main/load_reload
+execute unless entity @e[tag=Global_Storage] run function blobs:__main/first_install
 
 ## <== Update & Other ==>
 

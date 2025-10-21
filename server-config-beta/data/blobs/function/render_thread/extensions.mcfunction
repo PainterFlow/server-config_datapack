@@ -1,0 +1,1 @@
+function blobs:render_thread/render/extensions with entity @n[tag=Global_Storage] data.render_data
