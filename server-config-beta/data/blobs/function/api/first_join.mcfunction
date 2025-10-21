@@ -5,8 +5,6 @@ scoreboard players enable @s home
 
 tellraw @a[tag=debugAPI_Thread] {text:"[BLOBS-API] ",color:"dark_purple",bold:1b,extra:[{text:"First Join",color:"gray",italic:1b,bold:0b}]}
 
-execute if entity @n[tag=Spawn] run tp @s @n[tag=Spawn]
-
 data modify entity @s data merge value {\
     blob: 1b,\
     version: 3,\

@@ -1,3 +1,4 @@
+forceload add 0 0 0 0
 execute if entity @e[tag=Global_Storage] run function blobs:__main/load_reload
 execute unless entity @e[tag=Global_Storage] run function blobs:__main/first_install
 
