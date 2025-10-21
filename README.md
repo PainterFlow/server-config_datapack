@@ -1,11 +1,14 @@
 # server-config
 > [!NOTE]
 > **Directories:**
-> - server-config V1.2.4 (*datapack, releases*)
+> - _releases
 > - server-resourcepack V1././ (*resourcepack, releases, beta*)
 > - server-config-beta V0.2.5 (*datapack, beta*)
 Custom Server Configurations for my Private Server!
 
-> [!IMPORTANT]
-> **Requirements:**
-> - [Villagerconfig](https://modrinth.com/mod/villagerconfig) (*optional*)
+> [!NOTE]
+> **plans**
+> - join, first join, leave detection
+> - items click detections(w. 1.21.11)
+> - load and first load detection, also uninstall function
+> - addon manager
