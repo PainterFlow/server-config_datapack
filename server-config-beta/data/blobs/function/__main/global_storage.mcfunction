@@ -2,7 +2,7 @@ summon mannequin 0 0 0 {Tags:[Global_Storage],Invulnerable:1b,immovable:1b,NoGra
 
 tellraw @a[tag=debugMainThread] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"New Global Storage",color:"gray",italic:1b,bold:0b}]}
 
-data modify entity @n[tag=Global_Storage] data merge value {\
+execute as @e[tag=Global_Storage] run data modify entity @s data merge value {\
     blob: 1b,\
     version: 3,\
     secondary_version: 2,\

@@ -11,15 +11,14 @@ team modify afk prefix {text:"AFK ",color:"aqua",extra:[{text:"| ",color:"dark_g
 
 ## <== Scoreboards ==>
 
-
 # <-- Essential Scoreboards -->
 
 scoreboard objectives add extensionCount dummy
 
-# <-- Triggers -->
-
 scoreboard objectives add blob trigger
 scoreboard players enable @a blob
+
+# <-- Triggers -->
 
 scoreboard objectives add debug trigger
 scoreboard players enable @a debug
