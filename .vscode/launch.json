@@ -4,11 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "commandcrafter",
             "request": "launch",
-            "name": "Minecraft Debugger",
+            "name": "blobs:__main/global_storage.mcfunction",
+            "function": "blobs:global_storage",
+            "stopOnEntry": false,
             "suspendServer": true
         }
     ]
