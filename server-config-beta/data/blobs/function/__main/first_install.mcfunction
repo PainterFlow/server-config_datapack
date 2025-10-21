@@ -79,5 +79,7 @@ tellraw @a[tag=debugMainThread] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1
 
 ## <== Run Functions ==>
 
+#@debug
+
 function blobs:__main/global_storage
 function blobs:__main/__register_default

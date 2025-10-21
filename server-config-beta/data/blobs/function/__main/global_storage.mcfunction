@@ -1,7 +1,9 @@
+#@debug
 summon mannequin 0 0 0 {Tags:[Global_Storage],Invulnerable:1b,immovable:1b,NoGravity:1b,Silent:1b,active_effects:[{id:"invisibility",ambient:0b,amplifier:255,duration:-1,show_icon:0b,show_particles:0b}]}
 
 tellraw @a[tag=debugMainThread] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"New Global Storage",color:"gray",italic:1b,bold:0b}]}
 
+#@debug
 execute as @e[tag=Global_Storage] run data modify entity @s data merge value {\
     blob: 1b,\
     version: 3,\
