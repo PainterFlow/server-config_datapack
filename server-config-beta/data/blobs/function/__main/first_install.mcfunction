@@ -14,6 +14,10 @@ team modify afk prefix {text:"AFK ",color:"aqua",extra:[{text:"| ",color:"dark_g
 
 # <-- Essential Scoreboards -->
 
+scoreboard objectives add extensionCount dummy
+
+# <-- Triggers -->
+
 scoreboard objectives add blob trigger
 scoreboard players enable @a blob
 
@@ -31,9 +35,6 @@ scoreboard players enable @a ui
 
 scoreboard objectives add music trigger
 scoreboard players enable @a music
-
-scoreboard objectives add render_thread trigger
-scoreboard players enable @a render_thread
 
 # <-- Player Settings Scoreboard -->
 

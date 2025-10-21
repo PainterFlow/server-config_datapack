@@ -2,9 +2,8 @@ scoreboard players enable @s blob
 scoreboard players enable @s spawn
 scoreboard players enable @s debug
 scoreboard players enable @s home
-scoreboard players enable @s render_thread
 
-tellraw @a[tag=debugHandlerThread] {text:"[BLOBS-HANDLERS] ",color:"dark_purple",bold:1b,extra:[{text:"New Player Joined the Game",color:"gray",italic:1b,bold:0b}]}
+tellraw @a[tag=debugAPI_Thread] {text:"[BLOBS-API] ",color:"dark_purple",bold:1b,extra:[{text:"First Join",color:"gray",italic:1b,bold:0b}]}
 
 execute if entity @n[tag=Spawn] run tp @s @n[tag=Spawn]
 

@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "",
+    "extra": [
+      {
+        "sprite": "minecraft:block/allium",
+        "type": "object"
+      },
+      {
+        "text": " Blob",
+        "color": "light_purple"
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "This is the Main Extension",
+        "extra": [
+          {
+            "text": "\nIt enables the Normal Features"
+          },
+          {
+            "text": "\nBut also provides the API"
+          },
+          {
+            "text": "\nSo it cannot be disabled!"
+          },
+          {
+            "text": "\n\nV 1.0.0\nCredits:\nOC - PainterFlow11",
+            "color": "light_purple"
+          }
+        ]
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "action": {
+    "label": {
+      "text": "Back"
+    },
+    "width": 100,
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger blob set 30"
+    }
+  }
+}

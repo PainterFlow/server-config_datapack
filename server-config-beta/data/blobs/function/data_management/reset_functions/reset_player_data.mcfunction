@@ -3,7 +3,8 @@ advancement revoke @s only blobs:settings/blob
 advancement revoke @s only blobs:spawn
 advancement revoke @s only blobs:settings/global_apply_settings
 advancement revoke @s only blobs:settings/data_management
-advancement revoke @s only blobs:new_player
+advancement revoke @s only blobs:api/join_detection
+advancement revoke @s only blobs:api/first_join_detection
 
 scoreboard players reset @s spawn
 scoreboard players reset @s blob

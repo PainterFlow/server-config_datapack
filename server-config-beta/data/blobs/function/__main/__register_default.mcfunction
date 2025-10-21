@@ -37,4 +37,6 @@ data modify entity @n[tag=_Blob] data merge value {\
     }\
 }
 
+tellraw @a[tag=debugMainThread] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Registered Datapack",color:"gray",italic:1b,bold:0b}]}
+
 function blobs:__main/register_extension with entity @n[tag=_Blob] data.extension

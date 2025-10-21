@@ -1,0 +1,1 @@
+tellraw @a {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"loaded",color:"gray",italic:1b,bold:0b}]}
