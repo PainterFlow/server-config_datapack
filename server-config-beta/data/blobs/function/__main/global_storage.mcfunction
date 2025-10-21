@@ -6,7 +6,7 @@ data modify entity @n[tag=Global_Storage,type=mannequin] data merge value {\
     blob: 1b,\
     version: 3,\
     secondary_version: 2,\
-    namespaces: {},\
+    namespaces: [],\
     warps: {\
         spawn: {\
             x: 0,\
@@ -20,8 +20,7 @@ data modify entity @n[tag=Global_Storage,type=mannequin] data merge value {\
         pvp: 1b\
     },\
     render_data: {\
-        extensions: [\
-        ],\
+        extensions: [],\
         setting_modules: {\
             baby_mode: "Disabled",\
             disable_player_interactions: "Enabled",\
