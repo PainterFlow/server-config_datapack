@@ -6,7 +6,7 @@
 > - server-config-beta V0.2.5 (*datapack, beta*)
 
 > [!NOTE]
-> **plans**
+> **Plans:**
 > - join, first join, leave detection
 > - items click detections(w. 1.21.11)
 > - load and first load detection, also uninstall function
