@@ -4,7 +4,6 @@
 > - _releases
 > - server-resourcepack V1././ (*resourcepack, releases, beta*)
 > - server-config-beta V0.2.5 (*datapack, beta*)
-Custom Server Configurations for my Private Server!
 
 > [!NOTE]
 > **plans**
