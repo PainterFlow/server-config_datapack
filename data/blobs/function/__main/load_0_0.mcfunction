@@ -4,4 +4,4 @@ effect give @s fire_resistance 1000 255 true
 effect give @s water_breathing 1000 255 true
 effect give @s blindness 60 255 true
 
-execute unless predicate _ run scoreboard players set #tp firstPlayerJoins 1
+execute unless predicate blobs:__main/spawn_check run scoreboard players set #tp firstPlayerJoins 1
