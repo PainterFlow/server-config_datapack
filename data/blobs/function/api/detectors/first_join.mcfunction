@@ -1,7 +1,12 @@
+execute if score #_ firstPlayerJoins matches 0 run function blobs:__main/load_0_0
+
 scoreboard players enable @s blob
 scoreboard players enable @s spawn
 scoreboard players enable @s debug
 scoreboard players enable @s home
+
+scoreboard players set #_ firstPlayerJoins 1
+
 
 tellraw @a[tag=debugAPI_Thread] {text:"[BLOBS-API] ",color:"dark_purple",bold:1b,extra:[{text:"First Join",color:"gray",italic:1b,bold:0b}]}
 

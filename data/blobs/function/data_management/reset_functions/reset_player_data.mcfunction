@@ -38,8 +38,8 @@ advancement revoke @s only blobs:settings/data_management
 
 # <-- API -->
 
-advancement revoke @s only blobs:api/first_join_detection
-advancement revoke @s only blobs:api/join_detection
+advancement revoke @s only blobs:api/detectors/first_join_detection
+advancement revoke @s only blobs:api/detectors/join_detection
 
 
 ## <== Tags ==>
