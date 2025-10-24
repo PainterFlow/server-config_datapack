@@ -1,0 +1,25 @@
+{
+    "has_precipitation": false,
+    "temperature": 1.0,
+    "temperature_modifier": "none",
+    "downfall": 0.4,
+    "effects": {
+        "sky_color": 8103167,
+        "fog_color": 8103167,
+        "water_color": 6141935,
+        "dry_foliage_color": 5344545,
+        "foliage_color": 5618513,
+        "grass_color": 5618513,
+        "grass_color_modifier": "none",
+        "water_fog_color": 6141935
+    },
+    "carvers": [],
+    "features": [
+        [
+            "blobs:legendary_oak_tree"
+        ]
+    ],
+    "spawners": {},
+    "spawn_costs": {},
+    "creature_spawn_probability": 0
+}

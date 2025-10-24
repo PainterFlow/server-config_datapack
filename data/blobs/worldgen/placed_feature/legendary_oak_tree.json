@@ -1,0 +1,19 @@
+{
+    "feature": "blobs:legendary_oak_tree",
+    "placement": [
+        {
+            "type": "rarity_filter",
+            "chance": 20
+        },
+        {
+            "type": "in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "biome"
+        }
+    ]
+}
