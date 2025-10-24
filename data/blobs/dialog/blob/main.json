@@ -119,11 +119,11 @@
       },
       "action": {
         "type": "run_command",
-        "command": "function blobs:handlers/get_functions/get_global_settings"
+        "command": "trigger blob set -100"
       },
       "width": 100,
       "tooltip": {
-        "text": "Server Settings, requires Staff",
+        "text": "Global Settings",
         "color": "gray",
         "italic": true
       }

@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "ui": 1
+              "blob": -100
             }
           }
         ]
@@ -21,6 +21,6 @@
     ]
   ],
   "rewards": {
-    "function": "blobs:handlers/get_functions/get_ui_settings"
+    "function": "blobs:handlers/get_functions/get_global_settings"
   }
 }

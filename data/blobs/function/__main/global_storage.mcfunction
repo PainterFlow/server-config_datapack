@@ -15,16 +15,10 @@ execute as @e[tag=Global_Storage] run data modify entity @s data merge value {\
         }\
     },\
     setting_modules: {\
-        baby_mode: 0b,\
-        disable_player_interactions: 0b,\
-        pvp: 1b\
     },\
     render_data: {\
         extensions: [],\
         setting_modules: {\
-            baby_mode: "Disabled",\
-            disable_player_interactions: "Enabled",\
-            pvp: "Enabled"\
         }\
     }\
 }

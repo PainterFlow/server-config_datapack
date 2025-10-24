@@ -3,15 +3,9 @@
 scoreboard players reset @s spawn
 scoreboard players reset @s blob
 scoreboard players reset @s debug
-scoreboard players reset @s home
-scoreboard players reset @s ui
-scoreboard players reset @s music
 scoreboard players enable @s spawn
 scoreboard players enable @s blob
 scoreboard players enable @s debug
-scoreboard players enable @s home
-scoreboard players enable @s ui
-scoreboard players enable @s music
 
 
 ## <== Advancements ==>
@@ -25,14 +19,12 @@ advancement revoke @s only blobs:extensions
 # <-- settings -->
 
 advancement revoke @s only blobs:settings/apply_settings
-advancement revoke @s only blobs:settings/apply_ui
 advancement revoke @s only blobs:settings/debug_apply
 advancement revoke @s only blobs:settings/global_apply_settings
 
 advancement revoke @s only blobs:settings/blob
 advancement revoke @s only blobs:settings/debug
-advancement revoke @s only blobs:settings/home
-advancement revoke @s only blobs:settings/ui
+advancement revoke @s only blobs:settings/global_settings
 
 advancement revoke @s only blobs:settings/data_management
 

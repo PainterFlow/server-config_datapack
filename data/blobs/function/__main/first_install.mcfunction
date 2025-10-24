@@ -29,28 +29,15 @@ scoreboard players enable @a debug
 scoreboard objectives add spawn trigger
 scoreboard players enable @a spawn
 
-scoreboard objectives add home trigger
-scoreboard players enable @a home
-
-scoreboard objectives add ui trigger
-scoreboard players enable @a ui
-
-scoreboard objectives add music trigger
-scoreboard players enable @a music
-
 # <-- Player Settings Scoreboard -->
 
 scoreboard objectives add fullbright dummy
 scoreboard objectives add locator_bar dummy
 scoreboard objectives add afk dummy
-scoreboard objectives add showHomesOnLocatorBar dummy
 
 # <-- Global Settings Scoreboard -->
 
 scoreboard objectives add set_spawn dummy
-scoreboard objectives add baby_mode dummy
-scoreboard objectives add pvp dummy
-scoreboard objectives add disablePlayerInteractions dummy
 
 # <-- Debug Tags & Scoreboard -->
 

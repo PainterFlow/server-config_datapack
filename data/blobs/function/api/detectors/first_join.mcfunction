@@ -15,15 +15,6 @@ data modify entity @s data merge value {\
         fullbright: 0b,\
         locator_bar: 1b,\
         afk: 0b,\
-        show_homes_on_locator_bar: 0b\
-    },\
-    ui: {\
-        daycounter: 0b,\
-        weather: 0b,\
-        temperature: 0b,\
-        playtime: 0b,\
-        coords: 0b,\
-        compass: 1b\
     },\
     debug: {\
         debug_main_thread: 0b,\
@@ -41,15 +32,6 @@ data modify entity @s data merge value {\
             fullbright: "Off",\
             locator_bar: "visible",\
             afk: "Not AFK",\
-            show_homes_on_locator_bar: "hidden"\
-        },\
-        ui: {\
-            daycounter: "Hide",\
-            weather: "Hide",\
-            temperature: "Hide",\
-            playtime: "Hide",\
-            coords: "Hide",\
-            compass: "Show"\
         },\
         debug: {\
             debug_main_thread: "red",\

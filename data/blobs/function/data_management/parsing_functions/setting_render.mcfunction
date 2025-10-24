@@ -4,8 +4,6 @@ execute if data entity @s data.setting_modules{locator_bar:0b} run data modify e
 execute if data entity @s data.setting_modules{locator_bar:1b} run data modify entity @s data.render_data.setting_modules.locator_bar set value "hidden"
 execute if data entity @s data.setting_modules{afk:0b} run data modify entity @s data.render_data.setting_modules.afk set value "Not AFK"
 execute if data entity @s data.setting_modules{afk:1b} run data modify entity @s data.render_data.setting_modules.afk set value "AFK"
-execute if data entity @s data.setting_modules{show_homes_on_locator_bar:0b} run data modify entity @s data.render_data.setting_modules.show_homes_on_locator_bar set value "hidden"
-execute if data entity @s data.setting_modules{show_homes_on_locator_bar:1b} run data modify entity @s data.render_data.setting_modules.show_homes_on_locator_bar set value "visible"
 
 tellraw @a[tag=debugParsingThread] {text:"[BLOBS-PARSING] ",color:"dark_purple",bold:1b,extra:[{text:"Parsed Global Settings to Rendering Data",color:"gray",italic:1b,bold:0b}]}
 
