@@ -1,8 +1,6 @@
 scoreboard players reset @s blob
-scoreboard players reset @s spawn
 scoreboard players reset @s debug
 scoreboard players enable @s blob
-scoreboard players enable @s spawn
 scoreboard players enable @s debug
 
 advancement revoke @s only blobs:settings/blob

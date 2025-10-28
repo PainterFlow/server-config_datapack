@@ -1,7 +1,6 @@
 execute if score #_ firstPlayerJoins matches 0 run function blobs:__main/load_0_0
 
 scoreboard players enable @s blob
-scoreboard players enable @s spawn
 scoreboard players enable @s debug
 
 tellraw @a[tag=debugAPI_Thread] {text:"[BLOBS-API] ",color:"dark_purple",bold:1b,extra:[{text:"First Join",color:"gray",italic:1b,bold:0b}]}
@@ -11,9 +10,11 @@ data modify entity @s data merge value {\
     version: 3,\
     secondary_version: 2,\
     setting_modules: {\
-        fullbright: 0b,\
-        locator_bar: 1b,\
-        afk: 0b,\
+        ads: 0b,\
+        party_notifications: 1b,\
+        tower_reset_notifications: 1b,\
+        show_tower_reset_timer: 0b,\
+        mute_custom_sound_effects: 0b\
     },\
     debug: {\
         debug_main_thread: 0b,\

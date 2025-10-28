@@ -1,11 +1,13 @@
 {
     "type": "blobs:tower_dim",
     "generator": {
-        "type": "minecraft:noise",
-        "biome_source": {
-            "type": "fixed",
-            "biome": "blobs:tower_dim"
-        },
-        "settings": "blobs:tower_dim"
+        "type": "minecraft:flat",
+        "settings": {
+            "layers": [],
+            "biome": "blobs:tower_dim",
+            "lakes": false,
+            "features": false,
+            "structure_overrides": []
+        }
     }
 }

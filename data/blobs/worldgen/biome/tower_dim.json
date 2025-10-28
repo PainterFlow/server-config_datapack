@@ -14,11 +14,7 @@
         "water_fog_color": 6141935
     },
     "carvers": [],
-    "features": [
-        [
-            "blobs:legendary_oak_tree"
-        ]
-    ],
+    "features": [],
     "spawners": {},
     "spawn_costs": {},
     "creature_spawn_probability": 0

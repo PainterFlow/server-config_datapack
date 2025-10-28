@@ -1,9 +1,0 @@
-execute as @e if items entity @s player.cursor potion run item modify entity @s player.cursor blobs:potions
-execute as @e if items entity @s weapon.mainhand potion run item modify entity @s weapon.mainhand blobs:potions
-execute as @e if items entity @s weapon.offhand potion run item modify entity @s weapon.offhand blobs:potions
-execute as @e if items entity @s player.cursor splash_potion run item modify entity @s player.cursor blobs:splash_potions
-execute as @e if items entity @s weapon.mainhand splash_potion run item modify entity @s weapon.mainhand blobs:splash_potions
-execute as @e if items entity @s weapon.offhand splash_potion run item modify entity @s weapon.offhand blobs:splash_potions
-execute as @e if items entity @s player.cursor lingering_potion run item modify entity @s player.cursor blobs:lingering_potions
-execute as @e if items entity @s weapon.mainhand lingering_potion run item modify entity @s weapon.mainhand blobs:lingering_potions
-execute as @e if items entity @s weapon.offhand lingering_potion run item modify entity @s weapon.offhand blobs:lingering_potions

@@ -1,14 +1,5 @@
 ## <== Tags & Teams ==>
 
-tag add add AFK
-team add afk
-team modify afk collisionRule never
-team modify afk deathMessageVisibility always
-team modify afk color aqua
-team modify afk nametagVisibility never
-team modify afk prefix {text:"AFK ",color:"aqua",extra:[{text:"| ",color:"dark_gray"}]}
-
-
 ## <== Scoreboards ==>
 
 # <-- Essential Scoreboards -->
@@ -26,18 +17,23 @@ scoreboard players enable @a blob
 scoreboard objectives add debug trigger
 scoreboard players enable @a debug
 
-scoreboard objectives add spawn trigger
-scoreboard players enable @a spawn
-
 # <-- Player Settings Scoreboard -->
 
-scoreboard objectives add fullbright dummy
-scoreboard objectives add locator_bar dummy
-scoreboard objectives add afk dummy
+scoreboard objectives add user_Ads dummy
+scoreboard objectives add user_PartyNotifications dummy
+scoreboard objectives add user_ResetNotifications dummy
+scoreboard objectives add user_ShowTowerResetTimer dummy
+scoreboard objectives add user_MuteCustomSoundEffects dummy
 
 # <-- Global Settings Scoreboard -->
 
-scoreboard objectives add set_spawn dummy
+scoreboard objectives add global_AllowParties dummy
+scoreboard objectives add global_PartyPermissions dummy
+scoreboard objectives add global_AfterJoining dummy
+scoreboard objectives add global_TowerLives dummy
+scoreboard objectives add global_AFKkicking dummy
+scoreboard objectives add global_TowerTimer dummy
+scoreboard objectives add global_MaxTowers dummy
 
 # <-- Debug Tags & Scoreboard -->
 
