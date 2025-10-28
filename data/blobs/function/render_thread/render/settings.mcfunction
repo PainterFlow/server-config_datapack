@@ -32,20 +32,14 @@ $dialog show @s {\
       "label": {\
         "text": "",\
         "extra": [\
+          "",\
           {\
-            "sprite": "minecraft:item/ender_eye",\
-            "type": "object"\
+            "translate": "blobs.user_settings.party_notifications"\
           },\
           {\
-            "text": " Fullbright: $(fullbright)",\
-            "color": "yellow"\
+            "translate": " $(party_notifications)"\
           }\
         ]\
-      },\
-      "tooltip": {\
-        "text": "Toggles Permanent Night Vision",\
-        "color": "gray",\
-        "italic": true\
       },\
       "width": 125,\
       "action": {\
@@ -58,19 +52,12 @@ $dialog show @s {\
         "text": "",\
         "extra": [\
           {\
-            "sprite": "minecraft:item/white_harness",\
-            "type": "object"\
+            "translate": "blobs.user_settings.tower_reset_notifications"\
           },\
           {\
-            "text": " You are $(locator_bar) on the locator bar",\
-            "color": "aqua"\
+            "text": " $(tower_reset_notifications)"\
           }\
         ]\
-      },\
-      "tooltip": {\
-        "text": "If this is off,\nother players will be unable to see you\non their Locator Bar,\nbut you can see them...",\
-        "color": "gray",\
-        "italic": true\
       },\
       "width": 125,\
       "action": {\
@@ -83,19 +70,12 @@ $dialog show @s {\
         "text": "",\
         "extra": [\
           {\
-            "sprite": "minecraft:item/cookie",\
-            "type": "object"\
+            "translate": "blobs.user_settings.tower_reset_timer"\
           },\
           {\
-            "text": " $(afk)",\
-            "color": "aqua"\
+            "text": " $(tower_reset_timer)"\
           }\
         ]\
-      },\
-      "tooltip": {\
-        "text": "This will not make you immortal,\nhowever you are not allowed to be killed.\nDo not abuse this!",\
-        "color": "gray",\
-        "italic": true\
       },\
       "width": 125,\
       "action": {\
@@ -108,12 +88,47 @@ $dialog show @s {\
         "text": "",\
         "extra": [\
           {\
+            "translate": "blobs.user_settings.custom_sound_effects"\
+          },\
+          {\
+            "text": " $(custom_sound_effects)"\
+          }\
+        ]\
+      },\
+      "width": 125,\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "trigger blob set 1004"\
+      }\
+    },\
+    {\
+      "label": {\
+        "text": "",\
+        "extra": [\
+          {\
+            "translate": "blobs.user_settings.ads"\
+          },\
+          {\
+            "text": " $(ads)"\
+          }\
+        ]\
+      },\
+      "width": 125,\
+      "action": {\
+        "type": "minecraft:run_command",\
+        "command": "trigger blob set 1005"\
+      }\
+    },\
+    {\
+      "label": {\
+        "text": "",\
+        "extra": [\
+          {\
             "sprite": "minecraft:block/structure_block",\
             "type": "object"\
           },\
           {\
-            "text": " Debug Menu",\
-            "color": "light_purple"\
+            "translate": "blobs.debug_menu.title"\
           }\
         ]\
       },\

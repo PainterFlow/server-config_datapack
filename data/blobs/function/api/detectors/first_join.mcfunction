@@ -14,7 +14,7 @@ data modify entity @s data merge value {\
         party_notifications: 1b,\
         tower_reset_notifications: 1b,\
         show_tower_reset_timer: 0b,\
-        mute_custom_sound_effects: 0b\
+        custom_sound_effects: 1b\
     },\
     debug: {\
         debug_main_thread: 0b,\
@@ -29,9 +29,11 @@ data modify entity @s data merge value {\
     },\
     render_data: {\
         setting_modules: {\
-            fullbright: "Off",\
-            locator_bar: "visible",\
-            afk: "Not AFK",\
+            ads: "Off",\
+            party_notifications: "On",\
+            tower_reset_notifications: "On",\
+            show_tower_reset_timer: "Hide",\
+            custom_sound_effects: "On"\
         },\
         debug: {\
             debug_main_thread: "red",\
