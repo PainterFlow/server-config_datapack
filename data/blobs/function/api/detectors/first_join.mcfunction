@@ -9,7 +9,7 @@ data modify entity @s data merge value {\
     blob: 1b,\
     version: 3,\
     secondary_version: 2,\
-    setting_modules: {\
+    settings: {\
         ads: 0b,\
         party_notifications: 1b,\
         tower_reset_notifications: 1b,\
@@ -28,12 +28,12 @@ data modify entity @s data merge value {\
         debug_custom_features_thread: 0b\
     },\
     render_data: {\
-        setting_modules: {\
-            ads: "Off",\
-            party_notifications: "On",\
-            tower_reset_notifications: "On",\
-            show_tower_reset_timer: "Hide",\
-            custom_sound_effects: "On"\
+        settings: {\
+            ads: "blobs.dialogs.inputs.hide",\
+            party_notifications: "blobs.dialogs.inputs.true",\
+            tower_reset_notifications: "blobs.dialogs.inputs.true",\
+            show_tower_reset_timer: "blobs.dialogs.inputs.hide",\
+            custom_sound_effects: "blobs.dialogs.inputs.true"\
         },\
         debug: {\
             debug_main_thread: "red",\

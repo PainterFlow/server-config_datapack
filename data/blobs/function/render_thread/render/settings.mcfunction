@@ -8,9 +8,7 @@ $dialog show @s {\
         "type": "object"\
       },\
       {\
-        "text": " Settings",\
-        "color": "gray",\
-        "underlined": false\
+        "translate": "blobs.dialogs.user_settings.title"\
       }\
     ]\
   },\
@@ -19,7 +17,7 @@ $dialog show @s {\
   "pause": false,\
   "exit_action": {\
     "label": {\
-      "text": "Back"\
+      "translate": "blobs.dialogs.labels.back"\
     },\
     "width": 100,\
     "action": {\
@@ -34,12 +32,17 @@ $dialog show @s {\
         "extra": [\
           "",\
           {\
-            "translate": "blobs.user_settings.party_notifications"\
+            "translate": "blobs.dialogs.user_settings.party_notifications"\
           },\
           {\
-            "translate": " $(party_notifications)"\
+            "translate": "$(party_notifications)"\
           }\
         ]\
+      },\
+      "tooltip": {\
+        "translate": "blobs.dialogs.user_settings.party_notifications.tooltip",\
+        "color": "gray",\
+        "italic": true\
       },\
       "width": 125,\
       "action": {\
@@ -52,12 +55,17 @@ $dialog show @s {\
         "text": "",\
         "extra": [\
           {\
-            "translate": "blobs.user_settings.tower_reset_notifications"\
+            "translate": "blobs.dialogs.user_settings.tower_reset_notifications"\
           },\
           {\
-            "text": " $(tower_reset_notifications)"\
+            "translate": "$(tower_reset_notifications)"\
           }\
         ]\
+      },\
+      "tooltip": {\
+        "translate": "blobs.dialogs.user_settings.party_notifications.tooltip",\
+        "color": "gray",\
+        "italic": true\
       },\
       "width": 125,\
       "action": {\
@@ -70,12 +78,17 @@ $dialog show @s {\
         "text": "",\
         "extra": [\
           {\
-            "translate": "blobs.user_settings.tower_reset_timer"\
+            "translate": "$(tower_reset_timer)"\
           },\
           {\
-            "text": " $(tower_reset_timer)"\
+            "translate": "blobs.dialogs.user_settings.tower_reset_timer"\
           }\
         ]\
+      },\
+      "tooltip": {\
+        "translate": "blobs.dialogs.user_settings.party_notifications.tooltip",\
+        "color": "gray",\
+        "italic": true\
       },\
       "width": 125,\
       "action": {\
@@ -88,12 +101,17 @@ $dialog show @s {\
         "text": "",\
         "extra": [\
           {\
-            "translate": "blobs.user_settings.custom_sound_effects"\
+            "translate": "blobs.dialogs.user_settings.custom_sound_effects"\
           },\
           {\
-            "text": " $(custom_sound_effects)"\
+            "translate": "$(custom_sound_effects)"\
           }\
         ]\
+      },\
+      "tooltip": {\
+        "translate": "blobs.dialogs.user_settings.party_notifications.tooltip",\
+        "color": "gray",\
+        "italic": true\
       },\
       "width": 125,\
       "action": {\
@@ -106,12 +124,17 @@ $dialog show @s {\
         "text": "",\
         "extra": [\
           {\
-            "translate": "blobs.user_settings.ads"\
+            "translate": "blobs.dialogs.user_settings.ads"\
           },\
           {\
-            "text": " $(ads)"\
+            "translate": "$(ads)"\
           }\
         ]\
+      },\
+      "tooltip": {\
+        "translate": "blobs.dialogs.user_settings.party_notifications.tooltip",\
+        "color": "gray",\
+        "italic": true\
       },\
       "width": 125,\
       "action": {\
@@ -128,13 +151,13 @@ $dialog show @s {\
             "type": "object"\
           },\
           {\
-            "translate": "blobs.debug_menu.title"\
+            "translate": "blobs.dialogs.debug_menu.title"\
           }\
         ]\
       },\
       "tooltip": {\
-        "text": "Debug Category, Devs Only",\
-        "color": "red",\
+        "translate": "blobs.dialogs.debug_menu.title.tooltip",\
+        "color": "dark_red",\
         "italic": true\
       },\
       "width": 125,\

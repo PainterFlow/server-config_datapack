@@ -6,6 +6,7 @@
 
 scoreboard objectives add extensionCount dummy
 scoreboard objectives add firstPlayerJoins dummy
+scoreboard objectives add input dummy
 
 scoreboard players set #_ firstPlayerJoins 0
 

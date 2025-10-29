@@ -1,0 +1,22 @@
+{
+    "blobs.dialogs.labels.back": "Back",
+    "blobs.dialogs.inputs.true": "On",
+    "blobs.dialogs.inputs.false": "Off",
+    "blobs.dialogs.inputs.muted": "Muted",
+    "blobs.dialogs.inputs.unmuted": "Unmuted",
+    "blobs.dialogs.inputs.hide": "Hide",
+    "blobs.dialogs.inputs.show": "Show",
+    "blobs.dialogs.inputs.hidden": "Hidden",
+    "blobs.dialogs.inputs.visible": "Visible",
+    "blobs.dialogs.user_settings.party_notifications": "Party Notifications: ",
+    "blobs.dialogs.user_settings.tower_reset_notifications": "Tower Reset Notifications: ",
+    "blobs.dialogs.user_settings.tower_reset_timer": "Tower Reset Timer ",
+    "blobs.dialogs.user_settings.custom_sound_effects": "Custom Sound Effects: ",
+    "blobs.dialogs.user_settings.ads": "Mini-Ads :3 ",
+    "blobs.dialogs.user_settings.party_notifications.tooltip": "Get notified when a Tower\nrun/party is starts!",
+    "blobs.dialogs.user_settings.tower_reset_notifications.tooltip": "Get notified when the Tower resets!",
+    "blobs.dialogs.user_settings.tower_reset_timer.tooltip": "Shows a Timer above your hotbar!",
+    "blobs.dialogs.user_settings.custom_sound_effects.tooltip": "Mute almost all the custom sounds!",
+    "blobs.dialogs.debug_menu.title": " Debug Menu",
+    "blobs.dialogs.debug_menu.title.tooltip": "Dangerous Area!"
+}
