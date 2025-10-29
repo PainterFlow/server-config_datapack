@@ -13,3 +13,4 @@ execute if score @s input matches 0 run data modify entity @s data.render_data.s
 scoreboard players reset @s input
 
 function blobs:settings/modules/user_modules/custom_sounds
+function blobs:handlers/get_functions/get_settings

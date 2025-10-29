@@ -1,4 +1,9 @@
 {
+    "blobs.version": "1.0.0 - No Snapshot",
+    "blobs.dialogs.main.title": "Blob",
+    "blobs.dialogs.main.external_title": "Settings & Wiki",
+    "blobs.dialogs.main.fix_data": " Fix/Update Data",
+    "blobs.dialogs.main.fix_data.tooltip": "This will reset all your settings!",
     "blobs.dialogs.labels.back": "Back",
     "blobs.dialogs.inputs.true": "On",
     "blobs.dialogs.inputs.false": "Off",
@@ -17,6 +22,18 @@
     "blobs.dialogs.user_settings.tower_reset_notifications.tooltip": "Get notified when the Tower resets!",
     "blobs.dialogs.user_settings.tower_reset_timer.tooltip": "Shows a Timer above your hotbar!",
     "blobs.dialogs.user_settings.custom_sound_effects.tooltip": "Mute almost all the custom sounds!",
+    "blobs.dialogs.user_settings.title": " Settings",
+    "blobs.dialogs.user_settings.title.tooltip": "User Settings!",
+    "blobs.dialogs.global_settings.title": " Server Config",
+    "blobs.dialogs.global_settings.title.tooltip": "Requires /function permissions",
     "blobs.dialogs.debug_menu.title": " Debug Menu",
-    "blobs.dialogs.debug_menu.title.tooltip": "Dangerous Area!"
+    "blobs.dialogs.debug_menu.title.tooltip": "Dangerous Area!",
+    "blobs.dialogs.wiki.title": " Datapack Wiki",
+    "blobs.dialogs.wiki.title.tooltip": "Custom Wiki for the Datapack!\nIt can be a little bit behind sometimes.",
+    "blobs.dialogs.news.title": " News & Changelogs",
+    "blobs.dialogs.news.title.tooltip": "Newest News about the Datapack!",
+    "blobs.dialogs.support.title": " Support",
+    "blobs.dialogs.support.title.tooltip": " Help & FAQ",
+    "blobs.dialogs.extensions.title": " Extensions",
+    "blobs.dialogs.extensions.title.tooltip": "Manage and view other Datapacks,\nwhich support this Datapack."
 }

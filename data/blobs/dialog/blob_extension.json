@@ -17,16 +17,11 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "This is the Main Extension",
+        "text": "Main Extension",
         "extra": [
           {
-            "text": "\nIt enables the Normal Features"
-          },
-          {
-            "text": "\nBut also provides the API"
-          },
-          {
-            "text": "\nSo it cannot be disabled!"
+            "text": "\nCannot be disabled!",
+            "color": "red"
           },
           {
             "text": "\n\nV 1.0.0\nCredits:\nOC - PainterFlow11",
@@ -42,7 +37,7 @@
   "pause": false,
   "action": {
     "label": {
-      "text": "Back"
+      "translate": "blobs.dialogs.labels.back"
     },
     "width": 100,
     "action": {

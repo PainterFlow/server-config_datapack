@@ -1,19 +1,26 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Server Settings",
+  "title": {
+    "translate": "blobs.dialogs.main.title",
+    "fallback": "Resourcepack Languages didn't load!"
+  },
   "external_title": {
     "text": "",
     "extra": [
       {
-        "text": "Settings & Info",
+        "translate": "blobs.dialogs.external_title",
+        "fallback": "Click-Me | [ERROR]",
         "color": "light_purple"
       }
     ]
   },
   "body": [
     {
-      "type": "plain_message",
-      "contents": "Running V1.2.5"
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "blobs.version",
+        "fallback": "?.?.? - ????"
+      }
     },
     {
       "type": "item",
@@ -21,7 +28,7 @@
         "id": "minecraft:allium",
         "count": 1
       },
-      "description": "PainterFlow11",
+      "description": "By PainterFlow11",
       "width": 24,
       "show_tooltip": false,
       "show_decorations": false
@@ -36,7 +43,7 @@
             "sprite": "item/map"
           },
           {
-            "text": " News",
+            "translate": "blobs.dialogs.news.title",
             "color": "blue"
           }
         ],
@@ -48,7 +55,7 @@
       },
       "width": 100,
       "tooltip": {
-        "text": "Changelogs and News",
+        "translate": "blobs.dialogs.news.title.tooltip",
         "color": "gray",
         "italic": true
       }
@@ -61,7 +68,7 @@
             "sprite": "block/bookshelf"
           },
           {
-            "text": " Wiki",
+            "translate": "blobs.dialogs.wiki.title",
             "color": "dark_green"
           }
         ],
@@ -73,7 +80,7 @@
       },
       "width": 100,
       "tooltip": {
-        "text": "Wiki",
+        "translate": "blobs.dialogs.wiki.title.tooltip",
         "color": "gray",
         "italic": true
       }
@@ -86,7 +93,7 @@
             "type": "object"
           },
           {
-            "text": " Setting",
+            "translate": "blobs.dialogs.user_settings.title",
             "color": "dark_aqua"
           }
         ],
@@ -98,7 +105,7 @@
       },
       "width": 100,
       "tooltip": {
-        "text": "User Settings",
+        "translate": "blobs.dialogs.user_settings.title.tooltip",
         "color": "gray",
         "italic": true
       }
@@ -111,7 +118,7 @@
             "type": "object"
           },
           {
-            "text": " Global Settings",
+            "translate": "blobs.dialogs.global_settings.title",
             "color": "aqua"
           }
         ],
@@ -123,7 +130,7 @@
       },
       "width": 100,
       "tooltip": {
-        "text": "Global Settings",
+        "translate": "blobs.dialogs.global_settings.title.tooltip",
         "color": "gray",
         "italic": true
       }
@@ -136,7 +143,8 @@
             "sprite": "item/allay_spawn_egg"
           },
           {
-            "text": " Support",
+            "translate": "blobs.dialogs.support.title",
+            "fallback": "Fix Error",
             "color": "green"
           }
         ],
@@ -148,7 +156,8 @@
       },
       "width": 100,
       "tooltip": {
-        "text": "Help & FAQ",
+        "translate": "blobs.dialogs.support.title.tooltip",
+        "fallback": "Language Files didn't load!\nDid you have the correct version of the Resourcepack installed?",
         "color": "gray",
         "italic": true
       }
@@ -162,7 +171,7 @@
             "type": "object"
           },
           {
-            "text": " Extensions",
+            "translate": "",
             "color": "gold"
           }
         ]
@@ -171,7 +180,7 @@
         "text": "",
         "extra": [
           {
-            "text": "Manage Datapack Extensions",
+            "translate": "blobs.dialogs.extensions.title",
             "color": "gray",
             "italic": true
           }
@@ -191,7 +200,8 @@
             "type": "object"
           },
           {
-            "text": " Update/Fix Custom Player Data",
+            "translate": "blobs.dialogs.main.fix_data",
+            "fallback": "[RESET/FIX PLAYER DATA]",
             "color": "light_purple",
             "bold": true
           }
@@ -204,7 +214,8 @@
       },
       "width": 201,
       "tooltip": {
-        "text": "Resets ALL your settings",
+        "translate": "blobs.dialogs.main.fix_data.tooltip",
+        "fallback": "This won't Fix the Langauge Error!",
         "color": "red",
         "italic": true
       }

@@ -10,5 +10,5 @@
         }
     ],
     "can_close_with_escape": true,
-    "pause": true
+    "pause": false
 }
