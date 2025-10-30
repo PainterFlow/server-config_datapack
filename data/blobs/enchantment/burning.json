@@ -1,7 +1,7 @@
 {
   "anvil_cost": 8,
   "description": {
-    "translate": "blobs.enchantments.burninh"
+    "translate": "blobs.enchantments.burning"
   },
   "exclusive_set": "silk_touch",
   "max_cost": {
