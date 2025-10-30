@@ -1,0 +1,1 @@
+$tellraw @a[tag=$(tag)] {translate: "$(thread)",color:"light_purple",bold:1b,extra:[{translate:"$(msg)",bold:0b,color:"gray",italic:1b}]}

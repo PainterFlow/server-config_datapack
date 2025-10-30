@@ -10,4 +10,4 @@ advancement revoke @s only blobs:settings/apply_settings
 scoreboard players reset @s blob
 scoreboard players enable @s blob
 
-tellraw @a[tag=debugSettingsThread] {text:"[BLOBS-SETTINGS] ",color:"dark_purple",bold:1b,extra:[{text:"Setting Changed",color:"gray",italic:1b,bold:0b}]}
+function blobs:_debug/msgs/1_variable {tag:"debugSettingsThread",thread:"blobs.chat.debug.threads.settings",msg:"blobs.chat.debug.threads.settings.applying",variable1:"blobs.internal.dialogs.user_settings"}

@@ -1,0 +1,1 @@
+function blobs:_debug/msgs/1_variable {tag:"debugSettingsThread",thread:"blobs.chat.debug.threads.settings",msg:"blobs.chat.debug.threads.settings.run_all_modules",variable1:"blobs.internal.dialogs.user_settings"}
