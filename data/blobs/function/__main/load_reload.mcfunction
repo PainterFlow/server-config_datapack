@@ -1,1 +1,1 @@
-tellraw @a {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"loaded",color:"gray",italic:1b,bold:0b}]}
+function blobs:_debug/msgs/basic {tag:"debugMainThread",thread:"blobs.chat.debug.threads.main",msg:"blobs.chat.debug.threads.main.load"}
