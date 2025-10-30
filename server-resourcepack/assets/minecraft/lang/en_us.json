@@ -35,5 +35,6 @@
     "blobs.dialogs.support.title": " Support",
     "blobs.dialogs.support.title.tooltip": " Help & FAQ",
     "blobs.dialogs.extensions.title": " Extensions",
-    "blobs.dialogs.extensions.title.tooltip": "Manage and view other Datapacks,\nwhich support this Datapack."
+    "blobs.dialogs.extensions.title.tooltip": "Manage and view other Datapacks,\nwhich support this Datapack.",
+    "blobs.enchantments.burning": "Burning"
 }
