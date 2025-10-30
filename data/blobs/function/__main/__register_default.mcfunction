@@ -37,6 +37,6 @@ execute as @e[tag=_Blob] run data modify entity @s data merge value {\
     }\
 }
 
-tellraw @a[tag=debugMainThread] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Registered Datapack",color:"gray",italic:1b,bold:0b}]}
+function blobs:_debug/msgs/basic {tag:"debugMainThread",thread:"blobs.chat.debug.threads.main",msg:"blobs.chat.debug.threads.main.registered_dp"}
 
 function blobs:__main/register_extension with entity @n[tag=_Blob] data.extension
