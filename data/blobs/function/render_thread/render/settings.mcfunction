@@ -63,7 +63,7 @@ $dialog show @s {\
         ]\
       },\
       "tooltip": {\
-        "translate": "blobs.dialogs.user_settings.party_notifications.tooltip",\
+        "translate": "blobs.dialogs.user_settings.tower_reset_notifications.tooltip",\
         "color": "gray",\
         "italic": true\
       },\
@@ -86,7 +86,7 @@ $dialog show @s {\
         ]\
       },\
       "tooltip": {\
-        "translate": "blobs.dialogs.user_settings.party_notifications.tooltip",\
+        "translate": "blobs.dialogs.user_settings.tower_reset_timer.tooltip",\
         "color": "gray",\
         "italic": true\
       },\
@@ -109,7 +109,7 @@ $dialog show @s {\
         ]\
       },\
       "tooltip": {\
-        "translate": "blobs.dialogs.user_settings.party_notifications.tooltip",\
+        "translate": "blobs.dialogs.user_settings.custom_sound_effects.tooltip",\
         "color": "gray",\
         "italic": true\
       },\
@@ -132,7 +132,7 @@ $dialog show @s {\
         ]\
       },\
       "tooltip": {\
-        "translate": "blobs.dialogs.user_settings.party_notifications.tooltip",\
+        "translate": "blobs.dialogs.user_settings.ads.tooltip",\
         "color": "gray",\
         "italic": true\
       },\

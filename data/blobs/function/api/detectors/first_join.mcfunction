@@ -13,7 +13,7 @@ data modify entity @s data merge value {\
         ads: 0b,\
         party_notifications: 1b,\
         tower_reset_notifications: 1b,\
-        show_tower_reset_timer: 0b,\
+        tower_reset_timer: 0b,\
         custom_sound_effects: 1b\
     },\
     debug: {\
@@ -32,7 +32,7 @@ data modify entity @s data merge value {\
             ads: "blobs.dialogs.inputs.hide",\
             party_notifications: "blobs.dialogs.inputs.true",\
             tower_reset_notifications: "blobs.dialogs.inputs.true",\
-            show_tower_reset_timer: "blobs.dialogs.inputs.hide",\
+            tower_reset_timer: "blobs.dialogs.inputs.hide",\
             custom_sound_effects: "blobs.dialogs.inputs.true"\
         },\
         debug: {\
