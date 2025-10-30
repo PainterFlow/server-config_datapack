@@ -1,4 +1,0 @@
-function blobs:item_modifiers/trident
-function blobs:item_modifiers/potions
-function blobs:item_modifiers/axe
-function blobs:item_modifiers/_banned_items

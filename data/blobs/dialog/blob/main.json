@@ -8,9 +8,9 @@
     "text": "",
     "extra": [
       {
-        "translate": "blobs.dialogs.external_title",
+        "translate": "blobs.dialogs.main.external_title",
         "fallback": "Click-Me | [ERROR]",
-        "color": "light_purple"
+        "color": "gold"
       }
     ]
   },
@@ -171,7 +171,7 @@
             "type": "object"
           },
           {
-            "translate": "",
+            "translate": "blobs.dialogs.extensions.title",
             "color": "gold"
           }
         ]
@@ -180,7 +180,7 @@
         "text": "",
         "extra": [
           {
-            "translate": "blobs.dialogs.extensions.title",
+            "translate": "blobs.dialogs.extensions.title.tooltip",
             "color": "gray",
             "italic": true
           }
