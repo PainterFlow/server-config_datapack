@@ -10,7 +10,7 @@
       {
         "translate": "blobs.dialogs.main.external_title",
         "fallback": "Click-Me | [ERROR]",
-        "color": "gold"
+        "color": "light_purple"
       }
     ]
   },
