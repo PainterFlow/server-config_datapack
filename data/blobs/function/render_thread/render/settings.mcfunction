@@ -151,7 +151,8 @@ $dialog show @s {\
             "type": "object"\
           },\
           {\
-            "translate": "blobs.dialogs.debug_menu.title"\
+            "translate": "blobs.dialogs.debug_menu.title",\
+            "color": "light_purple"\
           }\
         ]\
       },\
