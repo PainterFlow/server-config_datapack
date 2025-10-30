@@ -50,7 +50,7 @@
     "blobs.internal.dialogs.global_settings": "Global Settings",
     "blobs.internal.dialogs.inputs.true": "1b",
     "blobs.internal.dialogs.inputs.false": "0b",
-    "blobs.internal.dialogs.extensions": "Extensions",
+    "blobs.internal.dialogs.extensions": " Extensions",
     "blobs.internal.debug.api.first_join": "first_join",
     "blobs.internal.debug.api.join": "join",
     "blobs.chat.debug.threads.main": "[BLOB-MAIN] ",
