@@ -78,10 +78,10 @@ $dialog show @s {\
         "text": "",\
         "extra": [\
           {\
-            "translate": "$(tower_reset_timer)"\
+            "translate": "blobs.dialogs.user_settings.tower_reset_timer"\
           },\
           {\
-            "translate": "blobs.dialogs.user_settings.tower_reset_timer"\
+            "translate": "$(tower_reset_timer)"\
           }\
         ]\
       },\
