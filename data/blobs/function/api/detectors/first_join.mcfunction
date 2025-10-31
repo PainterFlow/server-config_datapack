@@ -1,6 +1,12 @@
 execute if score #_ firstPlayerJoins matches 0 run function blobs:__main/load_0_0
 
 scoreboard players enable @s blob
+scoreboard players enable @a settings_user
+scoreboard players enable @a settings_privacy
+scoreboard players enable @a settings_appearance
+scoreboard players enable @a settings_accessibility
+scoreboard players enable @a settings_notifications
+scoreboard players enable @a settings_advanced
 
 data modify entity @s data merge value {\
     blob: 1b,\

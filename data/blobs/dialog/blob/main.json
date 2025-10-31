@@ -5,14 +5,9 @@
     "fallback": "Resourcepack Languages didn't load!"
   },
   "external_title": {
-    "text": "",
-    "extra": [
-      {
-        "translate": "blobs.dialogs.main.external_title",
-        "fallback": "Click-Me | [ERROR]",
-        "color": "light_purple"
-      }
-    ]
+      "translate": "blobs.dialogs.main.external_title",
+      "fallback": "Click-Me | [ERROR]",
+      "color": "light_purple"
   },
   "body": [
     {
@@ -37,17 +32,7 @@
   "actions": [
     {
       "label": {
-        "extra": [
-          {
-            "type": "object",
-            "sprite": "item/map"
-          },
-          {
-            "translate": "blobs.dialogs.news.title",
-            "color": "blue"
-          }
-        ],
-        "text": ""
+        "translate": "blobs.dialogs.news.title"
       },
       "action": {
         "type": "show_dialog",
@@ -62,17 +47,7 @@
     },
     {
       "label": {
-        "extra": [
-          {
-            "type": "object",
-            "sprite": "block/bookshelf"
-          },
-          {
-            "translate": "blobs.dialogs.wiki.title",
-            "color": "dark_green"
-          }
-        ],
-        "text": ""
+        "translate": "blobs.dialogs.wiki.title"
       },
       "action": {
         "type": "show_dialog",
@@ -87,17 +62,7 @@
     },
     {
       "label": {
-        "extra": [
-          {
-            "sprite": "minecraft:block/test_block_start",
-            "type": "object"
-          },
-          {
-            "translate": "blobs.dialogs.user_settings.title",
-            "color": "dark_aqua"
-          }
-        ],
-        "text": ""
+        "translate": "blobs.dialogs.user_settings.title"
       },
       "action": {
         "type": "run_command",
@@ -112,17 +77,7 @@
     },
     {
       "label": {
-        "extra": [
-          {
-            "sprite": "minecraft:item/command_block_minecart",
-            "type": "object"
-          },
-          {
-            "translate": "blobs.dialogs.global_settings.title",
-            "color": "aqua"
-          }
-        ],
-        "text": ""
+        "translate": "blobs.dialogs.global_settings.title"
       },
       "action": {
         "type": "run_command",
@@ -137,18 +92,8 @@
     },
     {
       "label": {
-        "extra": [
-          {
-            "type": "object",
-            "sprite": "item/allay_spawn_egg"
-          },
-          {
-            "translate": "blobs.dialogs.support.title",
-            "fallback": "Fix Error",
-            "color": "green"
-          }
-        ],
-        "text": ""
+        "translate": "blobs.dialogs.support.title",
+        "fallback": "Fix Error"
       },
       "action": {
         "type": "show_dialog",
@@ -164,60 +109,17 @@
     },
     {
       "label": {
-        "text": "",
-        "extra": [
-          {
-            "sprite": "minecraft:block/chiseled_bookshelf_occupied",
-            "type": "object"
-          },
-          {
-            "translate": "blobs.dialogs.extensions.title",
-            "color": "gold"
-          }
-        ]
+        "translate": "blobs.dialogs.extensions.title"
       },
       "tooltip": {
-        "text": "",
-        "extra": [
-          {
-            "translate": "blobs.dialogs.extensions.title.tooltip",
-            "color": "gray",
-            "italic": true
-          }
-        ]
+        "translate": "blobs.dialogs.extensions.title.tooltip",
+        "color": "gray",
+        "italic": true
       },
       "width": 100,
       "action": {
         "type": "run_command",
         "command": "trigger blob set -1"
-      }
-    },
-    {
-      "label": {
-        "extra": [
-          {
-            "sprite": "minecraft:item/fire_charge",
-            "type": "object"
-          },
-          {
-            "translate": "blobs.dialogs.main.fix_data",
-            "fallback": "[RESET/FIX PLAYER DATA]",
-            "color": "light_purple",
-            "bold": true
-          }
-        ],
-        "text": ""
-      },
-      "action": {
-        "type": "run_command",
-        "command": "trigger blob set 25"
-      },
-      "width": 201,
-      "tooltip": {
-        "translate": "blobs.dialogs.main.fix_data.tooltip",
-        "fallback": "This won't Fix the Langauge Error!",
-        "color": "red",
-        "italic": true
       }
     }
   ],

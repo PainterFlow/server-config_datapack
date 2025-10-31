@@ -1,4 +1,4 @@
-summon mannequin 0 5 0 {Tags:[_Blob],Invulnerable:1b,immovable:1b,NoGravity:1b,Silent:1b,active_effects:[{id:"invisibility",ambient:0b,amplifier:255,duration:-1,show_icon:0b,show_particles:0b}]}
+summon mannequin 0 5 0 {Tags:[_Blob,_entityBlob_backend],Invulnerable:1b,immovable:1b,NoGravity:1b,Silent:1b,active_effects:[{id:"invisibility",ambient:0b,amplifier:255,duration:-1,show_icon:0b,show_particles:0b}]}
 
 execute as @e[tag=_Blob] run data modify entity @s data merge value {\
     extension: {\

@@ -4,93 +4,52 @@
         "extra": [
             {
                 "type": "object",
-                "sprite": "block/bookshelf"
+                "sprite": "item/allay_spawn_egg"
             },
             {
-                "text": " Wiki",
-                "color": "blue"
+                "text": " Support & FAQ",
+                "color": "green"
             }
         ],
         "text": ""
     },
-    "actions": [
+    "body": [
         {
-            "label": {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "text": "",
                 "extra": [
                     {
-                        "type": "object",
-                        "sprite": "block/command_block_front"
+                        "text": "Supported Versions: 1.21.9-1.21.10\n",
+                        "bold": true,
+                        "color": "blue"
                     },
                     {
-                        "text": " Custom Commands",
-                        "color": "gold"
+                        "text": "[Modify Player Data]",
+                        "click_event": {"action": "open_url","url": "https://modrinth.com/mod/modify-player-data"}
                     }
-                ],
-                "text": ""
-            },
-            "action": {
-                "type": "show_dialog",
-                "dialog": "blobs:blob/wiki/custom_commands"
-            },
-            "width": 100,
-            "tooltip": {
-                "text": "Custom-Slash commands",
-                "color": "gray",
-                "italic": true
-            }
-        },
-        {
-            "label": {
-                "extra": [
-                    {
-                        "type": "object",
-                        "sprite": "item/diamond_sword"
-                    },
-                    {
-                        "text": " Combat Changes",
-                        "color": "red"
-                    }
-                ],
-                "text": ""
-            },
-            "action": {
-                "type": "show_dialog",
-                "dialog": "blobs:blob/wiki/combat"
-            },
-            "width": 100,
-            "tooltip": {
-                "text": "Just Some Combat Changes",
-                "color": "gray",
-                "italic": true
-            }
-        },
-        {
-            "label": {
-                "extra": [
-                    {
-                        "type": "object",
-                        "sprite": "item/enchanted_book"
-                    },
-                    {
-                        "text": "  Enchantment Changes/Additions",
-                        "color": "dark_purple"
-                    }
-                ],
-                "text": ""
-            },
-            "action": {
-                "type": "show_dialog",
-                "dialog": "blobs:blob/wiki/custom_enchantments"
-            },
-            "width": 100,
-            "tooltip": {
-                "text": "New Enchments and Changes to\n the Old Enchanting System",
-                "color": "gray",
-                "italic": true
+                ]
             }
         }
     ],
-    "columns": 2,
+    "actions": [
+        {
+            "label": {
+                "text": "Github"
+            },
+            "tooltip": {
+                "text": "The Github of the Datapack & Resourcepack",
+                "italic": true,
+                "color": "gray"
+            },
+            "width": 150,
+            "action": {
+                "type": "open_url",
+                "url": "https://github.com/PainterFlow/server-config_datapack/tree/host"
+            }
+        }
+    ],
+    "columns": 1,
     "can_close_with_escape": true,
-    "pause": true
+    "pause": false
 }
