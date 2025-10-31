@@ -65,8 +65,8 @@
         "translate": "blobs.dialogs.user_settings.title"
       },
       "action": {
-        "type": "run_command",
-        "command": "trigger blob set 1"
+        "type": "show_dialog",
+        "dialog": "blobs:blob/user_settings"
       },
       "width": 100,
       "tooltip": {
@@ -80,8 +80,8 @@
         "translate": "blobs.dialogs.global_settings.title"
       },
       "action": {
-        "type": "run_command",
-        "command": "trigger blob set -100"
+        "type": "show_dialog",
+        "dialog": "blobs:blob/server_config"
       },
       "width": 100,
       "tooltip": {

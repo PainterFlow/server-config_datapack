@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "blobs.dialogs.user_settings.title"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "blobs.dialogs.user_settings.description",
+      "color": "gray",
+      "fallback": "Please Install the newest version\nof the official Resourcepack!"
+    }
+  },
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": {
+      "translate": "blobs.dialogs.labels.back"
+    },
+    "width": 100,
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger blob set 30"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "translate": "blobs.dialogs.user_settings.user"
+      },
+      "tooltip": {
+        "translate": "blobs.dialogs.user_settings.user.tooltip",
+        "color": "gray",
+        "italic": true
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger settings_user set 1" 
+      },
+      "width": 175
+    },
+    {
+      "label": {
+        "translate": "blobs.dialogs.user_settings.privacy"
+      },
+      "tooltip": {
+        "translate": "blobs.dialogs.user_settings.privacy.tooltip",
+        "color": "gray",
+        "italic": true
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger settings_privacy set 1" 
+      },
+      "width": 175
+    },
+    {
+      "label": {
+        "translate": "blobs.dialogs.user_settings.appearance"
+      },
+      "tooltip": {
+        "translate": "blobs.dialogs.user_settings.appearance.tooltip",
+        "color": "gray",
+        "italic": true
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger settings_appearance set 1" 
+      },
+      "width": 175
+    },
+    {
+      "label": {
+        "translate": "blobs.dialogs.user_settings.accessibility"
+      },
+      "tooltip": {
+        "translate": "blobs.dialogs.user_settings.accessibility.tooltip",
+        "color": "gray",
+        "italic": true
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger settings_accessibility set 1" 
+      },
+      "width": 175
+    },
+    {
+      "label": {
+        "translate": "blobs.dialogs.user_settings.notifications"
+      },
+      "tooltip": {
+        "translate": "blobs.dialogs.user_settings.notifications.tooltip",
+        "color": "gray",
+        "italic": true
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger settings_notifications set 1" 
+      },
+      "width": 175
+    },
+    {
+      "label": {
+        "translate": "blobs.dialogs.user_settings.advanced"
+      },
+      "tooltip": {
+        "translate": "blobs.dialogs.user_settings.advanced.tooltip",
+        "color": "gray",
+        "italic": true
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger settings_advanced set 1" 
+      },
+      "width": 175
+    }
+  ]
+}

@@ -15,6 +15,7 @@
     "blobs.dialogs.inputs.visible": "Visible",
     "blobs.dialogs.user_settings.title": "Settings",
     "blobs.dialogs.user_settings.title.tooltip": "User Settings!",
+    "blobs.dialogs.user_settings.description": "These Settings will only affect you!\nIf something is broken,\nplease report the bug and press the Fix Data button in the User Data category.",
     "blobs.dialogs.user_settings.user": "User Data",
     "blobs.dialogs.user_settings.privacy": "Privacy & Safety",
     "blobs.dialogs.user_settings.appearance": "Appearance",
