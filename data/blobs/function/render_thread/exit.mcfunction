@@ -17,6 +17,5 @@ scoreboard players enable @s settings_advanced
 
 advancement revoke @s only blobs:settings/blob
 advancement revoke @s only blobs:exit
-advancement revoke @s only blobs:settings/data_management
 
 dialog show @s blobs:blob/main

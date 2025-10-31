@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "reset": {
+    "check": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -8,7 +8,10 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "blob": 25
+              "settings_appearance": {
+                "min": 100,
+                "max": 100000
+              }
             }
           }
         ]
@@ -17,10 +20,10 @@
   },
   "requirements": [
     [
-      "reset"
+      "check"
     ]
   ],
   "rewards": {
-    "function": "blobs:settings/data_management_settings"
+    "function": "blobs:settings/user_settings/appearance/check_inputs"
   }
 }

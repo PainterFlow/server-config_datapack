@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "apply": {
+    "get": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -8,10 +8,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "blob": {
-                "min": 1000,
-                "max": 9999
-              }
+              "settings_advanced": 1
             }
           }
         ]
@@ -20,10 +17,10 @@
   },
   "requirements": [
     [
-      "apply"
+      "get"
     ]
   ],
   "rewards": {
-    "function": "blobs:settings/apply_settings"
+    "function": "blobs:settings/user_settings/advanced/get_settings"
   }
 }
