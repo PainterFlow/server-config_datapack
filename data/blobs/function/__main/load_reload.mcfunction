@@ -1,1 +1,1 @@
-function blobs:_debug/msgs/basic {tag:"debugMainThread",thread:"blobs.chat.debug.threads.main",msg:"blobs.chat.debug.threads.main.load"}
+say "load_reload.mcfunction"

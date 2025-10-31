@@ -1,9 +1,7 @@
 ## <== Scoreboards ==>
 
 scoreboard players reset @s blob
-scoreboard players reset @s debug
 scoreboard players enable @s blob
-scoreboard players enable @s debug
 
 
 ## <== Advancements ==>

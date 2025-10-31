@@ -1,2 +1,1 @@
-tellraw @a[tag=debugMainThread] {text:"[BLOBS-MAIN] ",color:"dark_purple",bold:1b,extra:[{text:"Datapack was Uninstalled",color:"gray",italic:1b,bold:0b}]}
 tellraw @s {text:"Goodbye ); - do /datapack disable (name)"}
