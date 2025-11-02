@@ -1,0 +1,2 @@
+execute if data entity @s data.settings.notifications{friends:1b} run tag @s add settingsNotifications_Friends
+execute if data entity @s data.settings.notifications{friends:0b} run tag @s remove settingsNotifications_Friends

@@ -1,0 +1,2 @@
+execute if data entity @s data.settings.notifications{events:1b} run tag @s add settingsNotifications_Events
+execute if data entity @s data.settings.notifications{events:0b} run tag @s remove settingsNotifications_Events

@@ -1,0 +1,2 @@
+execute if data entity @s data.settings.notifications{ads:1b} run tag @s add settingsNotifications_Ads
+execute if data entity @s data.settings.notifications{ads:0b} run tag @s remove settingsNotifications_Ads

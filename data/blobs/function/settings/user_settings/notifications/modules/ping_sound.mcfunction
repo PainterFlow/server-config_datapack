@@ -1,0 +1,2 @@
+execute if data entity @s data.settings.notifications{ping_sound:1b} run tag @s add settingsNotifications_PingSound
+execute if data entity @s data.settings.notifications{ping_sound:0b} run tag @s remove settingsNotifications_PingSound

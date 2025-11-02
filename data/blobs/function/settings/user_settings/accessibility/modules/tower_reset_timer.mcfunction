@@ -1,2 +1,2 @@
-execute if data entity @s data.settings.accessibility{tower_reset_timer:1b} run tag @s add settings_TowerResetTimer
-execute if data entity @s data.settings.accessibility{tower_reset_timer:0b} run tag @s remove settings_TowerResetTimer
+execute if data entity @s data.settings.accessibility{tower_reset_timer:1b} run tag @s add settingsAccessibility_TowerResetTimer
+execute if data entity @s data.settings.accessibility{tower_reset_timer:0b} run tag @s remove settingsAccessibility_TowerResetTimer
