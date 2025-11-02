@@ -1,0 +1,2 @@
+execute if data entity @s data.settings.privacy{friend_requests:1b} run tag @s add settingsPrivacy_FriendRequests
+execute if data entity @s data.settings.privacy{friend_requests:0b} run tag @s remove settingsPrivacy_FriendRequests
