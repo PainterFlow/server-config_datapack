@@ -1,0 +1,2 @@
+execute if data entity @s data.settings.accessibility{tower_reset_timer:1b} run tag @s add settings_ToggleCosmetics
+execute if data entity @s data.settings.accessibility{tower_reset_timer:0b} run tag @s remove settings_ToggleCosmetics
