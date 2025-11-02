@@ -13,6 +13,8 @@
     "blobs.dialogs.inputs.show": "Show",
     "blobs.dialogs.inputs.hidden": "Hidden",
     "blobs.dialogs.inputs.visible": "Visible",
+    "blobs.dialogs.inputs.enabled": "Enabled",
+    "blobs.dialogs.inputs.disabled": "Disabled",
     "blobs.dialogs.user_settings.title": "Settings",
     "blobs.dialogs.user_settings.title.tooltip": "User Settings!",
     "blobs.dialogs.user_settings.description": "These Settings will only affect you!\nIf something is broken,\nplease report the bug and press the Fix Data button in the User Data category.",

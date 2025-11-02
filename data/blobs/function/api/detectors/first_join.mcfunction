@@ -41,8 +41,8 @@ data modify entity @s data merge value {\
             user: {\
             },\
             privacy: {\
-                party_requests: "blobs.dialogs.inputs.true",\
-                friend_requests: "blobs.dialogs.inputs.true",\
+                party_requests: "blobs.dialogs.inputs.enabled",\
+                friend_requests: "blobs.dialogs.inputs.enabled",\
                 send_status_to_friends: "blobs.dialogs.inputs.true"\
             },\
             appearance: {\
