@@ -7,8 +7,8 @@ execute if data entity @s data.settings.notifications{ping_sound:0b} run scorebo
 # modify data
 execute if score @s input matches 1 run data modify entity @s data.settings.notifications.ping_sound set value 0b
 execute if score @s input matches 0 run data modify entity @s data.settings.notifications.ping_sound set value 1b
-execute if score @s input matches 1 run data modify entity @s data.render_data.notifications.settings.ping_sound set value "blobs.dialogs.inputs.hide"
-execute if score @s input matches 0 run data modify entity @s data.render_data.notifications.settings.ping_sound set value "blobs.dialogs.inputs.show"
+execute if score @s input matches 1 run data modify entity @s data.render_data.notifications.settings.ping_sound set value "blobs.dialogs.inputs.muted"
+execute if score @s input matches 0 run data modify entity @s data.render_data.notifications.settings.ping_sound set value "blobs.dialogs.inputs.unmuted"
 
 scoreboard players reset @s input
 
