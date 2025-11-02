@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "blobs.dialogs.user_settings.user"
+        "translate": "blobs.dialogs.user_settings.privacy"
     },
     "columns": 1,
     "after_action": "none",
@@ -11,19 +11,7 @@
         {
             "type": "plain_message",
             "contents": {
-                "translate": ""
-            }
-        },
-        {
-            "type": "plain_message",
-            "contents": {
-                "translate": "blobs.version"
-            }
-        },
-        {
-            "type": "plain_message",
-            "contents": {
-                "translate": "blobs.version.player"
+                "translate": "blobs.dialogs.user_settings.privacy.description"
             }
         }
     ],

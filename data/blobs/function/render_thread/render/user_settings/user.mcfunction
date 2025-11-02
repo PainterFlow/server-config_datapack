@@ -11,7 +11,7 @@ dialog show @s {\
         {\
             "type": "plain_message",\
             "contents": {\
-                "translate": ""\
+                "translate": "blobs.dialogs.user_settings.user.description"\
             }\
         },\
         {\
