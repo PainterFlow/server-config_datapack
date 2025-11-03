@@ -40,8 +40,7 @@ dialog show @s {\
     "actions": [\
         {\
             "label": {\
-                "translate": "blobs.dialogs.labels.temp",\
-                "fallback": "Fix/Update Player Data"\
+                "translate": "blobs.dialogs.labels.temp"\
             },\
             "tooltip": {\
                 "translate": "blobs.dialogs.labels.temp.tooltip",\
