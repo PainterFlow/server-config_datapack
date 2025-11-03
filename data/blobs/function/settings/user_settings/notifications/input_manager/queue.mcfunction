@@ -7,8 +7,8 @@ execute if data entity @s data.settings.notifications{queue:0b} run scoreboard p
 # modify data
 execute if score @s input matches 1 run data modify entity @s data.settings.notifications.queue set value 0b
 execute if score @s input matches 0 run data modify entity @s data.settings.notifications.queue set value 1b
-execute if score @s input matches 1 run data modify entity @s data.render_data.notifications.settings.queue set value "blobs.dialogs.inputs.muted"
-execute if score @s input matches 0 run data modify entity @s data.render_data.notifications.settings.queue set value "blobs.dialogs.inputs.unmuted"
+execute if score @s input matches 1 run data modify entity @s data.render_data.settings.notifications.queue set value "blobs.dialogs.inputs.muted"
+execute if score @s input matches 0 run data modify entity @s data.render_data.settings.notifications.queue set value "blobs.dialogs.inputs.unmuted"
 
 scoreboard players reset @s input
 

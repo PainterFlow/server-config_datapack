@@ -7,8 +7,8 @@ execute if data entity @s data.settings.appearance{toggle_cosmetics:0b} run scor
 # modify data
 execute if score @s input matches 1 run data modify entity @s data.settings.appearance.toggle_cosmetics set value 0b
 execute if score @s input matches 0 run data modify entity @s data.settings.appearance.toggle_cosmetics set value 1b
-execute if score @s input matches 1 run data modify entity @s data.render_data.appearance.settings.toggle_cosmetics set value "blobs.dialogs.inputs.hide"
-execute if score @s input matches 0 run data modify entity @s data.render_data.appearance.settings.toggle_cosmetics set value "blobs.dialogs.inputs.show"
+execute if score @s input matches 1 run data modify entity @s data.render_data.settings.appearance.toggle_cosmetics set value "blobs.dialogs.inputs.hide"
+execute if score @s input matches 0 run data modify entity @s data.render_data.settings.appearance.toggle_cosmetics set value "blobs.dialogs.inputs.show"
 
 scoreboard players reset @s input
 

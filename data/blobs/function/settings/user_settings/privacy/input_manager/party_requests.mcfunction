@@ -9,9 +9,9 @@ execute if data entity @s data.settings.privacy{party_requests:0f} run scoreboar
 execute if score @s input matches 2 run data modify entity @s data.settings.privacy.party_requests set value 0f
 execute if score @s input matches 1 run data modify entity @s data.settings.privacy.party_requests set value 2f
 execute if score @s input matches 0 run data modify entity @s data.settings.privacy.party_requests set value 1f
-execute if score @s input matches 2 run data modify entity @s data.render_data.privacy.settings.party_requests set value "blobs.dialogs.inputs.false"
-execute if score @s input matches 1 run data modify entity @s data.render_data.privacy.settings.party_requests set value "blobs.dialogs.inputs.everyone"
-execute if score @s input matches 0 run data modify entity @s data.render_data.privacy.settings.party_requests set value "blobs.dialogs.inputs.only_friends"
+execute if score @s input matches 2 run data modify entity @s data.render_data.settings.privacy.party_requests set value "blobs.dialogs.inputs.false"
+execute if score @s input matches 1 run data modify entity @s data.render_data.settings.privacy.party_requests set value "blobs.dialogs.inputs.everyone"
+execute if score @s input matches 0 run data modify entity @s data.render_data.settings.privacy.party_requests set value "blobs.dialogs.inputs.only_friends"
 
 scoreboard players reset @s input
 

@@ -7,8 +7,8 @@ execute if data entity @s data.settings.privacy{friend_requests:0b} run scoreboa
 # modify data
 execute if score @s input matches 1 run data modify entity @s data.settings.privacy.friend_requests set value 0b
 execute if score @s input matches 0 run data modify entity @s data.settings.privacy.friend_requests set value 1b
-execute if score @s input matches 1 run data modify entity @s data.render_data.privacy.settings.friend_requests set value "blobs.dialogs.inputs.disabled"
-execute if score @s input matches 0 run data modify entity @s data.render_data.privacy.settings.friend_requests set value "blobs.dialogs.inputs.enabled"
+execute if score @s input matches 1 run data modify entity @s data.render_data.settings.privacy.friend_requests set value "blobs.dialogs.inputs.disabled"
+execute if score @s input matches 0 run data modify entity @s data.render_data.settings.privacy.friend_requests set value "blobs.dialogs.inputs.enabled"
 
 scoreboard players reset @s input
 
