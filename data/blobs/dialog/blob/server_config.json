@@ -1,12 +1,12 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "translate": "blobs.dialogs.user_settings.title"
+    "translate": "blobs.dialogs.global_settings.title"
   },
   "body": {
     "type": "minecraft:plain_message",
     "contents": {
-      "translate": "blobs.dialogs.user_settings.description",
+      "translate": "blobs.dialogs.global_settings.description",
       "color": "gray",
       "fallback": "Please Install the newest version\nof the official Resourcepack!"
     }
@@ -20,7 +20,7 @@
     "width": 100,
     "action": {
       "type": "minecraft:run_command",
-      "command": "trigger blob set 30"
+      "command": "trigger exit set 2"
     }
   },
   "columns": 1,

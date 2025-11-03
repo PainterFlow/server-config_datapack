@@ -69,6 +69,7 @@
     "blobs.dialogs.user_settings.notifications.ads.tooltip": "Need a break from the ads?",
     "blobs.dialogs.global_settings.title": "Config",
     "blobs.dialogs.global_settings.title.tooltip": "Requires \"/function\" permissions.\nServer Admins only!",
+    "blobs.dialogs.global_settings.description": "Configurate the Datapack!",
     "blobs.dialogs.wiki.title": "Datapack Wiki",
     "blobs.dialogs.wiki.title.tooltip": "Custom Wiki for the Datapack!\nIt can be a little bit behind sometimes.",
     "blobs.dialogs.news.title": "News & Changelogs",
