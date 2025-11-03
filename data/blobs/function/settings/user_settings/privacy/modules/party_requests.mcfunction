@@ -1,2 +1,0 @@
-execute if data entity @s data.settings.privacy{party_requests:1b} run tag @s add settingsPrivacy_PartyRequests
-execute if data entity @s data.settings.privacy{party_requests:0b} run tag @s remove settingsPrivacy_PartyRequests

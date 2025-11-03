@@ -1,2 +1,0 @@
-execute if data entity @s data.settings.notifications{tower_reset:1b} run tag @s add settingsNotifications_TowerReset
-execute if data entity @s data.settings.notifications{tower_reset:0b} run tag @s remove settingsNotifications_TowerReset

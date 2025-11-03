@@ -1,2 +1,0 @@
-execute if data entity @s data.settings.privacy{send_status_to_friends:1b} run tag @s add settingsPrivacy_SendStatusToFriends
-execute if data entity @s data.settings.privacy{send_status_to_friends:0b} run tag @s remove settingsPrivacy_SendStatusToFriends

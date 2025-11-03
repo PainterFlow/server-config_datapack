@@ -28,17 +28,61 @@
     "actions": [
         {
             "label": {
-                "translate": "blobs.dialogs.user_settings.user.fix_data",
-                "fallback": "Fix/Update Player Data"
+                "translate": "blobs.dialogs.user_settings.privacy.party_requests",
+                "extra": [
+                    {
+                        "translate": "$(party_requests)"
+                    }
+                ]
             },
             "tooltip": {
-                "translate": "blobs.dialogs.user_settings.user.fix_data.tooltip",
-                "color": "red",
+                "translate": "blobs.dialogs.user_settings.privacy.party_requests.tooltip",
+                "color": "gray",
                 "italic": true
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger settings_user set 101"
+                "command": "trigger settings_privacy set 101"
+            },
+            "width": 175
+        },
+        {
+            "label": {
+                "translate": "blobs.dialogs.user_settings.privacy.friend_requests",
+                "extra": [
+                    {
+                        "translate": "$(friend_requests)"
+                    }
+                ]
+            },
+            "tooltip": {
+                "translate": "blobs.dialogs.user_settings.privacy.friend_requests.tooltip",
+                "color": "gray",
+                "italic": true
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger settings_privacy set 102"
+            },
+            "width": 175
+        },
+        {
+            "label": {
+                "translate": "blobs.dialogs.user_settings.privacy.send_status_to_friends",
+                "extra": [
+                    {
+                        "translate": "$(send_status_to_friends)"
+                    }
+                ]
+            },
+            "tooltip": {
+                "translate": "blobs.dialogs.user_settings.privacy.send_status_to_friends.tooltip",
+                "color": "gray",
+                "italic": true
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger settings_privacy set 103"
             },
             "width": 175
         }

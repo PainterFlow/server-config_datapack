@@ -12,5 +12,4 @@ execute if score @s input matches 0 run data modify entity @s data.render_data.n
 
 scoreboard players reset @s input
 
-function blobs:settings/user_settings/notifications/modules/events
 function blobs:settings/user_settings/notifications/get_settings

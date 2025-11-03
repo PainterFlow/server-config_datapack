@@ -12,5 +12,4 @@ execute if score @s input matches 0 run data modify entity @s data.render_data.p
 
 scoreboard players reset @s input
 
-function blobs:settings/user_settings/privacy/modules/friend_requests
 function blobs:settings/user_settings/privacy/get_settings

@@ -12,5 +12,4 @@ execute if score @s input matches 0 run data modify entity @s data.render_data.a
 
 scoreboard players reset @s input
 
-function blobs:settings/user_settings/accessibility/modules/tower_reset_timer
 function blobs:settings/user_settings/accessibility/get_settings

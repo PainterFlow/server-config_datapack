@@ -1,2 +1,0 @@
-execute if data entity @s data.settings.appearance{toggle_cosmetics:1b} run tag @s add settingsAppearance_ToggleCosmetics
-execute if data entity @s data.settings.appearance{toggle_cosmetics:0b} run tag @s remove settingsAppearance_ToggleCosmetics
