@@ -7,7 +7,6 @@
     "type": "minecraft:plain_message",
     "contents": {
       "translate": "blobs.dialogs.global_settings.description",
-      "color": "gray",
       "fallback": "Please Install the newest version\nof the official Resourcepack!"
     }
   },

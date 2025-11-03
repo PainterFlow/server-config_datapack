@@ -35,7 +35,7 @@ advancement revoke @s only blobs:exit
 execute if score @s exit matches 1 run dialog clear @s
 execute if score @s exit matches 2 run dialog show @s blobs:blob/main
 execute if score @s exit matches 3 run dialog show @s blobs:blob/user_settings
-execute if score @s exit matches 4 run dialog show @s blobs:blob/server_config
+execute if score @s exit matches 4 run dialog show @s blobs:blob/global_settings
 execute if score @s exit matches -1 run function blobs:settings/user_settings/appearance/get_settings
 
 scoreboard players reset @s exit

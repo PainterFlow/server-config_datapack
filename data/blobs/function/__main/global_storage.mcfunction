@@ -4,6 +4,7 @@ execute as @e[tag=Global_Storage] run data modify entity @s data merge value {\
     blob: 1b,\
     version: 3,\
     secondary_version: 2,\
+    players: [],\
     setting_modules: {\
         allow_parties: 1b,\
         party_permissions: 0b,\

@@ -18,6 +18,13 @@ scoreboard players enable @s global_actions
 data modify entity @s data merge value {\
     blob: 1b,\
     version: 1,\
+    id: -1,\
+    permissions: {\
+        config: "null",\
+        settings: "null",\
+        create_parties: "null",\
+        friends: "null"\
+    },\
     settings: {\
         user: {\
         },\
@@ -71,3 +78,6 @@ data modify entity @s data merge value {\
         }\
     }\
 }
+
+execute store result score @s id run scoreboard players operation #count id += #counter id
+execute store result entity @s data.id double 1 run scoreboard players get @s id
