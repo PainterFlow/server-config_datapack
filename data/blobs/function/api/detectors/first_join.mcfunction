@@ -9,7 +9,11 @@ scoreboard players enable @s settings_accessibility
 scoreboard players enable @s settings_notifications
 scoreboard players enable @s settings_advanced
 
-scoreboard players enable @s 
+scoreboard players enable @s global_general
+scoreboard players enable @s global_permissions
+scoreboard players enable @s global_tower_gen
+scoreboard players enable @s global_tower
+scoreboard players enable @s global_actions
 
 data modify entity @s data merge value {\
     blob: 1b,\

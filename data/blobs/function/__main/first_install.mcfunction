@@ -39,6 +39,12 @@ scoreboard objectives add global_tower_gen trigger
 scoreboard objectives add global_tower trigger
 scoreboard objectives add global_actions trigger
 
+scoreboard players enable @a global_general
+scoreboard players enable @a global_permissions
+scoreboard players enable @a global_tower_gen
+scoreboard players enable @a global_tower
+scoreboard players enable @a global_actions
+
 ## <== Run Functions ==>
 
 function blobs:__main/global_storage
