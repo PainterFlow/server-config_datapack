@@ -12,7 +12,8 @@ $dialog show @s {\
             "type": "plain_message",\
             "contents": {\
                 "translate": "blobs.dialogs.user_settings.privacy.description"\
-            }\
+            },\
+            "width": 225\
         }\
     ],\
     "exit_action": {\

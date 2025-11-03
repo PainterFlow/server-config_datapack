@@ -33,7 +33,7 @@
     "blobs.dialogs.user_settings.notifications.tooltip": "Are you annoyed by them?",
     "blobs.dialogs.user_settings.advanced.tooltip": "Settings which are so much out of place,\nthey don't even fit into\nthe Accessibility Tab.",
     "blobs.dialogs.user_settings.user.description": "Data:",
-    "blobs.dialogs.user_settings.privacy.description": "The Datapack tracks most Actions you do in the Game,\nbut doesn't directly make them available to anyone.\nIt also will send Telemetry Events to Mojang through Advancements(Not always though),\nif you have Telemetry Data Enabled.",
+    "blobs.dialogs.user_settings.privacy.description": "The Datapack tracks most Actions you do in the Game, but doesn't directly make them available to anyone. It also will send Telemetry Events to Mojang through Advancements(Not always though), if you have Telemetry Data Enabled.",
     "blobs.dialogs.user_settings.user.fix_data": "Fix/Update Player Data",
     "blobs.dialogs.user_settings.user.fix_data.tooltip": "This will reset all your Player Settings!\nMessing with or Spamming the button,\nmight result into permanently corrupting your Data.",
     "blobs.dialogs.user_settings.privacy.party_requests": "Party Requests: ",
