@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "blobs.dialogs.user_settings.notifications"
+        "translate": "blobs.dialogs.user_settings.advanced"
     },
     "columns": 1,
     "after_action": "none",
@@ -11,7 +11,7 @@
         {
             "type": "plain_message",
             "contents": {
-                "translate": "blobs.dialogs.user_settings.notifications.tooltip"
+                "translate": "blobs.dialogs.user_settings.advanced.tooltip"
             }
         }
     ],
@@ -28,121 +28,12 @@
     "actions": [
         {
             "label": {
-                "translate": "blobs.dialogs.user_settings.notifications.ping_sound",
-                "extra": [
-                    {
-                        "translate": "$(ping_sound)"
-                    }
-                ]
+                "translate": "blobs.dialogs.labels.temp"
             },
             "tooltip": {
-                "translate": "blobs.dialogs.user_settings.notifications.ping_sound.tooltip",
+                "translate": "blobs.dialogs.labels.temp.tooltip",
                 "color": "gray",
                 "italic": true
-            },
-            "action": {
-                "type": "run_command",
-                "command": "trigger settings_notifications set 101"
-            },
-            "width": 175
-        },
-        {
-            "label": {
-                "translate": "blobs.dialogs.user_settings.notifications.tower_reset",
-                "extra": [
-                    {
-                        "translate": "$(tower_reset)"
-                    }
-                ]
-            },
-            "tooltip": {
-                "translate": "blobs.dialogs.user_settings.notifications.tower_reset.tooltip",
-                "color": "gray",
-                "italic": true
-            },
-            "action": {
-                "type": "run_command",
-                "command": "trigger settings_notifications set 102"
-            },
-            "width": 175
-        },
-        {
-            "label": {
-                "translate": "blobs.dialogs.user_settings.notifications.events",
-                "extra": [
-                    {
-                        "translate": "$(events)"
-                    }
-                ]
-            },
-            "tooltip": {
-                "translate": "blobs.dialogs.user_settings.notifications.events.tooltip",
-                "color": "gray",
-                "italic": true
-            },
-            "action": {
-                "type": "run_command",
-                "command": "trigger settings_notifications set 103"
-            },
-            "width": 175
-        },
-        {
-            "label": {
-                "translate": "blobs.dialogs.user_settings.notifications.queue",
-                "extra": [
-                    {
-                        "translate": "$(queue)"
-                    }
-                ]
-            },
-            "tooltip": {
-                "translate": "blobs.dialogs.user_settings.notifications.queue.tooltip",
-                "color": "gray",
-                "italic": true
-            },
-            "action": {
-                "type": "run_command",
-                "command": "trigger settings_notifications set 104"
-            },
-            "width": 175
-        },
-        {
-            "label": {
-                "translate": "blobs.dialogs.user_settings.notifications.friends",
-                "extra": [
-                    {
-                        "translate": "$(friends)"
-                    }
-                ]
-            },
-            "tooltip": {
-                "translate": "blobs.dialogs.user_settings.notifications.friends.tooltip",
-                "color": "gray",
-                "italic": true
-            },
-            "action": {
-                "type": "run_command",
-                "command": "trigger settings_notifications set 105"
-            },
-            "width": 175
-        },
-        {
-            "label": {
-                "translate": "blobs.dialogs.user_settings.notifications.ads",
-                "extra": [
-                    {
-                        "translate": "$(ads)"
-                    }
-                ]
-            },
-            "tooltip": {
-                "translate": "blobs.dialogs.user_settings.notifications.ads.tooltip",
-                "color": "gray",
-                "italic": true
-            },
-            "action": {
-                "type": "run_command",
-                "command": "trigger settings_notifications set 106"
             },
             "width": 175
         }

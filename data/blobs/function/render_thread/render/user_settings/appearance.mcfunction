@@ -11,7 +11,7 @@ $dialog show @s {\
         {\
             "type": "plain_message",\
             "contents": {\
-                "translate": "blobs.dialogs.user_settings.appearance.tooltip"\
+                "translate": "blobs.dialogs.user_settings.appearance.description"\
             }\
         }\
     ],\
