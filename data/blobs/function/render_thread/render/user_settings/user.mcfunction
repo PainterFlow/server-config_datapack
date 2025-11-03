@@ -40,17 +40,13 @@ dialog show @s {\
     "actions": [\
         {\
             "label": {\
-                "translate": "blobs.dialogs.user_settings.user.fix_data",\
+                "translate": "blobs.dialogs.labels.temp",\
                 "fallback": "Fix/Update Player Data"\
             },\
             "tooltip": {\
-                "translate": "blobs.dialogs.user_settings.user.fix_data.tooltip",\
-                "color": "red",\
+                "translate": "blobs.dialogs.labels.temp.tooltip",\
+                "color": "gray",\
                 "italic": true\
-            },\
-            "action": {\
-                "type": "run_command",\
-                "command": "trigger settings_user set 101"\
             },\
             "width": 175\
         }\
