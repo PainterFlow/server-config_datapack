@@ -29,6 +29,16 @@
       "show_decorations": false
     }
   ],
+  "exit_action": {
+    "label": {
+      "translate": "blobs.dialogs.labels.back"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "trigger exit set 1"
+    },
+    "width": 100
+  },
   "actions": [
     {
       "label": {

@@ -8,6 +8,8 @@ scoreboard players set #_ firstPlayerJoins 0
 scoreboard objectives add blob trigger
 scoreboard players enable @a blob
 
+scoreboard objectives add exit trigger
+scoreboard players enable @a exit
 
 ## <== Settings ==>
 

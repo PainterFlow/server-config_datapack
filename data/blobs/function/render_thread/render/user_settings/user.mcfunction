@@ -34,7 +34,7 @@ dialog show @s {\
         "width": 100,\
         "action": {\
             "type": "run_command",\
-            "command": "trigger blob set 30"\
+            "command": "trigger exit set 3"\
         }\
     },\
     "actions": [\

@@ -19,7 +19,7 @@
     "width": 100,
     "action": {
       "type": "minecraft:run_command",
-      "command": "trigger blob set 30"
+      "command": "trigger exit set 2"
     }
   },
   "columns": 1,

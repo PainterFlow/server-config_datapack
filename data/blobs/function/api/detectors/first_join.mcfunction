@@ -1,5 +1,6 @@
 execute if score #_ firstPlayerJoins matches 0 run function blobs:__main/load_0_0
 
+scoreboard players enable @s exit
 scoreboard players enable @s blob
 scoreboard players enable @s settings_user
 scoreboard players enable @s settings_privacy

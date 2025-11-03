@@ -8,7 +8,10 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "blob": 30
+              "exit": {
+                "max": 1000000,
+                "min": -1000000
+              }
             }
           }
         ]
