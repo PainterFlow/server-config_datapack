@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "blobs.dialogs.user_settings.privacy"
+        "translate": "blobs.dialogs.user_settings.appearance"
     },
     "columns": 1,
     "after_action": "none",
@@ -11,7 +11,7 @@
         {
             "type": "plain_message",
             "contents": {
-                "translate": "blobs.dialogs.user_settings.privacy.description"
+                "translate": "blobs.dialogs.user_settings.appearance.tooltip"
             }
         }
     ],
@@ -28,61 +28,36 @@
     "actions": [
         {
             "label": {
-                "translate": "blobs.dialogs.user_settings.privacy.party_requests",
+                "translate": "blobs.dialogs.user_settings.appearance.toggle_cosmetics",
                 "extra": [
                     {
-                        "translate": "$(party_requests)"
+                        "translate": "$(toggle_cosmetics)"
                     }
                 ]
             },
             "tooltip": {
-                "translate": "blobs.dialogs.user_settings.privacy.party_requests.tooltip",
+                "translate": "blobs.dialogs.user_settings.appearance.toggle_cosmetics.tooltip",
                 "color": "gray",
                 "italic": true
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger settings_privacy set 101"
+                "command": "trigger settings_appearance set 101"
             },
             "width": 175
         },
         {
             "label": {
-                "translate": "blobs.dialogs.user_settings.privacy.friend_requests",
-                "extra": [
-                    {
-                        "translate": "$(friend_requests)"
-                    }
-                ]
+                "translate": "blobs.dialogs.user_settings.cosmetics"
             },
             "tooltip": {
-                "translate": "blobs.dialogs.user_settings.privacy.friend_requests.tooltip",
+                "translate": "blobs.dialogs.user_settings.cosmetics.tooltip",
                 "color": "gray",
                 "italic": true
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger settings_privacy set 102"
-            },
-            "width": 175
-        },
-        {
-            "label": {
-                "translate": "blobs.dialogs.user_settings.privacy.send_status_to_friends",
-                "extra": [
-                    {
-                        "translate": "$(send_status_to_friends)"
-                    }
-                ]
-            },
-            "tooltip": {
-                "translate": "blobs.dialogs.user_settings.privacy.send_status_to_friends.tooltip",
-                "color": "gray",
-                "italic": true
-            },
-            "action": {
-                "type": "run_command",
-                "command": "trigger settings_privacy set 103"
+                "command": "trigger settings_appearance set 102"
             },
             "width": 175
         }

@@ -1,0 +1,65 @@
+$dialog show @s {\
+    "type": "multi_action",\
+    "title": {\
+        "translate": "blobs.dialogs.user_settings.appearance"\
+    },\
+    "columns": 1,\
+    "after_action": "none",\
+    "pause": false,\
+    "can_close_with_escape": true,\
+    "body": [\
+        {\
+            "type": "plain_message",\
+            "contents": {\
+                "translate": "blobs.dialogs.user_settings.appearance.tooltip"\
+            }\
+        }\
+    ],\
+    "exit_action": {\
+        "label": {\
+            "translate": "blobs.dialogs.labels.back"\
+        },\
+        "width": 100,\
+        "action": {\
+            "type": "run_command",\
+            "command": "trigger blob set 30"\
+        }\
+    },\
+    "actions": [\
+        {\
+            "label": {\
+                "translate": "blobs.dialogs.user_settings.appearance.toggle_cosmetics",\
+                "extra": [\
+                    {\
+                        "translate": "$(toggle_cosmetics)"\
+                    }\
+                ]\
+            },\
+            "tooltip": {\
+                "translate": "blobs.dialogs.user_settings.appearance.toggle_cosmetics.tooltip",\
+                "color": "gray",\
+                "italic": true\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "trigger settings_appearance set 101"\
+            },\
+            "width": 175\
+        },\
+        {\
+            "label": {\
+                "translate": "blobs.dialogs.user_settings.cosmetics"\
+            },\
+            "tooltip": {\
+                "translate": "blobs.dialogs.user_settings.cosmetics.tooltip",\
+                "color": "gray",\
+                "italic": true\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "trigger settings_appearance set 102"\
+            },\
+            "width": 175\
+        }\
+    ]\
+}
