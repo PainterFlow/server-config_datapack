@@ -15,6 +15,8 @@ scoreboard players enable @a exit
 
 scoreboard objectives add input dummy
 
+# <-- User Settings -->
+
 scoreboard objectives add settings_user trigger
 scoreboard objectives add settings_privacy trigger
 scoreboard objectives add settings_appearance trigger
@@ -28,6 +30,14 @@ scoreboard players enable @a settings_appearance
 scoreboard players enable @a settings_accessibility
 scoreboard players enable @a settings_notifications
 scoreboard players enable @a settings_advanced
+
+# <-- Global Config -->
+
+scoreboard objectives add global_general trigger
+scoreboard objectives add global_permissions trigger
+scoreboard objectives add global_tower_gen trigger
+scoreboard objectives add global_tower trigger
+scoreboard objectives add global_actions trigger
 
 ## <== Run Functions ==>
 

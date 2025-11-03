@@ -27,91 +27,76 @@
   "actions": [
     {
       "label": {
-        "translate": "blobs.dialogs.user_settings.user"
+        "translate": "blobs.dialogs.global_settings.general"
       },
       "tooltip": {
-        "translate": "blobs.dialogs.user_settings.user.tooltip",
+        "translate": "blobs.dialogs.global_settings.general.tooltip",
         "color": "gray",
         "italic": true
       },
       "action": {
         "type": "run_command",
-        "command": "trigger settings_user set 1" 
+        "command": "trigger global_general set 1" 
       },
       "width": 175
     },
     {
       "label": {
-        "translate": "blobs.dialogs.user_settings.privacy"
+        "translate": "blobs.dialogs.global_settings.permissions"
       },
       "tooltip": {
-        "translate": "blobs.dialogs.user_settings.privacy.tooltip",
+        "translate": "blobs.dialogs.global_settings.permissions.tooltip",
         "color": "gray",
         "italic": true
       },
       "action": {
         "type": "run_command",
-        "command": "trigger settings_privacy set 1" 
+        "command": "trigger global_permissions set 1" 
       },
       "width": 175
     },
     {
       "label": {
-        "translate": "blobs.dialogs.user_settings.appearance"
+        "translate": "blobs.dialogs.global_settings.tower_generation"
       },
       "tooltip": {
-        "translate": "blobs.dialogs.user_settings.appearance.tooltip",
+        "translate": "blobs.dialogs.global_settings.tower_generation.tooltip",
         "color": "gray",
         "italic": true
       },
       "action": {
         "type": "run_command",
-        "command": "trigger settings_appearance set 1" 
+        "command": "trigger global_tower_gen set 1" 
       },
       "width": 175
     },
     {
       "label": {
-        "translate": "blobs.dialogs.user_settings.accessibility"
+        "translate": "blobs.dialogs.global_settings.tower"
       },
       "tooltip": {
-        "translate": "blobs.dialogs.user_settings.accessibility.tooltip",
+        "translate": "blobs.dialogs.global_settings.tower.tooltip",
         "color": "gray",
         "italic": true
       },
       "action": {
         "type": "run_command",
-        "command": "trigger settings_accessibility set 1" 
+        "command": "trigger global_tower set 1" 
       },
       "width": 175
     },
     {
       "label": {
-        "translate": "blobs.dialogs.user_settings.notifications"
+        "translate": "blobs.dialogs.global_settings.actions"
       },
       "tooltip": {
-        "translate": "blobs.dialogs.user_settings.notifications.tooltip",
+        "translate": "blobs.dialogs.global_settings.actions.tooltip",
         "color": "gray",
         "italic": true
       },
       "action": {
         "type": "run_command",
-        "command": "trigger settings_notifications set 1" 
-      },
-      "width": 175
-    },
-    {
-      "label": {
-        "translate": "blobs.dialogs.user_settings.advanced"
-      },
-      "tooltip": {
-        "translate": "blobs.dialogs.user_settings.advanced.tooltip",
-        "color": "gray",
-        "italic": true
-      },
-      "action": {
-        "type": "run_command",
-        "command": "trigger settings_advanced set 1" 
+        "command": "trigger global_actions set 1" 
       },
       "width": 175
     }

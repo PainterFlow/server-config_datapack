@@ -91,7 +91,7 @@
       },
       "action": {
         "type": "show_dialog",
-        "dialog": "blobs:blob/server_config"
+        "dialog": "blobs:blob/global_settings"
       },
       "width": 100,
       "tooltip": {
