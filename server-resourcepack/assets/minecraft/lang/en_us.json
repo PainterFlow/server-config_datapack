@@ -46,6 +46,8 @@
     "blobs.dialogs.user_settings.appearance.toggle_cosmetics.tooltip": "Toggle Cosmetics.",
     "blobs.dialogs.user_settings.cosmetics": "Cosmetics",
     "blobs.dialogs.user_settings.cosmetics.tooltip": "You can obtain cosmetics from the Adventure Hub.",
+    "blobs.dialogs.user_settings.accessibility.tower_reset_timer": "Tower Reset Timer: ",
+    "blobs.dialogs.user_settings.accessibility.tower_reset_timer.tooltip": "This will show a Timer above your Hotbar.\nThe Timer displays the time of Tower Resets.",
     "blobs.dialogs.global_settings.title": "Config",
     "blobs.dialogs.global_settings.title.tooltip": "Requires \"/function\" permissions.\nServer Admins only!",
     "blobs.dialogs.wiki.title": "Datapack Wiki",
