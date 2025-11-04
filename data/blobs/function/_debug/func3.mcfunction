@@ -1,0 +1,1 @@
+execute as @a run function blobs:api/detectors/player_detector/_client_loop with entity @s data

@@ -83,6 +83,7 @@ data modify entity @s data merge value {\
     }\
 }
 
-execute store result score @s id run scoreboard players operation #count id += #counter id
+scoreboard players operation #count id += #counter id
+execute store result score @s id run scoreboard players get #count id
 execute store result entity @s data.id double 1 run scoreboard players get @s id
 execute store result entity @s data.id_comp.id double 1 run scoreboard players get @s id

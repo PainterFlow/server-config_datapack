@@ -7,9 +7,7 @@
         {
             "type": "commandcrafter",
             "request": "launch",
-            "name": "blobs:__main/global_storage.mcfunction",
-            "function": "blobs:global_storage",
-            "stopOnEntry": false,
+            "name": "Launch",
             "suspendServer": true
         }
     ]
