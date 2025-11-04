@@ -96,7 +96,3 @@ team modify _blob_dev suffix ""
 
 function blobs:__main/global_storage
 function blobs:__main/__register_default
-
-# <-- Repeating -->
-
-function blobs:__main/player_detector/loop with entity @n[tag=Global_Storage] data.players[-1].id
