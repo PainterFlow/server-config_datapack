@@ -1,0 +1,8 @@
+load:
+kill @e[tag=player_detector]
+
+ID system is a classic one with scoreboards
+
+tick: 
+execute as @a run function blobs:api/detectors/player_detector/_client_loop with entity @s data
+execute as @e[tag=player_detector] run function blobs:api/detectors/player_detector/_server_loop with entity @s data

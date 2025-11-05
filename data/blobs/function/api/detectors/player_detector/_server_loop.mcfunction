@@ -1,3 +1,1 @@
-$execute store success entity @s data.found_player byte 1 as @a if score @s id matches $(id)
-
-execute unless data entity @s data{found_player:1b} run function blobs:api/detectors/player_detector/left with entity @s data
+$execute unless entity @a[scores={id=$(id)}] run function blobs:api/detectors/player_detector/left with entity @s data

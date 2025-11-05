@@ -22,7 +22,6 @@ data modify entity @s data merge value {\
     id_comp: {\
         id: -1\
     },\
-    found_detector: 0b,\
     permissions: {\
         config: "null",\
         settings: "null",\
