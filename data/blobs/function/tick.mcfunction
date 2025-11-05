@@ -1,2 +1,2 @@
 execute as @a run function blobs:api/detectors/player_detector/_client_loop with entity @s data
-execute as @e[tag=player_detector] run function blobs:api/detectors/player_detector/_server_loop with entity @s data.id
+execute as @e[tag=player_detector] run function blobs:api/detectors/player_detector/_server_loop with entity @s data

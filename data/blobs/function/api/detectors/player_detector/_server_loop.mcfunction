@@ -1,1 +1,1 @@
-$execute unless entity @a[scores={id=$(id)}] run function blobs:api/detectors/player_detector/left with entity @s data.id
+$execute unless entity @a[scores={id=$(id)}] run function blobs:api/detectors/player_detector/left with entity @s data
