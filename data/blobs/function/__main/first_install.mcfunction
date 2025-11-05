@@ -5,9 +5,11 @@ scoreboard objectives add firstPlayerJoins dummy
 
 scoreboard players set #_ firstPlayerJoins 0
 
+scoreboard objectives remove blob
 scoreboard objectives add blob trigger
 scoreboard players enable @a blob
 
+scoreboard objectives remove id
 scoreboard objectives add id dummy
 scoreboard players set #counter id 1
 
